@@ -1,0 +1,97 @@
+ID   Genome standard; DNA; PRO; 1234 BP.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   feature         1..1836
+FT                   /label=dnaK
+FT                   /locus_tag=dnaK
+FT   feature         1837..3141
+FT                   /label=eno
+FT                   /locus_tag=eno
+FT   feature         3142..4152
+FT                   /label=gap
+FT                   /locus_tag=gap
+FT   feature         4153..4845
+FT                   /label=gpmA_1
+FT                   /locus_tag=gpmA_1
+FT   misc_feature    4846..5638
+FT                   /label=group_356
+FT                   /locus_tag=group_356
+FT   feature         5639..6661
+FT                   /label=ilvC
+FT                   /locus_tag=ilvC
+FT   feature         6662..8914
+FT                   /label=metE
+FT                   /locus_tag=metE
+FT   feature         8915..10117
+FT                   /label=pgk
+FT                   /locus_tag=pgk
+FT   feature         10118..10744
+FT                   /label=rplC
+FT                   /locus_tag=rplC
+FT   feature         10745..11305
+FT                   /label=rplM
+FT                   /locus_tag=rplM
+FT   feature         11306..11719
+FT                   /label=rplP
+FT                   /locus_tag=rplP
+FT   feature         11720..12106
+FT                   /label=rplQ
+FT                   /locus_tag=rplQ
+FT   feature         12107..12466
+FT                   /label=rplT
+FT                   /locus_tag=rplT
+FT   feature         12467..12760
+FT                   /label=rpmA
+FT                   /locus_tag=rpmA
+FT   feature         12761..13045
+FT                   /label=rpmE2
+FT                   /locus_tag=rpmE2
+FT   feature         13046..13228
+FT                   /label=rpmF
+FT                   /locus_tag=rpmF
+FT   feature         13229..13378
+FT                   /label=rpmGA
+FT                   /locus_tag=rpmGA
+FT   feature         13379..13513
+FT                   /label=rpmH
+FT                   /locus_tag=rpmH
+FT   feature         13514..14008
+FT                   /label=rpsE
+FT                   /locus_tag=rpsE
+FT   feature         14009..14401
+FT                   /label=rpsI
+FT                   /locus_tag=rpsI
+FT   feature         14402..14710
+FT                   /label=rpsJ
+FT                   /locus_tag=rpsJ
+FT   feature         14711..15094
+FT                   /label=rpsK
+FT                   /locus_tag=rpsK
+FT   feature         15095..15511
+FT                   /label=rpsL
+FT                   /locus_tag=rpsL
+FT   feature         15512..15877
+FT                   /label=rpsM
+FT                   /locus_tag=rpsM
+FT   feature         15878..16147
+FT                   /label=rpsO
+FT                   /locus_tag=rpsO
+FT   feature         16148..16408
+FT                   /label=rpsQ
+FT                   /locus_tag=rpsQ
+FT   feature         16409..16648
+FT                   /label=rpsR
+FT                   /locus_tag=rpsR
+FT   feature         16649..16930
+FT                   /label=rpsS
+FT                   /locus_tag=rpsS
+FT   feature         16931..18889
+FT                   /label=thrS
+FT                   /locus_tag=thrS
+FT   feature         18890..20086
+FT                   /label=tuf
+FT                   /locus_tag=tuf
+XX
+SQ   Sequence 1234 BP; 789 A; 1717 C; 1693 G; 691 T; 0 other;
+//
