@@ -1,1 +1,2 @@
 data/genome_summary.csv filter=lfs diff=lfs merge=lfs -text
+data/PATRIC_genome_AMR.txt filter=lfs diff=lfs merge=lfs -text
