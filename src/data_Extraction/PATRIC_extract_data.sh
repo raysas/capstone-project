@@ -5,8 +5,6 @@ if [ ! -f "data/genome_summary.csv" ]; then
     sed 's/\t/,/g' data/genome_summary.csv > data/genome_summary.csv
 fi  
 
-
-
 species_name="Stenotrophomonas maltophiliae"
 
 file="data/genome_summary.csv" #make it user input later on

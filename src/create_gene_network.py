@@ -89,28 +89,10 @@ def workflow(file_path: str, sample_col: int, threshold: float, gml_file_path: s
     G = create_adj_matrix(df)
     create_gml(G, gml_file_path)
 
-def compute_network_stats(G, network_name):
-    largest_cc = max(nx.connected_components(G), key=len)
-    largest_cc_subgraph = G.subgraph(largest_cc)
-    stats = {
-        "Network": network_name,
-        "|N|": G.number_of_nodes(),
-        "|V|": G.number_of_edges(),
-        "Density": nx.density(G),
-        "<k>": np.mean(list(dict(G.degree()).values())),
-        "<cc>": nx.average_clustering(G),
-        "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
-        "d": nx.diameter(largest_cc_subgraph)
-    }
-    
-    return stats
-
-
-
 def main():
 
     if len(sys.argv) != 5:
-        print('Usage: python gene_presence_network.py <file_path> <sample_col> <threshold> <gml_file_path>')
+        print('Usage: python create_gene_network.py <file_path> <sample_col> <threshold> <gml_file_path>')
         return
     
     file_path = sys.argv[1]
