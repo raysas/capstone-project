@@ -48,7 +48,7 @@ def collect_data(df: pd.DataFrame, sample_col: int=13, threshold: float = 0.5) -
     return df, metadata_df
 
 
-def create_adj_matrix(df: pd.DataFrame) -> pd.DataFrame:
+def create_adj_matrix(df: pd.DataFrame, edge_treshhold=0, samples=31) -> pd.DataFrame:
     '''this function takes a binary matrix of genes and samples
     gets an adj matrix of genes x genes where
     Aij= number of samples where gene i and gene j are both present
@@ -66,17 +66,25 @@ def create_adj_matrix(df: pd.DataFrame) -> pd.DataFrame:
     G = nx.from_pandas_adjacency(adj_matrix)
     G.remove_edges_from(nx.selfloop_edges(G))
 
+    for edge in list(G.edges):
+        print(f"weight: {G.get_edge_data(*edge)['weight']}, edge_treshhold: {edge_treshhold * samples}")
+        if G.get_edge_data(*edge)['weight'] < edge_treshhold * samples:
+            G.remove_edge(*edge)
+
+    #removing nodes that have no edges (since already removed edges and self loops)
+    G.remove_nodes_from(list(nx.isolates(G)))
 
     return G
 
 create_gml = lambda G, file_path: nx.write_gml(G, file_path)
 
-def workflow(file_path: str, sample_col: int, threshold: float, gml_file_path: str) -> None:
+def workflow(file_path: str, sample_col: int, node_threshold: float, edge_threshold:float, gml_file_path: str) -> None:
     '''this function is the main workflow for the gene presence network
     input:
         - file_path: (str) path to the csv file
         - sample_col: (int) the col number whre samples start
-        - threshold: (float) the percentage of samples a gene needs to be present in to be kept
+        - node_threshold: (float) the percentage of samples a gene needs to be present in to be kept
+        - edge_threshold: (float) the minimum weight to consider an edge
         - gml_file_path: (str) path to save the gml file
     output:
         - None
@@ -85,21 +93,22 @@ def workflow(file_path: str, sample_col: int, threshold: float, gml_file_path: s
     if df is None:
         print('Workflow failed at step 1/4')
         return
-    df, metadata_df = collect_data(df, sample_col, threshold)
-    G = create_adj_matrix(df)
+    df, metadata_df = collect_data(df, sample_col, node_threshold)
+    G = create_adj_matrix(df, edge_threshold)
     create_gml(G, gml_file_path)
 
 def main():
 
-    if len(sys.argv) != 5:
-        print('Usage: python create_gene_network.py <file_path> <sample_col> <threshold> <gml_file_path>')
+    if len(sys.argv) != 6:
+        print('Usage: python create_gene_network.py <file_path> <sample_col> <node_threshold> <edge_threshold> <gml_file_path>')
         return
     
     file_path = sys.argv[1]
     sample_col = int(sys.argv[2])
-    threshold = float(sys.argv[3])
-    gml_file_path = sys.argv[4]
-    workflow(file_path, sample_col, threshold, gml_file_path)
+    node = float(sys.argv[3])
+    edge = float(sys.argv[4])
+    gml_file_path = sys.argv[5]
+    workflow(file_path, sample_col, node, edge, gml_file_path)
 
 
 if __name__==main():
