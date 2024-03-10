@@ -95,6 +95,8 @@ _date: 1/28/2024 5:23PM_
 
 - use of WGS for AMR prediction
     - k-mer methods (but too large and redundant) - [review](https://mednexus.org/doi/full/10.1016/j.bsheal.2020.08.003) - creates a binary matrix of k-mers and then uses ML to predict AMR
+    - common to use k-mers between 24-31 bp long
+    - would need to find the set of k-mers that are relevant to AMR
 
 
 #### Prediction of antibiotic resistance in Escherichia coli from large-scale pan-genome data, 2018
@@ -229,6 +231,9 @@ differs greatly in different species" - [PARMAP: A Pan-Genome-Based Computationa
 
 "Most rules-based methods make a number of (often unacknowledged) assumptions about the phenotypes they attempt to predict. These assumptions include (i) that either a single genetic locus is responsible for the phenotype, or, if multiple loci are present, that they do not interact in a complex manner (i.e., absence of epistasis [75–77]); (ii) that loci are highly penetrant and are not affected by the strain background; and (iii) that there is complete knowledge of the genetic basis of the phenotype. For a large number of cases, these assumptions do not completely hold" - [Genome-Based Prediction of Bacterial Antibiotic Resistance](https://journals.asm.org/doi/full/10.1128/jcm.01405-18)
 
+"For this, support vector machine (SVM) was trained with a dataset describing alleles associated with AMR in the pan-genome, which allowed identification of new AMR-conferring gene signatures. Among the AMR genes from the SVM, genes that confer AMR through epistatic interactions were also identified on the basis of allele co-occurrence across the pan-genome." - [Current status of pan-genome analysis for pathogenic bacteria](https://journals.asm.org/doi/full/10.1128/msystems.00467-22)
+
+"In particular, bacterial metabolic network deserves further in-depth studies for pan-genome analysis. Compared with regulatory and signaling networks, metabolic network is relatively well conserved and can serve as a unique feature of a clade and its individual species. Better understanding of a metabolic network will in turn help us to decipher how regulatory and signaling networks operate, and will allow more effective applications of bacterial pan-genome analysis." - [Current status of pan-genome analysis for pathogenic bacteria](https://journals.asm.org/doi/full/10.1128/msystems.00467-22)
 
 ------------
 
@@ -245,7 +250,16 @@ _read more about this_
 
 ### III- epistatic interactions network for AMR prediction
 
+read this for a generalizable approach on epistatic GWAS: [Genome-wide discovery of epistatic loci affecting antibiotic resistance in Neisseria gonorrhoeae using evolutionary couplings]()
+
 ### IV- transcriptome integarted approach for AMR prediction
+
+read this: [Gene network interaction analysis to elucidate the antimicrobial resistance mechanisms in the Clostridium difficile]()
+
+The antimicrobial resistance (AMR) genes in C. difficile strains were collected to better understand multidrug resistance patterns
+Created a gene intreaction network of 20 genes implicated in AMR to study their interactions
+The genes rpoB, gyrA, gyrB, rpoS, rpl genes, rps genes, and Van genes are thought to be the hub genes implicated in resistance in C. difficile.
+Performed network analysis.
 
 
 

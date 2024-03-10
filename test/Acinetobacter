@@ -1,0 +1,2 @@
+==> data/PATRIC_genome_AMR.txt <==
+genome_id	genome_name	taxon_id	antibiotic	resistant_phenotype	measurement	measurement_sign	measurement_value	measurement_unit	laboratory_typing_method	laboratory_typing_method_version	laboratory_typing_platform	vendor	testing_standard	testing_standard_year	source
