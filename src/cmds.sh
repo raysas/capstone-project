@@ -9,5 +9,7 @@
 #retriving data from patric
 bash src/data_Extraction/PATRIC_extract_data.sh
 
-#tested roary pipeline:
-bash src/create_pangenome.sh test/genomes/ Acinetobacter test/output
+#running roary to construct pangenome of each species
+bash src/create_pangenome.sh data/genomes/Acinetobacter_baumannii/ Acinetobacter data/pangenomes/Acinetobacter_baumannii #running
+bash src/create_pangenome.sh data/genomes/Campulobacter_coli/ Campylobacter data/pangenomes/Campylobacter_coli
+bash src/create_pangenome.sh data/genomes/Campylobacter_jejuni/ Campylobacter data/pangenomes/Campylobacter_jejuni
