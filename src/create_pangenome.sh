@@ -7,10 +7,21 @@
 #usage: bash create_pangenome.sh <path_to_genomes> <genus> <output_dir>
 #test it: bash create_pangenome.sh data/genomes/Acinetobacter_baumannii/ Acinetobacer data/pangenomes/Acinetobacter/
 
-path_to_genomes=$1
+path_to_genomes=${basename -s / $1}
 genus=$2
-output_dir=$3
+output_dir=${basename -s / $3}
+gff_dir=$output_dir/gff_files/
 log=$output_dir/output.log
+
+if [ ! -f $log ]; then
+    touch $log
+    echo ">>>>>>>>>>>>>>>>> Created log file: $log" >> $log
+else
+    echo ">>>>>>>>>>>>>>>>> Log file already exists: $log; another run of the pipeline:" >> $log
+fi
+
+echo "" >> $log
+echo "" >> $log
 
 echo "---------------------------------------------------------------------------------------------------------" >> $log
 echo ">>>>>>>>>>>>>>>>> Running create_pangenome.sh: the pangenome pipleline using prokka and roary" >> $log
@@ -27,21 +38,33 @@ fi
 echo "---------------------------------------------------------------------------------------------------------" >> $log
 echo "" >> $log
 
-#1. runs prokka's annotation on all the genomes
-echo "---------------------------------------------------------------------------------------------------------" >> $log
-echo ">>>>>>>>>>>>>>>>> Running prokka's annotation on all the genomes" >> $log
-echo "---------------------------------------------------------------------------------------------------------" >> $log
-echo "" >> $log
+if [ ! -d $gff_dir ]; then
+    #1. runs prokka's annotation on all the genomes
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo ">>>>>>>>>>>>>>>>> Running prokka's annotation on all the genomes" >> $log
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo "" >> $log
 
-for file in $path_to_genomes/*
-do 
-    if [[ $file == *.fna ]]; then
-        file_name=$(basename "$file" .fna)
-        echo ">>>>>>>>>>>>>>>>> fna file: $file_name"
-        prokka --outdir $output_dir/prokka_output/$file_name/ --force --prefix $file_name $file
-        echo ">>>>>>>>>>>>>>>>> Annotated $file_name successfully: $output_dir/prokka_output/$file_name/" >> $log
-    fi
-done
+    for file in $path_to_genomes/*
+    do 
+        if [[ $file == *.fna ]]; then
+            file_name=$(basename "$file" .fna)
+            echo ">>>>>>>>>>>>>>>>> fna file: $file_name"
+
+            this_gff=$output_dir/prokka_output/$file_name/$file_name.gff
+            if [ ! -f $this_gff ]; then
+                prokka --outdir $output_dir/prokka_output/$file_name/ --force --prefix $file_name $file
+                echo ">>>>>>>>>>>>>>>>> Annotated $file_name successfully: $output_dir/prokka_output/$file_name/" >> $log
+            else
+                echo ">>>>>>>>>>>>>>>>> $file_name already annotated" >> $log
+            fi
+        fi
+    done
+else
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo ">>>>>>>>>>>>>>>>> GFF directory already exists: $gff_dir" >> $log
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+fi
 
 #moving the gff files to the output directory
 echo "" >> $log
@@ -52,7 +75,6 @@ do
     my_file=$(basename $dir /)
     my_file_relative_path=$dir$my_file.gff
 
-    gff_dir=$output_dir/gff_files/
     if [ ! -d $gff_dir ]; then
         mkdir $gff_dir
         echo ">>>>>>>>>>>>>>>>> Created gff directory: $gff_dir" >> $log
@@ -79,7 +101,7 @@ echo "--------------------------------------------------------------------------
 echo "" >> $log
 
 roary_output=$output_dir/roary_pangenome
-roary -p 8 -f $roary_output $gff_dir/*.gff
+# roary -p 8 -f $roary_output $gff_dir/*.gff
 
 echo "---------------------------------------------------------------------------------------------------------" >> $log
 echo ">>>>>>>>>>>>>>>>> Pangenome created successfully: $roary_output" >> $log
