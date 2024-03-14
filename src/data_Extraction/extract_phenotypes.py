@@ -16,8 +16,8 @@ import requests
 
 def binarize(cell):
 
-    zero=["susceptible", "non-resistant", "Susceptible-dose dependent", "susceptible*", "non-resistant*", "Susceptible-dose dependent*"]
-    one= ["intermediate","resistant","non-susceptible","IS","intermediate*","resistant*","non-susceptible*","IS*"]
+    zero=["susceptible", "non_resistant", "Susceptible-dose dependent", "susceptible*", "non_resistant*", "Susceptible-dose dependent*"]
+    one= ["intermediate","resistant","non_susceptible","IS","intermediate*","resistant*","non_susceptible*","IS*"]
     
     if str(cell) in zero:
         return 0
