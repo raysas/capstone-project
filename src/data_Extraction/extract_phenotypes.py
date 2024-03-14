@@ -73,8 +73,9 @@ def create_species_drugs_files(df:pd.DataFrame):
             if sp_df.empty:
                 continue
             
-            print(sp_df.head())
-            sp_df=sp_df[d].apply(binarize)
+            sp_df.columns=['SIR']
+            sp_df=sp_df['SIR'].apply(binarize)
+
             sp_df.to_csv(f'data/phenotypes/{s.replace(" ","_")}_{d}.csv')
     return None
 
