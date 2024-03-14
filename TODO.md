@@ -8,10 +8,10 @@
     - [X] Enterrococcus faecium
     - [X] Escherichia coli
     - [X] Klebsiella pneumoniae
-    - [ ] Neisseria gonorrhoeae _interrupted_
-    - [ ] Pseudomonas aeruginosa
-    - [ ] Salmonella enterica
-    - [ ] Staphylococcus aureus
+    - [X] Neisseria gonorrhoeae
+    - [X] Pseudomonas aeruginosa
+    - [X] Salmonella enterica
+    - [X] Staphylococcus aureus
     - [ ] Streptococcus pneumoniae
 - [ ] annotate genomes with prokka
     - [X] Acinetobacter baumannii
