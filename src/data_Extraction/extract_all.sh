@@ -21,3 +21,5 @@ bash src/create_pangenome.sh data/genomes/Campylobacter_jejuni/ Campylobacter da
 bash src/create_pangenome.sh data/genomes/Enterobacter_cloacae/ Enterobacter data/pangenomes/Enterobacter_cloacae
 bash src/create_pangenome.sh data/genomes/Enterococcus_faecium/ Enterococcus data/pangenomes/Enterococcus_faecium
 
+# 3. extract the phenotypes
+python src/data_Extraction/extract_phenotypes.py
