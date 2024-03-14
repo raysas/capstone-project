@@ -1,4 +1,5 @@
 tools/
 data/genome_summary.csv
 data/genomes/
-data/pangenomes/
+data/pangenomes/*/gff_files/
+data/pangenomes/*/prokka_output/

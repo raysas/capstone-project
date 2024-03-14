@@ -1,6 +1,6 @@
 ## Data collection
 
-- [ ] collect fasta genomes rom PATRIC:
+- [X] collect fasta genomes rom PATRIC:
     - [X] Acinetobacter baumannii
     - [X] Campylobacter coli
     - [X] Campylobacter jejuni
@@ -12,11 +12,11 @@
     - [X] Pseudomonas aeruginosa
     - [X] Salmonella enterica
     - [X] Staphylococcus aureus
-    - [ ] Streptococcus pneumoniae
+    - [X] Streptococcus pneumoniae
 - [ ] annotate genomes with prokka
     - [X] Acinetobacter baumannii
     - [X] Campylobacter coli
-    - [ ] Campylobacter jejuni _interrupted_
+    - [X] Campylobacter jejuni 
     - [ ] Enterobacter cloacae
     - [ ] Enterrococcus faecium
     - [ ] Escherichia coli
@@ -39,6 +39,15 @@
     - [ ] Salmonella enterica
     - [ ] Staphylococcus aureus
     - [ ] Streptococcus pneumoniae
+
+## Tasks:
+
+- [ ] create script to extract phenotypes and save each species-drug comb in a csv file in data/phenotypes
+- [ ] fix branches in the workflow
+- [ ] create a script that calculates gene properties:
+    - [ ] compute log odds resistance
+    - [ ] make a script for nodes_features or gene_features to import in network analysis
+- [ ] figure out inteactions between genes
 
 ## Bugs
 

@@ -7,11 +7,24 @@
 #usage: bash create_pangenome.sh <path_to_genomes> <genus> <output_dir>
 #test it: bash create_pangenome.sh data/genomes/Acinetobacter_baumannii/ Acinetobacer data/pangenomes/Acinetobacter/
 
-path_to_genomes=${basename -s / $1}
+path_to_genomes=$1 #if it ends with / trim it
+if [ "${path_to_genomes: -1}" == "/" ]
+then
+    path_to_genomes="${path_to_genomes%/}"
+fi
+
 genus=$2
-output_dir=${basename -s / $3}
+
+output_dir=$3 #check if it ends with / and remove it
+if [ "${output_dir: -1}" == "/" ]
+then
+    output_dir="${output_dir%/}"
+fi
+
 gff_dir=$output_dir/gff_files/
 log=$output_dir/output.log
+
+echo "$path_to_genomes $output_dir"
 
 if [ ! -f $log ]; then
     touch $log
@@ -53,7 +66,7 @@ if [ ! -d $gff_dir ]; then
 
             this_gff=$output_dir/prokka_output/$file_name/$file_name.gff
             if [ ! -f $this_gff ]; then
-                prokka --outdir $output_dir/prokka_output/$file_name/ --force --prefix $file_name $file
+                prokka --outdir $output_dir/prokka_output/$file_name/ --force --genus $genus --prefix $file_name $file 
                 echo ">>>>>>>>>>>>>>>>> Annotated $file_name successfully: $output_dir/prokka_output/$file_name/" >> $log
             else
                 echo ">>>>>>>>>>>>>>>>> $file_name already annotated" >> $log

@@ -7,7 +7,7 @@
 # done
 
 #retriving data from patric
-# bash src/data_Extraction/PATRIC_extract_data.sh
+bash src/data_Extraction/PATRIC_extract_data.sh
 
 #running roary to construct pangenome of each species
 bash src/create_pangenome.sh data/genomes/Acinetobacter_baumannii/ Acinetobacter data/pangenomes/Acinetobacter_baumannii #running

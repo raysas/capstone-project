@@ -1,0 +1,81 @@
+>>>>>>>>>>>>>>>>> Created output directory for pangenome analysis: data/pangenomes/Enterobacter_cloacae
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+>>>>>>>>>>>>>>>>> Running prokka's annotation on all the genomes
+---------------------------------------------------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>> Annotated 1328422.5 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1328422.5/
+>>>>>>>>>>>>>>>>> Annotated 1329846.6 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1329846.6/
+>>>>>>>>>>>>>>>>> Annotated 1329853.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1329853.3/
+>>>>>>>>>>>>>>>>> Annotated 1329855.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1329855.3/
+>>>>>>>>>>>>>>>>> Annotated 1329856.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1329856.3/
+>>>>>>>>>>>>>>>>> Annotated 1400146.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400146.3/
+>>>>>>>>>>>>>>>>> Annotated 1400147.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400147.3/
+>>>>>>>>>>>>>>>>> Annotated 1400148.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400148.3/
+>>>>>>>>>>>>>>>>> Annotated 1400149.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400149.3/
+>>>>>>>>>>>>>>>>> Annotated 1400150.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400150.3/
+>>>>>>>>>>>>>>>>> Annotated 1400151.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400151.3/
+>>>>>>>>>>>>>>>>> Annotated 1400154.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1400154.3/
+>>>>>>>>>>>>>>>>> Annotated 1439324.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1439324.3/
+>>>>>>>>>>>>>>>>> Annotated 1439325.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1439325.3/
+>>>>>>>>>>>>>>>>> Annotated 1439329.3 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/1439329.3/
+>>>>>>>>>>>>>>>>> Annotated 550.1074 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1074/
+>>>>>>>>>>>>>>>>> Annotated 550.1113 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1113/
+>>>>>>>>>>>>>>>>> Annotated 550.1141 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1141/
+>>>>>>>>>>>>>>>>> Annotated 550.1142 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1142/
+>>>>>>>>>>>>>>>>> Annotated 550.1144 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1144/
+>>>>>>>>>>>>>>>>> Annotated 550.1145 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1145/
+>>>>>>>>>>>>>>>>> Annotated 550.1525 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1525/
+>>>>>>>>>>>>>>>>> Annotated 550.1526 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1526/
+>>>>>>>>>>>>>>>>> Annotated 550.1528 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1528/
+>>>>>>>>>>>>>>>>> Annotated 550.153 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.153/
+>>>>>>>>>>>>>>>>> Annotated 550.154 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.154/
+>>>>>>>>>>>>>>>>> Annotated 550.155 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.155/
+>>>>>>>>>>>>>>>>> Annotated 550.1577 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1577/
+>>>>>>>>>>>>>>>>> Annotated 550.1579 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1579/
+>>>>>>>>>>>>>>>>> Annotated 550.1581 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1581/
+>>>>>>>>>>>>>>>>> Annotated 550.1584 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1584/
+>>>>>>>>>>>>>>>>> Annotated 550.1647 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1647/
+>>>>>>>>>>>>>>>>> Annotated 550.1668 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.1668/
+>>>>>>>>>>>>>>>>> Annotated 550.2106 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2106/
+>>>>>>>>>>>>>>>>> Annotated 550.2107 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2107/
+>>>>>>>>>>>>>>>>> Annotated 550.2108 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2108/
+>>>>>>>>>>>>>>>>> Annotated 550.2110 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2110/
+>>>>>>>>>>>>>>>>> Annotated 550.2111 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2111/
+>>>>>>>>>>>>>>>>> Annotated 550.2113 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2113/
+>>>>>>>>>>>>>>>>> Annotated 550.2114 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2114/
+>>>>>>>>>>>>>>>>> Annotated 550.2115 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2115/
+>>>>>>>>>>>>>>>>> Annotated 550.2116 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2116/
+>>>>>>>>>>>>>>>>> Annotated 550.2117 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2117/
+>>>>>>>>>>>>>>>>> Annotated 550.2118 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2118/
+>>>>>>>>>>>>>>>>> Annotated 550.2119 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2119/
+>>>>>>>>>>>>>>>>> Annotated 550.2120 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2120/
+>>>>>>>>>>>>>>>>> Annotated 550.2123 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2123/
+>>>>>>>>>>>>>>>>> Annotated 550.2124 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2124/
+>>>>>>>>>>>>>>>>> Annotated 550.2126 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2126/
+>>>>>>>>>>>>>>>>> Annotated 550.2127 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2127/
+>>>>>>>>>>>>>>>>> Annotated 550.2128 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2128/
+>>>>>>>>>>>>>>>>> Annotated 550.2129 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2129/
+>>>>>>>>>>>>>>>>> Annotated 550.2130 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2130/
+>>>>>>>>>>>>>>>>> Annotated 550.2131 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2131/
+>>>>>>>>>>>>>>>>> Annotated 550.2132 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2132/
+>>>>>>>>>>>>>>>>> Annotated 550.2133 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2133/
+>>>>>>>>>>>>>>>>> Annotated 550.2134 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2134/
+>>>>>>>>>>>>>>>>> Annotated 550.2135 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2135/
+>>>>>>>>>>>>>>>>> Annotated 550.2136 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2136/
+>>>>>>>>>>>>>>>>> Annotated 550.2137 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2137/
+>>>>>>>>>>>>>>>>> Annotated 550.2138 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2138/
+>>>>>>>>>>>>>>>>> Annotated 550.2139 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2139/
+>>>>>>>>>>>>>>>>> Annotated 550.2140 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2140/
+>>>>>>>>>>>>>>>>> Annotated 550.2141 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2141/
+>>>>>>>>>>>>>>>>> Annotated 550.2142 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2142/
+>>>>>>>>>>>>>>>>> Annotated 550.2143 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2143/
+>>>>>>>>>>>>>>>>> Annotated 550.2144 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2144/
+>>>>>>>>>>>>>>>>> Annotated 550.2145 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2145/
+>>>>>>>>>>>>>>>>> Annotated 550.2146 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2146/
+>>>>>>>>>>>>>>>>> Annotated 550.2147 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2147/
+>>>>>>>>>>>>>>>>> Annotated 550.2148 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2148/
+>>>>>>>>>>>>>>>>> Annotated 550.2149 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2149/
+>>>>>>>>>>>>>>>>> Annotated 550.2150 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2150/
+>>>>>>>>>>>>>>>>> Annotated 550.2151 successfully: data/pangenomes/Enterobacter_cloacae/prokka_output/550.2151/
