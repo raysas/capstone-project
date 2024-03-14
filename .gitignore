@@ -1,8 +1,4 @@
 tools/
 data/genome_summary.csv
-<<<<<<< HEAD
 data/genomes/
 data/pangenomes/
-=======
-data/graphs/
->>>>>>> origin/master
