@@ -20,6 +20,13 @@ bash src/create_pangenome.sh data/genomes/Campylobacter_coli/ Campylobacter data
 bash src/create_pangenome.sh data/genomes/Campylobacter_jejuni/ Campylobacter data/pangenomes/Campylobacter_jejuni
 bash src/create_pangenome.sh data/genomes/Enterobacter_cloacae/ Enterobacter data/pangenomes/Enterobacter_cloacae
 bash src/create_pangenome.sh data/genomes/Enterococcus_faecium/ Enterococcus data/pangenomes/Enterococcus_faecium
+bash src/create_pangenome.sh data/genomes/Escherichia_coli/ Escherichia data/pangenomes/Escherichia_coli
+bash src/create_pangenome.sh data/genomes/Klebsiella_pneumoniae/ Klebsiella data/pangenomes/Klebsiella_pneumoniae
+bash src/create_pangenome.sh data/genomes/Neisseria_gonorrhoeae/ Neisseria data/pangenomes/Neisseria_gonorrhoeae
+bash src/create_pangenome.sh data/genomes/Pseudomonas_aeruginosa/ Pseudomonas data/pangenomes/Pseudomonas_aeruginosa
+bash src/create_pangenome.sh data/genomes/Salmonella_enterica/ Salmonella data/pangenomes/Salmonella_enterica
+bash src/create_pangenome.sh data/genomes/Staphylococcus_aureus/ Staphylococcus data/pangenomes/Staphylococcus_aureus
+bash src/create_pangenome.sh data/genomes/Streptococcus_pneumoniae/ Streptococcus data/pangenomes/Streptococcus_pneumoniae
 
 # 3. extract the phenotypes
 python src/data_Extraction/extract_phenotypes.py
