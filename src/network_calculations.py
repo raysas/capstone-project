@@ -51,7 +51,7 @@ def _split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, R_list: list,
 
     return R_df, S_df
 
-def _label_samples(pheno_df: pd.DataFrame, samples_list:list) :
+def _label_samples(pheno_df: pd.DataFrame) :
     '''
     Takes a dataframe of phenotypes out of the csv file of a species-drug, a list of all samples and returns 3 lists of resistant, susceptible and unclassfied samples
     In the csv if 
@@ -110,7 +110,7 @@ def _create_RS_presence_stats_matrix(R: pd.DataFrame, S: pd.DataFrame) -> pd.Dat
     *This will memoize the entries needed for the log odds ratio computation.*
 
     
-    _e.g., output:_
+    _e.g., output (w\o the log odds):_
 
     | Gene       | R_present | R_absent | S_present | S_absent |
     |------------|-----------|----------|-----------|----------|
@@ -137,7 +137,7 @@ def _create_RS_presence_stats_matrix(R: pd.DataFrame, S: pd.DataFrame) -> pd.Dat
     new_df=pd.DataFrame({'R_present':R_present, 'R_absent':R_absent, 'S_present':S_present, 'S_absent':S_absent, 'log_odds':log_odds})
     return new_df
 
-def log_odds(pheno_path:str, species_ids_path:str, Rtab_presence_matrix_path:str, remove_hypothetical:bool=False):
+def log_odds(pheno_path:str, Rtab_presence_matrix_path:str, remove_hypothetical:bool=False):
     '''
     Takes the path to the phenotypes csv, the species ids file and the gene presence/absence matrix and returns the log odds ratio matrix of the genes.
 
@@ -150,10 +150,9 @@ def log_odds(pheno_path:str, species_ids_path:str, Rtab_presence_matrix_path:str
         - contigency_table: (pd.DataFrame) dataframe of the count of genes present and absent in each group of samples.
     '''
     pheno=get_pheno_df(pheno_path)
-    sample_list=get_samples_list(species_ids_path)
     presence=get_gene_presence_matrix(Rtab_presence_matrix_path, remove_hypothetical)
 
-    R,S,U=_label_samples(pheno, sample_list)
+    R,S,U=_label_samples(pheno)
     R_df, S_df=_split_matrix_by_phenotype(presence, R, S)
 
     stats_table=_create_RS_presence_stats_matrix(R_df, S_df)
