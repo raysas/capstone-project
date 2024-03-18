@@ -235,11 +235,21 @@ differs greatly in different species" - [PARMAP: A Pan-Genome-Based Computationa
 
 "In particular, bacterial metabolic network deserves further in-depth studies for pan-genome analysis. Compared with regulatory and signaling networks, metabolic network is relatively well conserved and can serve as a unique feature of a clade and its individual species. Better understanding of a metabolic network will in turn help us to decipher how regulatory and signaling networks operate, and will allow more effective applications of bacterial pan-genome analysis." - [Current status of pan-genome analysis for pathogenic bacteria](https://journals.asm.org/doi/full/10.1128/msystems.00467-22)
 
+
+"There are, however, two main challenges to discover epistasis: computational complexity and statistical power [15].
+The first challenge results from the curse of dimensionality.
+When more genetic variants are considered, the number of interactions increases exponentially." - [GenEpi: gene-based epistasis discovery using machine learning](https://link.springer.com/article/10.1186/s12859-020-3368-2)
+
+"In this framework a test of epistasis is a test of whether these gene-gene (G×G) interaction term(s) are zero or not, and lack of epistasis represents a special class of all possible multi-locus penetrance functions" - [The Challenge of Detecting Epistasis (G×G Interactions): Genetic Analysis Workshop 16](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3692280/#:~:text=In%20this%20framework%20a%20test,possible%20multi%2Dlocus%20penetrance%20functions.)
+
+"Although originally designed for human GWAS, a few microbial association studies [2, 29] have used the software PLINK [14]. Note that PLINK was made for SNP-type genotypic variation rather than gene presence/absence and that it assumes diploidy and is thus from a purely theoretical perspective not appropriate for bacterial data. In practice, however, it performs well enough" - [Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1108-8)
+
 ------------
 
 ## Ideas
 
-### I- pangenome network based approach for AMR prediction 
+### I- pangenome network based approach for AMR prediction
+
 
 ### II- GWAS network based approach for AMR prediction
 
@@ -251,6 +261,8 @@ _read more about this_
 ### III- epistatic interactions network for AMR prediction
 
 read this for a generalizable approach on epistatic GWAS: [Genome-wide discovery of epistatic loci affecting antibiotic resistance in Neisseria gonorrhoeae using evolutionary couplings]()
+
+Very interesting paper for Bernhard O. Palsson: [Machine learning and structural analysis of Mycobacterium tuberculosis pan-genome identifies genetic signatures of antibiotic resistance](https://www.nature.com/articles/s41467-018-06634-y)
 
 ### IV- transcriptome integarted approach for AMR prediction
 
@@ -272,6 +284,7 @@ Performed network analysis.
 - **TWAS**: Transcriptome-wide association study, a study that involves rapidly scanning markers across the complete sets of RNA, or transcriptomes, of many people to find genetic variations associated with a particular trait. Involves gene expression data.
 - **MIC**: Minimum Inhibitory Concentration, an experimental measure of the effectiveness of an antimicrobial drug against a particular microbe (number that can be translated to resistance/susceptibility via EUCAST guidelines - ECOFFs table)
 - **FET**: Fischer exact test, a statistical test used to determine if there are nonrandom associations between two categorical variables
+- **Epistasis**: Genetic interaction between two or more genes that control a single phenotype, a _polygenic trait_ (e.g. AMR)
 
 <figure align='center'>
     <a href="https://www.medrxiv.org/content/10.1101/2021.02.24.21252386v1.full.pdf">
