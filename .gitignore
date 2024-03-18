@@ -5,3 +5,4 @@ data/pangenomes/*/gff_files/
 data/pangenomes/*/prokka_output/
 data/pangenomes/Acinetobacter_baumannii/roary_pangenome
 src/__pycache__/
+data/pangenomes/
