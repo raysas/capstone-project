@@ -3,4 +3,4 @@ data/genome_summary.csv
 data/genomes/
 data/pangenomes/*/gff_files/
 data/pangenomes/*/prokka_output/
-data/pangenomes/Acinetobacter_baumannii/roary_pangenome
+data/pangenomes/
