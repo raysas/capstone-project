@@ -14,8 +14,9 @@ then
 fi
 
 genus=$2
+species=$3
 
-output_dir=$3 #check if it ends with / and remove it
+output_dir=$4 #check if it ends with / and remove it
 if [ "${output_dir: -1}" == "/" ]
 then
     output_dir="${output_dir%/}"
@@ -30,6 +31,11 @@ if [ ! -f $log ]; then
     touch $log
     echo ">>>>>>>>>>>>>>>>> Created log file: $log" >> $log
 else
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo "---------------------------------------------------------------------------------------------------------" >> $log
+    echo "" >> $log
     echo ">>>>>>>>>>>>>>>>> Log file already exists: $log; another run of the pipeline:" >> $log
 fi
 
@@ -58,15 +64,18 @@ if [ ! -d $gff_dir ]; then
     echo "---------------------------------------------------------------------------------------------------------" >> $log
     echo "" >> $log
 
+    echo $path_to_genomes
+
     for file in $path_to_genomes/*
     do 
+        echo $file
         if [[ $file == *.fna ]]; then
             file_name=$(basename "$file" .fna)
             echo ">>>>>>>>>>>>>>>>> fna file: $file_name"
 
             this_gff=$output_dir/prokka_output/$file_name/$file_name.gff
             if [ ! -f $this_gff ]; then
-                prokka --outdir $output_dir/prokka_output/$file_name/ --force --genus $genus --prefix $file_name $file 
+                prokka --outdir $output_dir/prokka_output/$file_name/ --force --genus $genus --species $species --prefix $file_name $file 
                 echo ">>>>>>>>>>>>>>>>> Annotated $file_name successfully: $output_dir/prokka_output/$file_name/" >> $log
             else
                 echo ">>>>>>>>>>>>>>>>> $file_name already annotated" >> $log

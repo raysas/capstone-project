@@ -26,6 +26,14 @@ utility functions used several times in the project to read files and manage dat
     return them in a joined df
     used in network_calculations.py
 
+- get_core:
+    takes a gene presence/absence matrix
+    returns the core genome of the species (can specify threshhold)
+
+- get_unique:
+    takes a gene presence/absence matrix
+    returns the unique genes of the species (can specify threshhold)
+
 '''
 
 import pandas as pd
@@ -131,3 +139,38 @@ def get_labeled_matrix(presence_df: pd.DataFrame, pheno_df: pd.DataFrame) -> pd.
     
     return presence_df
 
+def get_core(presence_matrix, prop=0.95):
+    '''
+    Takes a gene presence/absence matrix and returns the core genome of the species.
+
+    param:
+        - prop: (float) proportion of presence to satrt considering as core
+        - presence_matrix: (pd.DataFrame) dataframe of gene presence/absence
+
+    return:
+        - core: (list) list of genes that are in the core genome
+    '''
+    core=[]
+    for gene in presence_matrix.index:
+        if presence_matrix.loc[gene].sum()>prop*len(presence_matrix.columns):
+            core.append(gene)
+    return core
+
+def get_unique(presence_matrix, prop=0.15):
+    '''
+    Takes a gene presence/absence matrix and returns the unique genes of the species.
+
+    param:
+        - prop: (float) proportion of presence to start considering as unique
+        - presence_matrix: (pd.DataFrame) dataframe of gene presence/absence
+
+    return:
+        - unique: (list) list of genes that are unique to the species
+    '''
+    unique=[]
+    for gene in presence_matrix.index:
+        if presence_matrix.loc[gene].sum()<prop*len(presence_matrix.columns):
+            unique.append(gene)
+    return unique
+
+get_presence_without_gene_set=lambda presence, gene_set: presence.drop(gene_set)
