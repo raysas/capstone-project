@@ -25,6 +25,7 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 from data_utils import *
+import matplotlib.pyplot as plt
 
 _get_subdf_cols= lambda df, col_list: df[col_list]
 
@@ -160,3 +161,68 @@ def log_odds(pheno_path:str, Rtab_presence_matrix_path:str, remove_hypothetical:
 
     return log_odds_table
 
+def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)->pd.DataFrame:
+    '''
+    Takes a graph and returns the stats in a dataframe
+
+    param:
+        - G: (nx.Graph) the graph
+        - weighted: (bool) whether the graph is weighted or not
+        - network_name: (str) the name of the network
+
+    return:
+        - stats_df: (pd.DataFrame) dataframe of the stats
+    '''
+    largest_cc = max(nx.connected_components(G), key=len)
+    largest_cc_subgraph = G.subgraph(largest_cc)
+    if weighted:
+        stats = {
+            "Network": network_name,
+            "|N|": G.number_of_nodes(),
+            "|V|": G.number_of_edges(),
+            "Density": nx.density(G),
+            "<k>": np.mean(list(dict(G.degree()).values())),
+            "<k> weighted": np.mean(list(dict(G.degree(weight='weight')).values())),
+            "<cc>": nx.average_clustering(G),
+            "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
+            "d": nx.diameter(largest_cc_subgraph)
+        }
+    else:
+        stats = {
+            "Network": network_name,
+            "|N|": G.number_of_nodes(),
+            "|V|": G.number_of_edges(),
+            "Density": nx.density(G),
+            "<k>": np.mean(list(dict(G.degree()).values())),
+            "<cc>": nx.average_clustering(G),
+            "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
+            "d": nx.diameter(largest_cc_subgraph)
+        }
+    
+    stats_df = pd.DataFrame(stats, index=[0])
+    stats_df.set_index('Network', inplace=True)
+
+    return stats_df
+
+def plot_degree_distribution(G:nx.Graph, network_name:str='', weighted:bool=False):
+    '''
+    Takes a graph and plots the degree distribution
+
+    param:
+        - G: (nx.Graph) the graph
+        - weighted: (bool) whether we want the weighted deg dist
+        - network_name: (str) the name of the network
+
+    return:
+        - None
+    '''
+    if not weighted:
+        degrees = [G.degree(n) for n in G.nodes()]
+        plt.hist(degrees, bins=30)
+        plt.title(network_name)
+        plt.show()
+    else:
+        degrees = [G.degree(n, weight='weight') for n in G.nodes()]
+        plt.hist(degrees, bins=30, label=network_name)
+        plt.title(network_name)
+        plt.show()

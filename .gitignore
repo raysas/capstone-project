@@ -5,4 +5,4 @@ data/pangenomes/*/gff_files/
 data/pangenomes/*/prokka_output/
 data/pangenomes/
 src/__pycache__/
-data/pangenomes/
+data/pangenomes/tools/
