@@ -143,12 +143,16 @@ def log_odds(pheno_path:str, Rtab_presence_matrix_path:str, remove_hypothetical:
     Takes the path to the phenotypes csv, the species ids file and the gene presence/absence matrix and returns the log odds ratio matrix of the genes.
 
     param:
+    -------
         - pheno_path: (str) path to the phenotypes csv
-        - species_ids_path: (str) path to the species ids file
         - Rtab_presence_matrix_path: (str) path to the gene presence/absence matrix
-
+        - remove_hypothetical: (bool) whether to remove hypothetical genes or not
+        
     return:
-        - contigency_table: (pd.DataFrame) dataframe of the count of genes present and absent in each group of samples.
+    -------
+        - log_odds_dict: (dict) dictionary of the log odds ratio of the genes
+
+    The output can be further used as node attributes in the network.
     '''
     pheno=get_pheno_df(pheno_path)
     presence=get_gene_presence_matrix(Rtab_presence_matrix_path, remove_hypothetical)
@@ -159,7 +163,10 @@ def log_odds(pheno_path:str, Rtab_presence_matrix_path:str, remove_hypothetical:
     stats_table=_create_RS_presence_stats_matrix(R_df, S_df)
     log_odds_table=stats_table['log_odds']
 
-    return log_odds_table
+    log_odds_dict = log_odds_table.to_dict()
+
+    return log_odds_dict
+
 
 def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)->pd.DataFrame:
     '''
@@ -226,3 +233,20 @@ def plot_degree_distribution(G:nx.Graph, network_name:str='', weighted:bool=Fals
         plt.hist(degrees, bins=30, label=network_name)
         plt.title(network_name)
         plt.show()
+
+def set_log_odds_node_attributes(G:nx.Graph, log_odds:pd.DataFrame):
+    '''
+    Takes a graph and sets the log odds as node attributes
+
+    param:
+        - G: (nx.Graph) the graph
+        - log_odds: (pd.DataFrame) the log odds dataframe
+
+    return:
+        - None
+    '''
+    for gene in G.nodes():
+        if gene in log_odds.index:
+            G.nodes[gene]['log_odds'] = log_odds.loc[gene].values[0]
+        else:
+            G.nodes[gene]['log_odds'] = 0

@@ -1,12 +1,12 @@
 ## Data collection
 
 - [X] collect fasta genomes rom PATRIC:
-    - [X] Acinetobacter baumannii
-    - [X] Campylobacter coli
-    - [X] Campylobacter jejuni
-    - [X] Enterobacter cloacae
-    - [X] Enterrococcus faecium
-    - [X] Escherichia coli
+    - [X] Acinetobacter baumannii - deleted
+    - [X] Campylobacter coli - deleted
+    - [X] Campylobacter jejuni - deleted
+    - [X] Enterobacter cloacae - deleted
+    - [X] Enterrococcus faecium - deleted
+    - [X] Escherichia coli - deleted
     - [X] Klebsiella pneumoniae
     - [X] Neisseria gonorrhoeae
     - [X] Pseudomonas aeruginosa
@@ -17,9 +17,9 @@
     - [X] Acinetobacter baumannii
     - [X] Campylobacter coli
     - [X] Campylobacter jejuni 
-    - [ ] Enterobacter cloacae
-    - [ ] Enterrococcus faecium
-    - [ ] Escherichia coli
+    - [X] Enterobacter cloacae
+    - [X] Enterrococcus faecium
+    - [ ] Escherichia coli - INTERRUPTED
     - [ ] Klebsiella pneumoniae
     - [ ] Neisseria gonorrhoeae
     - [ ] Pseudomonas aeruginosa
@@ -42,13 +42,15 @@
 
 ## Tasks:
 
-- [ ] create script to extract phenotypes and save each species-drug comb in a csv file in data/phenotypes
+- [X] create script to extract phenotypes and save each species-drug comb in a csv file in data/phenotypes
 - [ ] fix branches in the workflow
 - [ ] create a script that calculates gene properties:
-    - [ ] compute log odds resistance
-    - [ ] make a script for nodes_features or gene_features to import in network analysis
-- [ ] figure out inteactions between genes
+    - [X] compute log odds resistance
+    - [X] make a script for nodes_features or gene_features to import in network analysis
+- [X] figure out inteactions between genes: corr
+
 
 ## Bugs
 
 - [ ] roary exit status 1 - killing the workflow
+- [ ] pangenome pipeline is giving errors

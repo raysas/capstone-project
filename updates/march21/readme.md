@@ -287,6 +287,48 @@ Accordingly, each network will be constructed by taking into consideration one p
 | Streptococcus_pneumoniae | trimethoprim_sulphamethoxazole | 3253 |
 | Streptococcus_pneumoniae | vancomycin | 170 |
 
+Done so far:
+
+- [X] collect fasta genomes rom PATRIC:
+    - [X] Acinetobacter baumannii - deleted
+    - [X] Campylobacter coli - deleted
+    - [X] Campylobacter jejuni - deleted
+    - [X] Enterobacter cloacae - deleted
+    - [X] Enterrococcus faecium - deleted
+    - [X] Escherichia coli - deleted
+    - [X] Klebsiella pneumoniae
+    - [X] Neisseria gonorrhoeae
+    - [X] Pseudomonas aeruginosa
+    - [X] Salmonella enterica
+    - [X] Staphylococcus aureus
+    - [X] Streptococcus pneumoniae
+- [ ] annotate genomes with prokka
+    - [X] Acinetobacter baumannii
+    - [X] Campylobacter coli
+    - [X] Campylobacter jejuni 
+    - [X] Enterobacter cloacae
+    - [X] Enterrococcus faecium
+    - [ ] Escherichia coli - INTERRUPTED
+    - [ ] Klebsiella pneumoniae
+    - [ ] Neisseria gonorrhoeae
+    - [ ] Pseudomonas aeruginosa
+    - [ ] Salmonella enterica
+    - [ ] Staphylococcus aureus
+    - [ ] Streptococcus pneumoniae
+- created pangenomes from roary
+    - [ ] Acinetobacter baumannii _interrupted_
+    - [X] Campylobacter coli
+    - [ ] Campylobacter jejuni 
+    - [ ] Enterobacter cloacae
+    - [ ] Enterrococcus faecium
+    - [ ] Escherichia coli
+    - [ ] Klebsiella pneumoniae
+    - [ ] Neisseria gonorrhoeae
+    - [ ] Pseudomonas aeruginosa
+    - [ ] Salmonella enterica
+    - [ ] Staphylococcus aureus
+    - [ ] Streptococcus pneumoniae
+
 ## Building the network
 
 ### network type: `correlation`  
@@ -326,5 +368,42 @@ Network construction:
 
 
     - **Soft thresholding**: A soft threshold is used to transform the correlation matrix into a weighted adjacency matrix. The soft threshold is chosen such that the resulting network is approximately scale-free (there's a package in R WGCNA that can be used to calculate the soft threshold, common practice to use the _pickSoftThreshold_ function to choose the soft threshold), this way we raise the cor values to a power (which is the parameter we're looking for) and then we use the resulting matrix to construct the network,   
-    _i.e. get edge weight=_ $corr^{beta}$ _such that beta is the lowest power that transforms the adjacency matrix into a power law distribution._
+    _i.e. get edge weight=_ $corr^{a}$ _such that a is the lowest power that transforms the adjacency matrix into a scale free network (power law dist)._
 
+
+
+
+### Ideas
+
+**Incorporating phenotypes as attributes:**
+
+From the labeled phenotypes, we can calculate the log odds ratio of resistance for each gene, and use it as an attribute for the nodes.  
+
+What does the log odds represent, for a gne having this contigency table:
+
+|  | resistant | susceptible |
+|---|-----------|-------------|
+| gene present | a | b |
+| gene absent | c | d |
+
+The log odds ratio is calculated as:
+
+$log(odds) = log(\frac{a*d}{b*c})$
+
+This value can be used as an attribute for the nodes, and can be used to color the nodes in the network, or to filter them out, or use in network diffusion algorithms.
+
+#### Visualization
+
+We can visualize the network using the log odds ratio as the node color, and centralities as the node size. This way we can depict which genes are more likely to be present in resistant genomes, and which genes are more central in the network.
+
+#### Clustering
+
+Based on the phenotypic labels (e.g. color), we can cluster the nodes into communities, and see if the communities are enriched with certain phenotypes.  
+
+#### Network diffusion
+
+We can use the log odds ratio as a diffusion attribute, and see how the resistance spreads in the network.  
+In terms of gene-gene interactions, this would mean that when one gene is resistant, how it is influencing other genes too.  
+_What's network diffusion?_  
+Network diffusion is a process of spreading information (or a signal) through a network. It can be used to model the spread of diseases, information, or any other process that can be modeled as a signal that spreads through a network.   
+Ideally, it would be interesting to check when we have variats data (SNPs), how their presence is affecting GxG interactions and what will the resultant network look like after the diffusion process. 
