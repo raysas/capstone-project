@@ -30,6 +30,7 @@ def collect_data(df: pd.DataFrame, sample_col: int=13, threshold: float = 0.5) -
         - df: (pd.DataFrame) raw dataframe read from csv
         - sample_col: (int) the col number whre samples start
         - threshold: (float) the percentage of samples a gene needs to be present in to be kept
+        
     output:
         - df: (pd.DataFrame) binary matrix of genes and samples
         - metadata_df: (pd.DataFrame) metadata dataframe with all the info from the raw dataframe

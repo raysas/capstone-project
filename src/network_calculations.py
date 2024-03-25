@@ -188,11 +188,12 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
             "|N|": G.number_of_nodes(),
             "|V|": G.number_of_edges(),
             "Density": nx.density(G),
-            "<k>": np.mean(list(dict(G.degree()).values())),
-            "<k> weighted": np.mean(list(dict(G.degree(weight='weight')).values())),
-            "<cc>": nx.average_clustering(G),
-            "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
-            "d": nx.diameter(largest_cc_subgraph)
+            "k": np.mean(list(dict(G.degree()).values())),
+            "k weighted": np.mean(list(dict(G.degree(weight='weight')).values())),
+            "cc": nx.average_clustering(G),
+            "spath": nx.average_shortest_path_length(largest_cc_subgraph),
+            "d": nx.diameter(largest_cc_subgraph),
+            "Q": nx.community.modularity(G, nx.community.louvain_communities(G))
         }
     else:
         stats = {
