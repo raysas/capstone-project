@@ -1,4 +1,3 @@
-tools/
 data/genome_summary.csv
 data/genomes/
 data/pangenomes/*/gff_files/
@@ -6,3 +5,4 @@ data/pangenomes/*/prokka_output/
 data/pangenomes/
 src/__pycache__/
 data/pangenomes/tools/
+tools/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/Campylobacter_coli_CDS.fasta
