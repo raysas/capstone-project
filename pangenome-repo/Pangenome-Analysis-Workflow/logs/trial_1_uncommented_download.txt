@@ -1,0 +1,440 @@
+Enter the path to the directory containing the genome IDs: ../test/
+
+______________________________________________________
+
+Extracting CDS from Genome IDs of Campylobacter_coli
+______________________________________________________
+
+Creating new CDS fasta file for Campylobacter_coli
+Extracting CDS from genome ID 195.2024
+Extracting CDS from genome ID 195.2025
+Extracting CDS from genome ID 195.2026
+Extracting CDS from genome ID 195.2027
+Extracting CDS from genome ID 195.2028
+Extracting CDS from genome ID 195.2029
+Extracting CDS from genome ID 195.2030
+Extracting CDS from genome ID 195.2031
+Extracting CDS from genome ID 195.2032
+Extracting CDS from genome ID 195.2033
+Extracting CDS from genome ID 195.2034
+Extracting CDS from genome ID 195.2035
+Extracting CDS from genome ID 195.2036
+Extracting CDS from genome ID 195.2037
+Extracting CDS from genome ID 195.2038
+Extracting CDS from genome ID 195.2039
+Extracting CDS from genome ID 195.2040
+Extracting CDS from genome ID 195.2041
+Extracting CDS from genome ID 195.2042
+Extracting CDS from genome ID 195.2043
+Extracting CDS from genome ID 195.2044
+Extracting CDS from genome ID 195.2045
+Extracting CDS from genome ID 195.2046
+Extracting CDS from genome ID 195.2047
+Extracting CDS from genome ID 195.2048
+Extracting CDS from genome ID 195.2049
+Extracting CDS from genome ID 195.2051
+Extracting CDS from genome ID 195.2052
+Extracting CDS from genome ID 195.2053
+Extracting CDS from genome ID 195.2054
+Extracting CDS from genome ID 195.2055
+Extracting CDS from genome ID 195.2056
+Extracting CDS from genome ID 195.2057
+Extracting CDS from genome ID 195.2058
+Extracting CDS from genome ID 195.2059
+Extracting CDS from genome ID 195.2060
+Extracting CDS from genome ID 195.2061
+Extracting CDS from genome ID 195.2063
+Extracting CDS from genome ID 195.2064
+Extracting CDS from genome ID 195.2065
+Extracting CDS from genome ID 195.2066
+Extracting CDS from genome ID 195.2067
+Extracting CDS from genome ID 195.2069
+Extracting CDS from genome ID 195.2070
+Extracting CDS from genome ID 195.2071
+Extracting CDS from genome ID 195.2072
+Extracting CDS from genome ID 195.2074
+Extracting CDS from genome ID 195.2080
+Extracting CDS from genome ID 195.2082
+Extracting CDS from genome ID 195.2083
+Extracting CDS from genome ID 195.2084
+Extracting CDS from genome ID 195.2085
+Extracting CDS from genome ID 195.2086
+Extracting CDS from genome ID 195.2087
+Extracting CDS from genome ID 195.2089
+Extracting CDS from genome ID 195.2090
+Extracting CDS from genome ID 195.2092
+Extracting CDS from genome ID 195.2093
+Extracting CDS from genome ID 195.2094
+Extracting CDS from genome ID 195.2095
+Extracting CDS from genome ID 195.2096
+Extracting CDS from genome ID 195.2097
+Extracting CDS from genome ID 195.2098
+Extracting CDS from genome ID 195.2099
+Extracting CDS from genome ID 195.2100
+Extracting CDS from genome ID 195.2101
+Extracting CDS from genome ID 195.2102
+Extracting CDS from genome ID 195.2104
+Extracting CDS from genome ID 195.2105
+Extracting CDS from genome ID 195.2106
+Extracting CDS from genome ID 195.2107
+Extracting CDS from genome ID 195.2108
+Extracting CDS from genome ID 195.2109
+Extracting CDS from genome ID 195.2110
+Extracting CDS from genome ID 195.2111
+Extracting CDS from genome ID 195.2112
+Extracting CDS from genome ID 195.2113
+Extracting CDS from genome ID 195.2114
+Extracting CDS from genome ID 195.2115
+Extracting CDS from genome ID 195.2116
+Extracting CDS from genome ID 195.2117
+Extracting CDS from genome ID 195.2118
+Extracting CDS from genome ID 195.2119
+Extracting CDS from genome ID 195.2120
+Extracting CDS from genome ID 195.2121
+Extracting CDS from genome ID 195.2122
+Extracting CDS from genome ID 195.2123
+Extracting CDS from genome ID 195.2124
+Extracting CDS from genome ID 195.2125
+Extracting CDS from genome ID 195.2126
+Extracting CDS from genome ID 195.2127
+Extracting CDS from genome ID 195.2128
+Extracting CDS from genome ID 195.2129
+Extracting CDS from genome ID 195.2130
+Extracting CDS from genome ID 195.2131
+Extracting CDS from genome ID 195.2132
+Extracting CDS from genome ID 195.2133
+Extracting CDS from genome ID 195.2134
+Extracting CDS from genome ID 195.2135
+Extracting CDS from genome ID 195.2136
+Extracting CDS from genome ID 195.2137
+Extracting CDS from genome ID 195.2138
+Extracting CDS from genome ID 195.2139
+Extracting CDS from genome ID 195.2140
+Extracting CDS from genome ID 195.2141
+Extracting CDS from genome ID 195.2142
+Extracting CDS from genome ID 195.2143
+Extracting CDS from genome ID 195.2144
+Extracting CDS from genome ID 195.2145
+Extracting CDS from genome ID 195.2146
+Extracting CDS from genome ID 195.2147
+Extracting CDS from genome ID 195.2148
+Extracting CDS from genome ID 195.2150
+Extracting CDS from genome ID 195.2151
+Extracting CDS from genome ID 195.2152
+Extracting CDS from genome ID 195.2153
+Extracting CDS from genome ID 195.2154
+Extracting CDS from genome ID 195.2155
+Extracting CDS from genome ID 195.2156
+Extracting CDS from genome ID 195.2157
+Extracting CDS from genome ID 195.2158
+Extracting CDS from genome ID 195.2159
+Extracting CDS from genome ID 195.2160
+Extracting CDS from genome ID 195.2161
+Extracting CDS from genome ID 195.2162
+Extracting CDS from genome ID 195.2163
+Extracting CDS from genome ID 195.2164
+Extracting CDS from genome ID 195.2165
+Extracting CDS from genome ID 195.2166
+Extracting CDS from genome ID 195.2169
+Extracting CDS from genome ID 195.2170
+Extracting CDS from genome ID 195.2171
+Extracting CDS from genome ID 195.2172
+Extracting CDS from genome ID 195.2173
+Extracting CDS from genome ID 195.2174
+Extracting CDS from genome ID 195.2175
+Extracting CDS from genome ID 195.2176
+Extracting CDS from genome ID 195.2178
+Extracting CDS from genome ID 195.2179
+Extracting CDS from genome ID 195.2180
+Extracting CDS from genome ID 195.2182
+Extracting CDS from genome ID 195.2184
+Extracting CDS from genome ID 195.2185
+Extracting CDS from genome ID 195.2186
+Extracting CDS from genome ID 195.2187
+Extracting CDS from genome ID 195.2188
+Extracting CDS from genome ID 195.2189
+Extracting CDS from genome ID 195.2190
+Extracting CDS from genome ID 195.2191
+Extracting CDS from genome ID 195.2192
+Extracting CDS from genome ID 195.2193
+Extracting CDS from genome ID 195.2194
+Extracting CDS from genome ID 195.2195
+Extracting CDS from genome ID 195.2196
+Extracting CDS from genome ID 195.2197
+Extracting CDS from genome ID 195.2198
+Extracting CDS from genome ID 195.2199
+Extracting CDS from genome ID 195.2200
+Extracting CDS from genome ID 195.2201
+Extracting CDS from genome ID 195.2202
+Extracting CDS from genome ID 195.2203
+Extracting CDS from genome ID 195.2204
+Extracting CDS from genome ID 195.2205
+Extracting CDS from genome ID 195.2206
+Extracting CDS from genome ID 195.2207
+Extracting CDS from genome ID 195.2208
+Extracting CDS from genome ID 195.2209
+Extracting CDS from genome ID 195.2210
+Extracting CDS from genome ID 195.2211
+Extracting CDS from genome ID 195.2212
+Extracting CDS from genome ID 195.2213
+Extracting CDS from genome ID 195.2214
+Extracting CDS from genome ID 195.2216
+Extracting CDS from genome ID 195.2217
+Extracting CDS from genome ID 195.2218
+Extracting CDS from genome ID 195.2219
+Extracting CDS from genome ID 195.2220
+Extracting CDS from genome ID 195.2221
+Extracting CDS from genome ID 195.2222
+Extracting CDS from genome ID 195.2223
+Extracting CDS from genome ID 195.2224
+Extracting CDS from genome ID 195.2225
+Extracting CDS from genome ID 195.2226
+Extracting CDS from genome ID 195.2227
+Extracting CDS from genome ID 195.2228
+Extracting CDS from genome ID 195.2229
+Extracting CDS from genome ID 195.2230
+Extracting CDS from genome ID 195.2231
+Extracting CDS from genome ID 195.2232
+Extracting CDS from genome ID 195.2233
+Extracting CDS from genome ID 195.2234
+Extracting CDS from genome ID 195.2235
+Extracting CDS from genome ID 195.2236
+Extracting CDS from genome ID 195.2237
+Extracting CDS from genome ID 195.2238
+Extracting CDS from genome ID 195.2239
+Extracting CDS from genome ID 195.2240
+Extracting CDS from genome ID 195.2241
+Extracting CDS from genome ID 195.2242
+Extracting CDS from genome ID 195.2243
+Extracting CDS from genome ID 195.2244
+Extracting CDS from genome ID 195.2245
+Extracting CDS from genome ID 195.2246
+Extracting CDS from genome ID 195.2247
+Extracting CDS from genome ID 195.2248
+Extracting CDS from genome ID 195.2249
+Extracting CDS from genome ID 195.2250
+Extracting CDS from genome ID 195.2251
+Extracting CDS from genome ID 195.2252
+Extracting CDS from genome ID 195.2254
+Extracting CDS from genome ID 195.2255
+Extracting CDS from genome ID 195.2256
+Extracting CDS from genome ID 195.2257
+Extracting CDS from genome ID 195.2258
+Extracting CDS from genome ID 195.2259
+Extracting CDS from genome ID 195.2260
+Extracting CDS from genome ID 195.2261
+Extracting CDS from genome ID 195.2262
+Extracting CDS from genome ID 195.2263
+Extracting CDS from genome ID 195.2264
+Extracting CDS from genome ID 195.2265
+Extracting CDS from genome ID 195.2266
+Extracting CDS from genome ID 195.2267
+Extracting CDS from genome ID 195.2268
+Extracting CDS from genome ID 195.2269
+Extracting CDS from genome ID 195.2270
+Extracting CDS from genome ID 195.2271
+Extracting CDS from genome ID 195.2272
+Extracting CDS from genome ID 195.2273
+Extracting CDS from genome ID 195.2276
+Extracting CDS from genome ID 195.2278
+Extracting CDS from genome ID 195.2279
+Extracting CDS from genome ID 195.2280
+Extracting CDS from genome ID 195.2281
+Extracting CDS from genome ID 195.2282
+Extracting CDS from genome ID 195.2283
+Extracting CDS from genome ID 195.2284
+Extracting CDS from genome ID 195.2285
+Extracting CDS from genome ID 195.2286
+Extracting CDS from genome ID 195.2287
+Extracting CDS from genome ID 195.2288
+Extracting CDS from genome ID 195.2289
+Extracting CDS from genome ID 195.2290
+Extracting CDS from genome ID 195.2291
+Extracting CDS from genome ID 195.2292
+Extracting CDS from genome ID 195.2293
+Extracting CDS from genome ID 195.2294
+Extracting CDS from genome ID 195.2295
+Extracting CDS from genome ID 195.2296
+Extracting CDS from genome ID 195.2297
+Extracting CDS from genome ID 195.2298
+Extracting CDS from genome ID 195.2299
+Extracting CDS from genome ID 195.2300
+Extracting CDS from genome ID 195.2301
+Extracting CDS from genome ID 195.2302
+Extracting CDS from genome ID 195.2303
+Extracting CDS from genome ID 195.2304
+Extracting CDS from genome ID 195.2305
+Extracting CDS from genome ID 195.2306
+Extracting CDS from genome ID 195.2307
+Extracting CDS from genome ID 195.2308
+Extracting CDS from genome ID 195.2310
+Extracting CDS from genome ID 195.2311
+Extracting CDS from genome ID 195.2312
+Extracting CDS from genome ID 195.2313
+Extracting CDS from genome ID 195.2314
+Extracting CDS from genome ID 195.2315
+Extracting CDS from genome ID 195.2316
+Extracting CDS from genome ID 195.2317
+
+----- Total Time for CDS Extraction: 5290 seconds-----
+
+______________________________________________________
+
+Runnning Genome Clustering Step for Campylobacter_coli
+______________________________________________________
+
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Aug 20 2021, 08:39:56
+Command: cd-hit -i
+         Campylobacter_coli/Campylobacter_coli_CDS.fasta -o
+         Campylobacter_coli/Campylobacter_coli.fasta -n 5 -c
+         0.8 -aL 0.8 -M 8000
+
+Started: Tue Mar 26 15:59:45 2024
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 492021
+longest and shortest : 1932 and 20
+Total letters: 144697544
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 210M
+Buffer          : 1 X 16M = 16M
+Table           : 1 X 73M = 73M
+Miscellaneous   : 6M
+Total           : 306M
+
+Table limit with the given memory limit:
+Max number of representatives: 4000000
+Max number of word counting entries: 961627074
+
+comparing sequences from          0  to     492021
+..........    10000  finished        109  clusters
+..........    20000  finished        224  clusters
+..........    30000  finished        350  clusters
+..........    40000  finished        429  clusters
+..........    50000  finished        544  clusters
+..........    60000  finished        641  clusters
+..........    70000  finished        748  clusters
+..........    80000  finished        822  clusters
+..........    90000  finished        913  clusters
+..........   100000  finished       1013  clusters
+..........   110000  finished       1118  clusters
+..........   120000  finished       1220  clusters
+..........   130000  finished       1293  clusters
+..........   140000  finished       1386  clusters
+..........   150000  finished       1452  clusters
+..........   160000  finished       1561  clusters
+..........   170000  finished       1658  clusters
+..........   180000  finished       1744  clusters
+..........   190000  finished       1848  clusters
+..........   200000  finished       1956  clusters
+..........   210000  finished       2059  clusters
+..........   220000  finished       2157  clusters
+..........   230000  finished       2267  clusters
+..........   240000  finished       2373  clusters
+..........   250000  finished       2469  clusters
+..........   260000  finished       2556  clusters
+..........   270000  finished       2687  clusters
+..........   280000  finished       2780  clusters
+..........   290000  finished       2931  clusters
+..........   300000  finished       3066  clusters
+..........   310000  finished       3201  clusters
+..........   320000  finished       3307  clusters
+..........   330000  finished       3465  clusters
+..........   340000  finished       3616  clusters
+..........   350000  finished       3750  clusters
+..........   360000  finished       3910  clusters
+..........   370000  finished       4093  clusters
+..........   380000  finished       4276  clusters
+..........   390000  finished       4456  clusters
+..........   400000  finished       4671  clusters
+..........   410000  finished       4901  clusters
+..........   420000  finished       5145  clusters
+..........   430000  finished       5397  clusters
+..........   440000  finished       5711  clusters
+..........   450000  finished       6086  clusters
+..........   460000  finished       6422  clusters
+..........   470000  finished       6790  clusters
+..........   480000  finished       7294  clusters
+..........   490000  finished       7823  clusters
+..
+   492021  finished       8021  clusters
+
+Approximated maximum memory consumption: 320M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 17.03
+
+----- Total Time for Genome Clustering: 17 seconds-----
+
+______________________________________________________
+
+Runnning Pangenome Construction Step for Campylobacter_coli
+______________________________________________________
+
+
+        Working on Campylobacter_coli
+______________________________________________________
+
+Fitted parameters: [0.75848869 0.86924693 1.45109985 2.60378405 2.59404356]
+Unique Genes cutoff: 7.9050368221793095% (22.18549868344055)
+Core Genes cutoff: 98.2408577177017% (264.28549868344055)
+
+== Pangenome Division ==
+Core: 1311 (16.344595436977933%)
+Accessory: 1039 (12.95349707019075%)
+Unique: 5671 (70.70190749283132%)
+Total: 8021
+
+== Metrics ==
+R-squared: 0.9937837505702924
+MAE: 25.197562371892314
+
+======== Pangenome Construction Time for Campylobacter_coli========
+                 0.27347874641418457  seconds
+
+______________________________________________________
+
+Runnning eggNOG-mapper Step for Campylobacter_coli
+______________________________________________________
+
+DIAMOND database /home/rayane/miniconda3/lib/python3.12/site-packages/data/eggnog_proteins.dmnd not present. Use download_eggnog_database.py to fetch it
+
+
+----- Total Run Time for eggNOG-mapper: 0 seconds-----
+
+tail: cannot open 'Campylobacter_coli/Campylobacter_coli.emapper.annotations' for reading: No such file or directory
+cut: only one type of list may be specified
+Try 'cut --help' for more information.
+=================================================
+
+Building Contingency Table for Campylobacter_coli
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Number of genes in Campylobacter_coli: 8021
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+fname: Campylobacter_coli/Campylobacter_coli_COG_GO.csv, representatives_file: Campylobacter_coli/Campylobacter_coli.fasta, pangenome_file: Campylobacter_coli/Campylobacter_coli_pangenome.csv, species: Campylobacter_coli
+['perform_fisher_test_core.py', 'Campylobacter_coli/Campylobacter_coli_COG_GO.csv', 'Campylobacter_coli/Campylobacter_coli.fasta', 'Campylobacter_coli/Campylobacter_coli_pangenome.csv', 'Campylobacter_coli', '8021']
+Traceback (most recent call last):
+  File "/home/rayane/repos/Pangenome-Analysis-Workflow/codes/perform_fisher_test_core.py", line 27, in <module>
+    df = df.drop(0)
+         ^^^^^^^^^^
+  File "/home/rayane/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 5568, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "/home/rayane/miniconda3/lib/python3.12/site-packages/pandas/core/generic.py", line 4785, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rayane/miniconda3/lib/python3.12/site-packages/pandas/core/generic.py", line 4827, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rayane/miniconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: '[0] not found in axis'
+
+----- Total Workflow Run-time: 0 seconds-----
