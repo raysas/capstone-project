@@ -6,3 +6,5 @@ data/pangenomes/
 src/__pycache__/
 data/pangenomes/tools/
 pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/Campylobacter_coli_CDS.fasta
+pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campylobacter_coli_CDS.fasta
+updates/april2/FULL_correlation_matrix.csv

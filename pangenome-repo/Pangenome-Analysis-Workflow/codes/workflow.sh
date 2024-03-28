@@ -31,71 +31,71 @@ for file in "$directory"/*.csv; do
 	# Store all ids to loop through them 
     genome_ids=$(tail -n +2 $file)
 
-    # # Store the name that will be used for the CDS fasta file in the variable cds_name
-    # cds_fname=${species_name}"_CDS"
+    # Store the name that will be used for the CDS fasta file in the variable cds_name
+    cds_fname=${species_name}"_CDS"
 
-    # echo "______________________________________________________"
-	# echo
-	# echo "Extracting CDS from Genome IDs of $species_name"
-	# echo "______________________________________________________"
-	# echo
+    echo "______________________________________________________"
+	echo
+	echo "Extracting CDS from Genome IDs of $species_name"
+	echo "______________________________________________________"
+	echo
 
-	# # Keeps track of CDS extraction run-time from all the genome IDs of each species 
-	# cds_time=$(date +%s)
+	# Keeps track of CDS extraction run-time from all the genome IDs of each species 
+	cds_time=$(date +%s)
     
-    # # Loop through each id and concatenate the CDS sequences to one output file for each species 
-    # for id in $genome_ids; do
-    # 	if [ -e "$species_name/$cds_fname.fasta" ]; then
-    # 		echo "Extracting CDS from genome ID $id"
-    # 		p3-genome-fasta --protein $id >> $species_name/$cds_fname.fasta 
-    # 	else
-    # 		echo "Creating new CDS fasta file for $species_name"
-    # 		echo "Extracting CDS from genome ID $id"
-    # 		p3-genome-fasta --protein $id > $species_name/$cds_fname.fasta
-    # 	fi
-    # done
+    # Loop through each id and concatenate the CDS sequences to one output file for each species 
+    for id in $genome_ids; do
+    	if [ -e "$species_name/$cds_fname.fasta" ]; then
+    		echo "Extracting CDS from genome ID $id"
+    		p3-genome-fasta --protein $id >> $species_name/$cds_fname.fasta 
+    	else
+    		echo "Creating new CDS fasta file for $species_name"
+    		echo "Extracting CDS from genome ID $id"
+    		p3-genome-fasta --protein $id > $species_name/$cds_fname.fasta
+    	fi
+    done
 
-    # run_time=$(($(date +%s) - cds_time)) 
-	# echo
-	# echo "----- Total Time for CDS Extraction: $run_time seconds-----"
-	# echo
+    run_time=$(($(date +%s) - cds_time)) 
+	echo
+	echo "----- Total Time for CDS Extraction: $run_time seconds-----"
+	echo
 
-    # # ---------------------Genome Clustering---------------------
+    # ---------------------Genome Clustering---------------------
 
-	# echo "______________________________________________________"
-	# echo
-	# echo "Runnning Genome Clustering Step for $species_name"
-	# echo "______________________________________________________"
-	# echo
+	echo "______________________________________________________"
+	echo
+	echo "Runnning Genome Clustering Step for $species_name"
+	echo "______________________________________________________"
+	echo
 
-	# # Keeps track of the genome clustering run-time 
-	# clustering_time=$(date +%s)
+	# Keeps track of the genome clustering run-time 
+	clustering_time=$(date +%s)
 
-	# # CD-HIT command 
-	# cd-hit -i $species_name/$cds_fname.fasta -o $species_name/$species_name.fasta -n 5 -c 0.8 -aL 0.8 -M 8000
+	# CD-HIT command 
+	cd-hit -i $species_name/$cds_fname.fasta -o $species_name/$species_name.fasta -n 5 -c 0.8 -aL 0.8 -M 8000
 	
-	# run_time=$(($(date +%s) - clustering_time)) 
-	# echo
-	# echo "----- Total Time for Genome Clustering: $run_time seconds-----"
-	# echo
+	run_time=$(($(date +%s) - clustering_time)) 
+	echo
+	echo "----- Total Time for Genome Clustering: $run_time seconds-----"
+	echo
 
-	# # Counts the number of unique genomes in each cluster for later use 
-	# python3 get_frequencies.py $species_name/$species_name.fasta.clstr $species_name
+	# Counts the number of unique genomes in each cluster for later use 
+	python3 get_frequencies.py $species_name/$species_name.fasta.clstr $species_name
 
-	# # ---------------------Frequency-based Division of Pangenome---------------------
+	# ---------------------Frequency-based Division of Pangenome---------------------
 
-	# echo "______________________________________________________"
-	# echo
-	# echo "Runnning Pangenome Construction Step for $species_name"
-	# echo "______________________________________________________"
-	# echo
+	echo "______________________________________________________"
+	echo
+	echo "Runnning Pangenome Construction Step for $species_name"
+	echo "______________________________________________________"
+	echo
 
-	# python3 pangenome_construction.py $species_name
+	python3 pangenome_construction.py $species_name
 
-	# # # ---------------------Functional Annotation eggNOG-mapper ---------------------
+	# # ---------------------Functional Annotation eggNOG-mapper ---------------------
 
-	# # Keeps track of eggNOG-mapper run-time 
-	# eggNOG_time=$(date +%s) 
+	# Keeps track of eggNOG-mapper run-time 
+	eggNOG_time=$(date +%s) 
 
 	echo "______________________________________________________"
 	echo
