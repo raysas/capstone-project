@@ -46,3 +46,16 @@ _soft threshold:_
 | 9     | 0.231    | -2.43 | 0.0863         | 9.42    | 2.60      | 89.6   |
 | 10    | 0.269    | -3.45 | 0.1500         | 9.10    | 2.18      | 89.4   |
 
+```{r}
+> sft$power
+[1] 4
+```
+
+## To do
+
+- [ ] Move from pipeline output to gene absence-presence matrix
+- [ ] Try enrichment analysis
+- [ ] Create networks with different thresholds
+- [ ] Get characteristics of the networks
+- [ ] Read about network diffusion
+- implement a method that takes a graph and a power (or list of powers or automatically the 1st 10) and returns something similar to WGCNA output

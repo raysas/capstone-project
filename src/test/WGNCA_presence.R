@@ -11,10 +11,10 @@ df <- df[,stdevs!=0]
 
 #correlation matrix
 cor_matrix <- cor(df)
-View(cor_matrix)
 
 #soft threshold
 powers = c(1:10)
 sft = pickSoftThreshold(df, powerVector = powers, verbose = 5)
+# TOM = TOMsimilarityFromExpr(df, power = sft$power)
 
 net = blockwiseModules(df, power = sft$power, TOMType = "unsigned", minModuleSize = 30, reassignThreshold = 0, mergeCutHeight = 0.25, numericLabels = TRUE, pamRespectsDendro = FALSE, saveTOMs = TRUE, saveTOMFileBase = "TOM", verbose = 3)
