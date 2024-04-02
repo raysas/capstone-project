@@ -180,8 +180,12 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
     return:
         - stats_df: (pd.DataFrame) dataframe of the stats
     '''
-    largest_cc = max(nx.connected_components(G), key=len)
+    components=nx.connected_components(G)
+    largest_cc = max(components, key=len)
     largest_cc_subgraph = G.subgraph(largest_cc)
+    number_of_components=len(components)
+
+
     if weighted:
         stats = {
             "Network": network_name,
@@ -193,7 +197,8 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
             "cc": nx.average_clustering(G),
             "spath": nx.average_shortest_path_length(largest_cc_subgraph),
             "d": nx.diameter(largest_cc_subgraph),
-            "Q": nx.community.modularity(G, nx.community.louvain_communities(G))
+            "Q": nx.community.modularity(G, nx.community.louvain_communities(G)),
+            '# of components': number_of_components
         }
     else:
         stats = {
@@ -205,7 +210,8 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
             "<cc>": nx.average_clustering(G),
             "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
             "d": nx.diameter(largest_cc_subgraph),
-            "Q": nx.community.modularity(G, nx.community.louvain_communities(G))
+            "Q": nx.community.modularity(G, nx.community.louvain_communities(G)),
+            '# of components': number_of_components
         }
     
     stats_df = pd.DataFrame(stats, index=[0])
