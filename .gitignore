@@ -8,3 +8,4 @@ data/pangenomes/tools/
 pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/Campylobacter_coli_CDS.fasta
 pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campylobacter_coli_CDS.fasta
 updates/april2/FULL_correlation_matrix.csv
+data/graphs/soft_thresholding_4_power_C.coli_ciprofloxacin.gml
