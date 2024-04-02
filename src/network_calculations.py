@@ -204,7 +204,8 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
             "<k>": np.mean(list(dict(G.degree()).values())),
             "<cc>": nx.average_clustering(G),
             "<spath>": nx.average_shortest_path_length(largest_cc_subgraph),
-            "d": nx.diameter(largest_cc_subgraph)
+            "d": nx.diameter(largest_cc_subgraph),
+            "Q": nx.community.modularity(G, nx.community.louvain_communities(G))
         }
     
     stats_df = pd.DataFrame(stats, index=[0])
