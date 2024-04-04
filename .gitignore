@@ -5,7 +5,10 @@ data/pangenomes/*/prokka_output/
 data/pangenomes/
 src/__pycache__/
 data/pangenomes/tools/
-pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/Campylobacter_coli_CDS.fasta
 pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campylobacter_coli_CDS.fasta
+
+# extracted CDS files from the PATRIC - >100MB
+pangenome-repo/Pangenome-Analysis-Workflow/codes/*/*_CDS.fasta 
+
 updates/april2/FULL_correlation_matrix.csv
 data/graphs/soft_thresholding_4_power_C.coli_ciprofloxacin.gml
