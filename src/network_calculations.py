@@ -133,6 +133,8 @@ def _create_RS_presence_stats_matrix(R: pd.DataFrame, S: pd.DataFrame) -> pd.Dat
     S_present=S.sum(axis=1)
     S_absent=S.shape[1]-S_present
 
+    #for each row that has all e
+
     log_odds=np.log((R_present/R_absent)/(S_present/S_absent))
 
     new_df=pd.DataFrame({'R_present':R_present, 'R_absent':R_absent, 'S_present':S_present, 'S_absent':S_absent, 'log_odds':log_odds})
