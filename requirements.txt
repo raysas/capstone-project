@@ -1,6 +1,6 @@
 numpy
 networkx
-pandas
+pandas==1.5.3
 scipy
 matplotlib
 plotly
