@@ -102,7 +102,6 @@ def _label_samples(pheno_df: pd.DataFrame) :
             elif len(sample)==4:
                 sample+='0000'
             U.append(str(sample))
-    return R,S,U
 
 def _create_RS_presence_stats_matrix(R: pd.DataFrame, S: pd.DataFrame) -> pd.DataFrame:
     '''
