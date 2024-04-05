@@ -2,8 +2,13 @@ library(WGCNA)
 
 Rtab_path="data/pangenomes/Campylobacter_coli/roary_pangenome/gene_presence_absence.Rtab"
 df <- read.table(Rtab_path, header=T, row.names=1)
+
+
 df <- t(df)
 dim(df)
+
+csv_file="data/presence_matrices/Campylobacter_coli_presence_absence.csv"
+df <-read.csv(csv_file, header=T, row.names=1)
 
 #removing all cols that are all 1s (no variation <=> st. dev.=0 <=> cor=NaN <=> error :/)
 stdevs <- apply(df, 2, sd)
