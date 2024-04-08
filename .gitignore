@@ -1,3 +1,4 @@
+tools/
 data/genome_summary.csv
 data/genomes/
 data/pangenomes/*/gff_files/
