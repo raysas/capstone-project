@@ -4,6 +4,7 @@ data/genomes/
 data/pangenomes/*/gff_files/
 data/pangenomes/*/prokka_output/
 data/pangenomes/
+data/test/
 src/__pycache__/
 data/pangenomes/tools/
 pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campylobacter_coli_CDS.fasta
