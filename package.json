@@ -1,0 +1,26 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "_date: 1/28/2024 5:23PM_   [_Mendeley paper collection_](https://www.mendeley.com/reference-manager/library/collections/0920c7ef-c6a5-49de-92f5-e77c01a8b5da/all-references/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raysas/capstone-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raysas/capstone-project/issues"
+  },
+  "homepage": "https://github.com/raysas/capstone-project#readme",
+  "dependencies": {
+    "bvbrc_js_client": "^1.0.1"
+  }
+}
