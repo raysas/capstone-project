@@ -224,21 +224,21 @@ def get_network_stats(G:nx.Graph, network_name:str='test', weighted:bool=False)-
 
     return stats_df
 
-def plot_degree_distribution(G:nx.Graph, network_name:str='', weighted:bool=False):
+def plot_degree_distribution(G:nx.Graph, title:str='', weighted:bool=False):
     '''
     Takes a graph and plots the degree distribution
 
     param:
         - G: (nx.Graph) the graph
         - weighted: (bool) whether we want the weighted deg dist
-        - network_name: (str) the name of the network
+        - title: (str) info on the network
 
     return:
         - None
     '''
     if not weighted:
         degrees = [G.degree(n) for n in G.nodes()]
-        plt.hist(degrees, bins=30)
+        plt.hist(degrees, bins=30,color='lightblue')
         plt.title(network_name)
         plt.show()
     else:
