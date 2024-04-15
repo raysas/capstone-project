@@ -1,20 +1,27 @@
-// importing bv brc js client (installed initially using npm install bvbrc-js-client)
-const bvbrc = require('bvbrc-js-client');
+// Include the BV-BRC JavaScript client library
+const BVBRCClient = require('bvbrc_js_client');
 
-const client = new BvbrcApiClient();
+// Instantiate the service with the API endpoint
+const svc = new BVBRCClient("https://patricbrc.org/api");
 
-// function to fetch data
-function fetchData(id) {
-    const url = `https://www.bv-brc.org/api/sp_gene/${id}`;
-    fetch(url)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
-    
-    // print the data
-    console.log(data);
-}
+// Initialize the service with endpoint and token (optional)
+svc.init(endpoint, token);
 
-// Use the function
-fetchData('2e08d6b6-72cc-446a-bf94-b487b7902c55');
+// Example usage of base API methods
+(async () => {
+    try {
+        // Get schema for a data type
+        const schema = await svc.getSchema('genome');
+        console.log('Schema:', schema);
 
+        // Get a single item of a data type (genome in this case)
+        const genome = await svc.get('genome', '227377.26');
+        console.log('Genome:', genome);
+
+        // Query for data using RQL syntax
+        const queryResult = await svc.query('genome', 'eq(genome_id,227377.26)');
+        console.log('Query Result:', queryResult);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+})();
