@@ -66,3 +66,5 @@ Then computed the correlation between gene weights, ending up with a GxG matrix.
 Implemented 200 SVM models without bootstrapping (don't want to take a subset of the data) & without val/test split because hte goal is not prediction (accuracy wont matter, I want to detect interaction), and without SGD as well (no variability).
 
 2. 
+
+![](updates/april17/Screenshot 2024-04-17 123104.png)
