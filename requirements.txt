@@ -1,6 +1,6 @@
 numpy
 networkx
-pandas==1.5.3
+pandas==1.5.3 #important for the pipeline - one of the fucntions is deprecated in the latest version
 scipy
 matplotlib
 plotly
