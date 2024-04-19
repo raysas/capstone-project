@@ -16,3 +16,6 @@ pangenome-repo/Pangenome-Analysis-Workflow/codes/Pseudomonas_aeruginosa/Pseudomo
 
 updates/april2/FULL_correlation_matrix.csv
 data/graphs/soft_thresholding_4_power_C.coli_ciprofloxacin.gml
+
+# large weights file
+data/graphs-5/700_randomized_SVM_weightsCampylobacter_coli_ciprofloxacin.csv

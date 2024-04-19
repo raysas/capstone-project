@@ -94,39 +94,39 @@ for file in "$directory"/*.csv; do
 
 	# ---------------------Functional Annotation eggNOG-mapper ---------------------
 
-	# Keeps track of eggNOG-mapper run-time 
-	eggNOG_time=$(date +%s) 
+# 	# Keeps track of eggNOG-mapper run-time 
+# 	eggNOG_time=$(date +%s) 
 
-	echo "______________________________________________________"
-	echo
-	echo "Runnning eggNOG-mapper Step for $species_name"
-	echo "______________________________________________________"
-	echo
+# 	echo "______________________________________________________"
+# 	echo
+# 	echo "Runnning eggNOG-mapper Step for $species_name"
+# 	echo "______________________________________________________"
+# 	echo
 
-	echo $species_name
+# 	echo $species_name
 
-	emapper.py -i $species_name/$species_name.fasta -o $species_name/$species_name --usemem --cpu 8 --outfmt_short 
+# 	emapper.py -i $species_name/$species_name.fasta -o $species_name/$species_name --usemem --cpu 8 --outfmt_short 
 
-	run_time=$(($(date +%s) - eggNOG_time)) 
-	echo
-	echo "----- Total Run Time for eggNOG-mapper: $run_time seconds-----"
-	echo
+# 	run_time=$(($(date +%s) - eggNOG_time)) 
+# 	echo
+# 	echo "----- Total Run Time for eggNOG-mapper: $run_time seconds-----"
+# 	echo
 	
-	# Extract only COG Category and GO terms and adjust file format 
-	tail -n +5 $species_name/$species_name.emapper.annotations | cut -f 1 -f 7 -f 10 > $species_name/${species_name}_COG_GO.csv
-	python3 adjust_eggNOG_output.py $species_name/${species_name}_COG_GO.csv
+# 	# Extract only COG Category and GO terms and adjust file format 
+# 	tail -n +5 $species_name/$species_name.emapper.annotations | cut -f 1 -f 7 -f 10 > $species_name/${species_name}_COG_GO.csv
+# 	python3 adjust_eggNOG_output.py $species_name/${species_name}_COG_GO.csv
 
-	echo "================================================="
-	echo
-	echo "Building Contingency Table for $species_name"
-	echo
+# 	echo "================================================="
+# 	echo
+# 	echo "Building Contingency Table for $species_name"
+# 	echo
 
-	numb_genes=$(grep -c "^>" $species_name/$species_name.fasta)
-	echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-	echo "Number of genes in $species_name: $numb_genes"
-	echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+# 	numb_genes=$(grep -c "^>" $species_name/$species_name.fasta)
+# 	echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+# 	echo "Number of genes in $species_name: $numb_genes"
+# 	echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
-	python3 perform_fisher_test_core.py $species_name/${species_name}_COG_GO.csv $species_name/$species_name.fasta $species_name/${species_name}_pangenome.csv $species_name $numb_genes
+# 	python3 perform_fisher_test_core.py $species_name/${species_name}_COG_GO.csv $species_name/$species_name.fasta $species_name/${species_name}_pangenome.csv $species_name $numb_genes
 
 done
 
