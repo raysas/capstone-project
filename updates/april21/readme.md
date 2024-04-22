@@ -43,3 +43,12 @@ ValueWarning: covariance of constraints does not have full rank. The number of c
 
 The covariance matrix's rank is not full - there exist dependence between model's parameters.
 Have ignored all those, suppose there is no interaction between these 2 features.
+
+W
+
+## Data
+
+- Running pipeline on 1326 Acinetobacter baumannii samples
+- Best drug to show class balance (50/50) is amikacin with 938 SIR readings
+
+![](../../metadata/phenotypes/class_distribution/Acinetobacter_baumannii/Acinetobacter_baumannii_amikacin.png)
