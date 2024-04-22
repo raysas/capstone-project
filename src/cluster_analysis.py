@@ -194,7 +194,7 @@ def get_representative_products(clstr_fasta_path:str)->pd.DataFrame:
     with open(clstr_fasta_path,'r') as f:
         for line in f.readlines():
             if line.startswith(">"):
-                pattern=">fig.(\d{3}\.\d{4}.peg.\d+) (.+)"
+                pattern=">fig.(\d+\.\d+.peg.\d+) (.+)"
                 gene_representative=re.match(string=line, pattern=pattern).group(1)
                 product_name=re.match(string=line, pattern=pattern).group(2)
                 dict[gene_representative]=product_name
