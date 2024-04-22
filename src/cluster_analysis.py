@@ -371,7 +371,7 @@ def set_node_attributes_by_cluster(df:pd.DataFrame, G:nx.graph):
 
     return G
 
-_output_path='../pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/'
+_output_path='../../pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/'
 
 def set_output_path(path:str):
     '''

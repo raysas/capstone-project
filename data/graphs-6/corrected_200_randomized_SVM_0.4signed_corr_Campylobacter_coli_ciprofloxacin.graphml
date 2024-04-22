@@ -1,0 +1,4186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="node" attr.name="frequency" attr.type="long" />
+  <key id="d2" for="node" attr.name="product_name" attr.type="string" />
+  <key id="d1" for="node" attr.name="pan_gene_class" attr.type="string" />
+  <key id="d0" for="node" attr.name="gene_representative" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Cluster 742">
+      <data key="d0">195.2029.peg.1777</data>
+      <data key="d1">accessory</data>
+      <data key="d2">IncQ plasmid conjugative transfer DNA nicking endonuclease TraR (pTi VirD2 homolog)</data>
+      <data key="d3">114</data>
+    </node>
+    <node id="Cluster 5224">
+      <data key="d0">195.2029.peg.1808</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">114</data>
+    </node>
+    <node id="Cluster 5652">
+      <data key="d0">195.2029.peg.1802</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">114</data>
+    </node>
+    <node id="Cluster 5766">
+      <data key="d0">195.2029.peg.1783</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">112</data>
+    </node>
+    <node id="Cluster 5242">
+      <data key="d0">195.2024.peg.1559</data>
+      <data key="d1">core</data>
+      <data key="d2">Branched-chain amino acid transport protein, putative</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1">
+      <data key="d0">195.2024.peg.1611</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">239</data>
+    </node>
+    <node id="Cluster 916">
+      <data key="d0">195.2028.peg.1792</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Mobile element protein</data>
+      <data key="d3">31</data>
+    </node>
+    <node id="Cluster 172">
+      <data key="d0">195.2024.peg.1612</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Penicillin-insensitive transglycosylase (EC 2.4.2.-) &amp; transpeptidase PBP-1C</data>
+      <data key="d3">248</data>
+    </node>
+    <node id="Cluster 1257">
+      <data key="d0">195.2039.peg.1506</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">245</data>
+    </node>
+    <node id="Cluster 2213">
+      <data key="d0">195.2024.peg.1605</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CAAX amino terminal protease family protein</data>
+      <data key="d3">243</data>
+    </node>
+    <node id="Cluster 4797">
+      <data key="d0">195.2028.peg.1534</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">54</data>
+    </node>
+    <node id="Cluster 7383">
+      <data key="d0">195.2024.peg.1600</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">99</data>
+    </node>
+    <node id="Cluster 1271">
+      <data key="d0">195.2028.peg.1533</data>
+      <data key="d1">unique</data>
+      <data key="d2">Citrate/H+ symporter of CitMHS family</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 314">
+      <data key="d0">195.2027.peg.1181</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Tetracycline resistance, ribosomal protection type =&gt; Tet(O)</data>
+      <data key="d3">190</data>
+    </node>
+    <node id="Cluster 2984">
+      <data key="d0">195.2064.peg.256</data>
+      <data key="d1">accessory</data>
+      <data key="d2">First ORF in transposon ISC1904</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="Cluster 5034">
+      <data key="d0">195.2028.peg.1433</data>
+      <data key="d1">unique</data>
+      <data key="d2">Putative periplasmic protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 6780">
+      <data key="d0">195.2028.peg.1432</data>
+      <data key="d1">unique</data>
+      <data key="d2">Citrate/H+ symporter of CitMHS family</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 1304">
+      <data key="d0">195.2028.peg.1434</data>
+      <data key="d1">unique</data>
+      <data key="d2">Putative periplasmic protein</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 7690">
+      <data key="d0">195.2028.peg.1536</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 111">
+      <data key="d0">195.2031.peg.1398</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Biotin sulfoxide reductase (EC 1.-.-.-) / Free methionine-(S)-sulfoxide reductase</data>
+      <data key="d3">156</data>
+    </node>
+    <node id="Cluster 3413">
+      <data key="d0">195.2024.peg.1603</data>
+      <data key="d1">accessory</data>
+      <data key="d2">putative cytochrome C-type haem-binding periplasmic protein</data>
+      <data key="d3">174</data>
+    </node>
+    <node id="Cluster 150">
+      <data key="d0">195.2187.peg.1561</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)</data>
+      <data key="d3">223</data>
+    </node>
+    <node id="Cluster 5373">
+      <data key="d0">195.2024.peg.181</data>
+      <data key="d1">core</data>
+      <data key="d2">Transformation system protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1778">
+      <data key="d0">195.2033.peg.208</data>
+      <data key="d1">core</data>
+      <data key="d2">Cobalt/zinc/cadmium resistance protein CzcD</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3460">
+      <data key="d0">195.2026.peg.600</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase (EC 3.1.3.82)</data>
+      <data key="d3">126</data>
+    </node>
+    <node id="Cluster 2131">
+      <data key="d0">195.2024.peg.255</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Beta-1,3-galactosyltransferase / Beta-1,4-galactosyltransferase</data>
+      <data key="d3">252</data>
+    </node>
+    <node id="Cluster 1276">
+      <data key="d0">195.2032.peg.1703</data>
+      <data key="d1">unique</data>
+      <data key="d2">8-amino-7-oxononanoate synthase (EC 2.3.1.47)</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 2783">
+      <data key="d0">195.2032.peg.1705</data>
+      <data key="d1">unique</data>
+      <data key="d2">Malonyl-[acyl-carrier protein] O-methyltransferase (EC 2.1.1.197)</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 3194">
+      <data key="d0">195.2032.peg.1704</data>
+      <data key="d1">unique</data>
+      <data key="d2">Pimeloyl-[acyl-carrier protein] methyl ester esterase BioG (EC 3.1.1.85)</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 4956">
+      <data key="d0">195.2024.peg.1647</data>
+      <data key="d1">core</data>
+      <data key="d2">Diacylglycerol kinase (EC 2.7.1.107)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 5">
+      <data key="d0">195.2024.peg.1140</data>
+      <data key="d1">core</data>
+      <data key="d2">Glutamate synthase [NADPH] large chain (EC 1.4.1.13)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 533">
+      <data key="d0">195.2030.peg.707</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Capsular polysaccharide biosynthesis heptosyltransferase HddD</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 2607">
+      <data key="d0">195.2024.peg.1441</data>
+      <data key="d1">core</data>
+      <data key="d2">ABC transporter, ATP-binding protein (cluster 9, phospholipid)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1236">
+      <data key="d0">195.2024.peg.286</data>
+      <data key="d1">core</data>
+      <data key="d2">Putative cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 166">
+      <data key="d0">195.2024.peg.896</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">216</data>
+    </node>
+    <node id="Cluster 4069">
+      <data key="d0">195.2024.peg.1268</data>
+      <data key="d1">core</data>
+      <data key="d2">Lipoprotein signal peptidase (EC 3.4.23.36)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 57">
+      <data key="d0">195.2024.peg.130</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Multidrug efflux system, inner membrane proton/drug antiporter (RND type) =&gt; CmeF</data>
+      <data key="d3">264</data>
+    </node>
+    <node id="Cluster 234">
+      <data key="d0">195.2117.peg.1581</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">158</data>
+    </node>
+    <node id="Cluster 1215">
+      <data key="d0">195.2024.peg.1664</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">140</data>
+    </node>
+    <node id="Cluster 3569">
+      <data key="d0">195.2024.peg.1665</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">143</data>
+    </node>
+    <node id="Cluster 4350">
+      <data key="d0">195.2024.peg.886</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">142</data>
+    </node>
+    <node id="Cluster 125">
+      <data key="d0">195.2054.peg.165</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 1066">
+      <data key="d0">195.2311.peg.546</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Methyl-accepting chemotaxis signal transduction protein</data>
+      <data key="d3">88</data>
+    </node>
+    <node id="Cluster 2548">
+      <data key="d0">195.2026.peg.1793</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="Cluster 1076">
+      <data key="d0">195.2024.peg.528</data>
+      <data key="d1">core</data>
+      <data key="d2">Argininosuccinate synthase (EC 6.3.4.5)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 383">
+      <data key="d0">195.2029.peg.1793</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Coupling protein VirD4, ATPase required for T-DNA transfer</data>
+      <data key="d3">110</data>
+    </node>
+    <node id="Cluster 763">
+      <data key="d0">195.2024.peg.296</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative C4-dicarboxylate transport protein</data>
+      <data key="d3">219</data>
+    </node>
+    <node id="Cluster 1956">
+      <data key="d0">195.2024.peg.139</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Transcriptional regulator, AraC family</data>
+      <data key="d3">222</data>
+    </node>
+    <node id="Cluster 4161">
+      <data key="d0">195.2024.peg.153</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">186</data>
+    </node>
+    <node id="Cluster 4712">
+      <data key="d0">195.2024.peg.844</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">185</data>
+    </node>
+    <node id="Cluster 5261">
+      <data key="d0">195.2159.peg.1774</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">213</data>
+    </node>
+    <node id="Cluster 5762">
+      <data key="d0">195.2024.peg.1135</data>
+      <data key="d1">accessory</data>
+      <data key="d2">4-cresol dehydrogenase [hydroxylating] flavoprotein subunit (EC 1.17.99.1)</data>
+      <data key="d3">182</data>
+    </node>
+    <node id="Cluster 1940">
+      <data key="d0">195.2024.peg.1540</data>
+      <data key="d1">core</data>
+      <data key="d2">4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3221">
+      <data key="d0">195.2311.peg.1549</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">76</data>
+    </node>
+    <node id="Cluster 691">
+      <data key="d0">195.2148.peg.16</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">175</data>
+    </node>
+    <node id="Cluster 3267">
+      <data key="d0">195.2027.peg.940</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Bacteriocin resistance protein; peptidase C39</data>
+      <data key="d3">109</data>
+    </node>
+    <node id="Cluster 6129">
+      <data key="d0">195.2027.peg.942</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">3</data>
+    </node>
+    <node id="Cluster 4893">
+      <data key="d0">195.2027.peg.512</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Dicarboxylate carrier protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 4351">
+      <data key="d0">195.2026.peg.1309</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">127</data>
+    </node>
+    <node id="Cluster 4618">
+      <data key="d0">195.2053.peg.1814</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Arsenical-resistance protein ACR3</data>
+      <data key="d3">33</data>
+    </node>
+    <node id="Cluster 5524">
+      <data key="d0">195.2024.peg.1019</data>
+      <data key="d1">accessory</data>
+      <data key="d2">McrBC restriction endonuclease system, McrB subunit, putative</data>
+      <data key="d3">158</data>
+    </node>
+    <node id="Cluster 5565">
+      <data key="d0">195.2026.peg.1677</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Major antigenic peptide PEB2</data>
+      <data key="d3">49</data>
+    </node>
+    <node id="Cluster 1101">
+      <data key="d0">195.2033.peg.185</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Glycosyl transferase family 8 family</data>
+      <data key="d3">60</data>
+    </node>
+    <node id="Cluster 1249">
+      <data key="d0">195.2024.peg.242</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Beta-1,3-galactosyltransferase / Beta-1,4-galactosyltransferase</data>
+      <data key="d3">201</data>
+    </node>
+    <node id="Cluster 1358">
+      <data key="d0">195.2031.peg.950</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">63</data>
+    </node>
+    <node id="Cluster 3703">
+      <data key="d0">195.2048.peg.1081</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">56</data>
+    </node>
+    <node id="Cluster 6150">
+      <data key="d0">195.2259.peg.369</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">207</data>
+    </node>
+    <node id="Cluster 5044">
+      <data key="d0">195.2158.peg.1137</data>
+      <data key="d1">unique</data>
+      <data key="d2">Methyl-accepting chemotaxis signal transduction protein</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 2519">
+      <data key="d0">195.2026.peg.1529</data>
+      <data key="d1">accessory</data>
+      <data key="d2">3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)</data>
+      <data key="d3">73</data>
+    </node>
+    <node id="Cluster 5547">
+      <data key="d0">195.2158.peg.1131</data>
+      <data key="d1">accessory</data>
+      <data key="d2">McrBC restriction endonuclease system, McrB subunit, putative</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 849">
+      <data key="d0">195.2064.peg.690</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">155</data>
+    </node>
+    <node id="Cluster 4237">
+      <data key="d0">195.2033.peg.190</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">211</data>
+    </node>
+    <node id="Cluster 4315">
+      <data key="d0">195.2024.peg.1136</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">178</data>
+    </node>
+    <node id="Cluster 5033">
+      <data key="d0">195.2026.peg.22</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">82</data>
+    </node>
+    <node id="Cluster 5380">
+      <data key="d0">195.2034.peg.1619</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">31</data>
+    </node>
+    <node id="Cluster 5447">
+      <data key="d0">195.2024.peg.1198</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phosphoglycerate transporter protein PgtP</data>
+      <data key="d3">211</data>
+    </node>
+    <node id="Cluster 5691">
+      <data key="d0">195.2027.peg.1271</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">53</data>
+    </node>
+    <node id="Cluster 6202">
+      <data key="d0">195.2033.peg.371</data>
+      <data key="d1">accessory</data>
+      <data key="d2">membrane protein , putative</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 7508">
+      <data key="d0">195.2024.peg.1421</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">164</data>
+    </node>
+    <node id="Cluster 7776">
+      <data key="d0">195.2027.peg.1270</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">48</data>
+    </node>
+    <node id="Cluster 1186">
+      <data key="d0">195.2174.peg.153</data>
+      <data key="d1">accessory</data>
+      <data key="d2">L-carnitine dehydratase/bile acid-inducible protein F</data>
+      <data key="d3">260</data>
+    </node>
+    <node id="Cluster 797">
+      <data key="d0">195.2027.peg.1587</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 6843">
+      <data key="d0">195.2026.peg.1544</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">181</data>
+    </node>
+    <node id="Cluster 880">
+      <data key="d0">195.2034.peg.406</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Major outer membrane protein</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 1147">
+      <data key="d0">195.2026.peg.498</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Membrane protein</data>
+      <data key="d3">156</data>
+    </node>
+    <node id="Cluster 4769">
+      <data key="d0">195.2046.peg.521</data>
+      <data key="d1">unique</data>
+      <data key="d2">SrpA-related protein</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 4990">
+      <data key="d0">195.2036.peg.1224</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">66</data>
+    </node>
+    <node id="Cluster 5863">
+      <data key="d0">195.2046.peg.520</data>
+      <data key="d1">unique</data>
+      <data key="d2">SrpA-related protein</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 1317">
+      <data key="d0">195.2054.peg.1743</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Legionaminic acid biosynthesis protein PtmG</data>
+      <data key="d3">114</data>
+    </node>
+    <node id="Cluster 2747">
+      <data key="d0">195.2037.peg.1861</data>
+      <data key="d1">unique</data>
+      <data key="d2">Flagellin</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 6570">
+      <data key="d0">195.2037.peg.1870</data>
+      <data key="d1">unique</data>
+      <data key="d2">Flagellin</data>
+      <data key="d3">8</data>
+    </node>
+    <node id="Cluster 1448">
+      <data key="d0">195.2048.peg.306</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Beta-1,3-galactosyltransferase / Beta-1,4-galactosyltransferase</data>
+      <data key="d3">190</data>
+    </node>
+    <node id="Cluster 1543">
+      <data key="d0">195.2027.peg.84</data>
+      <data key="d1">accessory</data>
+      <data key="d2">dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)</data>
+      <data key="d3">226</data>
+    </node>
+    <node id="Cluster 1996">
+      <data key="d0">195.2024.peg.254</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)</data>
+      <data key="d3">225</data>
+    </node>
+    <node id="Cluster 2769">
+      <data key="d0">195.2308.peg.352</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-glycero-alpha-D-manno-heptose 1-phosphate guanylyltransferase (EC 2.7.7.71)</data>
+      <data key="d3">42</data>
+    </node>
+    <node id="Cluster 3328">
+      <data key="d0">195.2104.peg.94</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase (EC 3.1.3.82)</data>
+      <data key="d3">139</data>
+    </node>
+    <node id="Cluster 7802">
+      <data key="d0">195.2024.peg.1018</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">136</data>
+    </node>
+    <node id="Cluster 1920">
+      <data key="d0">195.2027.peg.1590</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">46</data>
+    </node>
+    <node id="Cluster 1784">
+      <data key="d0">195.2027.peg.1156</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Uncharacterized membrane protein, YraQ family</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 4613">
+      <data key="d0">195.2027.peg.1193</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">100</data>
+    </node>
+    <node id="Cluster 2308">
+      <data key="d0">195.2026.peg.1776</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">90</data>
+    </node>
+    <node id="Cluster 6486">
+      <data key="d0">195.2026.peg.722</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Transcriptional regulator, AraC family</data>
+      <data key="d3">45</data>
+    </node>
+    <node id="Cluster 2621">
+      <data key="d0">195.2027.peg.1589</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-4-amino-4,6-dideoxy-alpha-D-acetylglucosamine N-acetyltransferase</data>
+      <data key="d3">47</data>
+    </node>
+    <node id="Cluster 2961">
+      <data key="d0">195.2185.peg.1443</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">89</data>
+    </node>
+    <node id="Cluster 6197">
+      <data key="d0">195.2024.peg.423</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">221</data>
+    </node>
+    <node id="Cluster 6252">
+      <data key="d0">195.2027.peg.1588</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">45</data>
+    </node>
+    <node id="Cluster 5180">
+      <data key="d0">195.2024.peg.1407</data>
+      <data key="d1">core</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 599">
+      <data key="d0">195.2036.peg.1644</data>
+      <data key="d1">unique</data>
+      <data key="d2">Integral membrane protein</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="Cluster 4518">
+      <data key="d0">195.2053.peg.975</data>
+      <data key="d1">accessory</data>
+      <data key="d2">lipopolysaccharide core biosynthesis protein LpsA</data>
+      <data key="d3">129</data>
+    </node>
+    <node id="Cluster 4960">
+      <data key="d0">195.2036.peg.1643</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="Cluster 3726">
+      <data key="d0">195.2037.peg.1810</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 5484">
+      <data key="d0">195.2037.peg.1829</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00471415: hypothetical protein</data>
+      <data key="d3">49</data>
+    </node>
+    <node id="Cluster 3966">
+      <data key="d0">195.2037.peg.1166</data>
+      <data key="d1">unique</data>
+      <data key="d2">Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 244">
+      <data key="d0">195.2153.peg.223</data>
+      <data key="d1">unique</data>
+      <data key="d2">L-glutamine kinase involved in O-methyl phosphoramidate capsule modification</data>
+      <data key="d3">16</data>
+    </node>
+    <node id="Cluster 4647">
+      <data key="d0">195.2174.peg.1668</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470597: hypothetical protein</data>
+      <data key="d3">107</data>
+    </node>
+    <node id="Cluster 5452">
+      <data key="d0">195.2037.peg.1167</data>
+      <data key="d1">unique</data>
+      <data key="d2">Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 1481">
+      <data key="d0">195.2046.peg.1139</data>
+      <data key="d1">unique</data>
+      <data key="d2">Butyryl-CoA dehydrogenase (EC 1.3.8.1)</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 1867">
+      <data key="d0">195.2046.peg.1138</data>
+      <data key="d1">unique</data>
+      <data key="d2">ABC transporter, substrate-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 2522">
+      <data key="d0">195.2046.peg.1136</data>
+      <data key="d1">unique</data>
+      <data key="d2">Taurine transport ATP-binding protein TauB</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 2551">
+      <data key="d0">195.2046.peg.1137</data>
+      <data key="d1">unique</data>
+      <data key="d2">ABC transporter, permease protein (cluster 10, nitrate/sulfonate/bicarbonate)</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 3685">
+      <data key="d0">195.2046.peg.1140</data>
+      <data key="d1">unique</data>
+      <data key="d2">Bll5738 protein</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 4764">
+      <data key="d0">195.2026.peg.1409</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">59</data>
+    </node>
+    <node id="Cluster 6165">
+      <data key="d0">195.2026.peg.1408</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">59</data>
+    </node>
+    <node id="Cluster 1264">
+      <data key="d0">195.2026.peg.656</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">44</data>
+    </node>
+    <node id="Cluster 5528">
+      <data key="d0">195.2024.peg.190</data>
+      <data key="d1">core</data>
+      <data key="d2">Polymer-forming bactofilin</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1507">
+      <data key="d0">195.2048.peg.107</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 338">
+      <data key="d0">195.2060.peg.1541</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 1499">
+      <data key="d0">195.2060.peg.1542</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="Cluster 1822">
+      <data key="d0">195.2060.peg.1540</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="Cluster 6613">
+      <data key="d0">195.2048.peg.95</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">46</data>
+    </node>
+    <node id="Cluster 1306">
+      <data key="d0">195.2201.peg.181</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 1490">
+      <data key="d0">195.2244.peg.1425</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 1984">
+      <data key="d0">195.2151.peg.177</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 6664">
+      <data key="d0">195.2026.peg.795</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">54</data>
+    </node>
+    <node id="Cluster 4200">
+      <data key="d0">195.2172.peg.1140</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 3261">
+      <data key="d0">195.2024.peg.332</data>
+      <data key="d1">core</data>
+      <data key="d2">Hemerythrin domain protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1388">
+      <data key="d0">195.2024.peg.247</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Aminotransferase</data>
+      <data key="d3">191</data>
+    </node>
+    <node id="Cluster 5481">
+      <data key="d0">195.2032.peg.1320</data>
+      <data key="d1">accessory</data>
+      <data key="d2">IncQ plasmid conjugative transfer protein TraG</data>
+      <data key="d3">104</data>
+    </node>
+    <node id="Cluster 2415">
+      <data key="d0">195.2024.peg.282</data>
+      <data key="d1">core</data>
+      <data key="d2">Flagellar biosynthesis protein FliR</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3575">
+      <data key="d0">195.2064.peg.1057</data>
+      <data key="d1">core</data>
+      <data key="d2">putative lipoprotein</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 245">
+      <data key="d0">195.2024.peg.718</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ferric receptor CfrA</data>
+      <data key="d3">222</data>
+    </node>
+    <node id="Cluster 3556">
+      <data key="d0">195.2030.peg.851</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Arsenical-resistance protein ACR3</data>
+      <data key="d3">90</data>
+    </node>
+    <node id="Cluster 3746">
+      <data key="d0">195.2198.peg.170</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Dicarboxylate carrier protein</data>
+      <data key="d3">136</data>
+    </node>
+    <node id="Cluster 7199">
+      <data key="d0">195.2036.peg.718</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00471048: hypothetical protein</data>
+      <data key="d3">40</data>
+    </node>
+    <node id="Cluster 449">
+      <data key="d0">195.2164.peg.1770</data>
+      <data key="d1">accessory</data>
+      <data key="d2">McrBC restriction endonuclease system, McrB subunit, putative</data>
+      <data key="d3">134</data>
+    </node>
+    <node id="Cluster 89">
+      <data key="d0">195.2057.peg.789</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Paralog of flagellar hook protein FlgE</data>
+      <data key="d3">35</data>
+    </node>
+    <node id="Cluster 772">
+      <data key="d0">195.2027.peg.1430</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">210</data>
+    </node>
+    <node id="Cluster 2188">
+      <data key="d0">195.2055.peg.733</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 3704">
+      <data key="d0">195.2055.peg.732</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 634">
+      <data key="d0">195.2036.peg.712</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ferric receptor CfrA</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 2460">
+      <data key="d0">195.2024.peg.1406</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative periplasmic protein</data>
+      <data key="d3">254</data>
+    </node>
+    <node id="Cluster 3177">
+      <data key="d0">195.2053.peg.1475</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ribosomal RNA adenine dimethylase</data>
+      <data key="d3">231</data>
+    </node>
+    <node id="Cluster 4809">
+      <data key="d0">195.2128.peg.427</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ribosomal RNA adenine dimethylase</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 6219">
+      <data key="d0">195.2095.peg.1487</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ribosomal RNA adenine dimethylase</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 759">
+      <data key="d0">195.2027.peg.1682</data>
+      <data key="d1">unique</data>
+      <data key="d2">Biotin sulfoxide reductase (EC 1.-.-.-) / Free methionine-(S)-sulfoxide reductase</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 7466">
+      <data key="d0">195.2027.peg.669</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00469879: hypothetical protein</data>
+      <data key="d3">74</data>
+    </node>
+    <node id="Cluster 2049">
+      <data key="d0">195.2249.peg.754</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Transcriptional regulator, YafY family</data>
+      <data key="d3">241</data>
+    </node>
+    <node id="Cluster 2862">
+      <data key="d0">195.2026.peg.1199</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Transcriptional regulator, YafY family</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="Cluster 5301">
+      <data key="d0">195.2034.peg.1639</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">33</data>
+    </node>
+    <node id="Cluster 6337">
+      <data key="d0">195.2026.peg.1198</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative transcriptional regulator</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="Cluster 793">
+      <data key="d0">195.2048.peg.1305</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">163</data>
+    </node>
+    <node id="Cluster 1541">
+      <data key="d0">195.2026.peg.1524</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-mannose 4,6-dehydratase (EC 4.2.1.47)</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="Cluster 1581">
+      <data key="d0">195.2063.peg.1841</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-glycero-alpha-D-manno-heptose 7-phosphate kinase (EC 2.7.1.168)</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="Cluster 3230">
+      <data key="d0">195.2026.peg.1526</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-sedoheptulose 7-phosphate isomerase (EC 5.3.1.28)</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="Cluster 2000">
+      <data key="d0">195.2036.peg.933</data>
+      <data key="d1">accessory</data>
+      <data key="d2">aminoglycoside 6-adenylyltransferase</data>
+      <data key="d3">116</data>
+    </node>
+    <node id="Cluster 1158">
+      <data key="d0">195.2024.peg.933</data>
+      <data key="d1">core</data>
+      <data key="d2">Putative transporter</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 2393">
+      <data key="d0">195.2024.peg.926</data>
+      <data key="d1">core</data>
+      <data key="d2">Lactam utilization protein LamB</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 3351">
+      <data key="d0">195.2024.peg.932</data>
+      <data key="d1">core</data>
+      <data key="d2">Modulator of drug activity B</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 2713">
+      <data key="d0">195.2024.peg.1530</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00973752: TolA-like membrane protein</data>
+      <data key="d3">113</data>
+    </node>
+    <node id="Cluster 2816">
+      <data key="d0">195.2046.peg.1667</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">22</data>
+    </node>
+    <node id="Cluster 3778">
+      <data key="d0">195.2032.peg.1308</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">89</data>
+    </node>
+    <node id="Cluster 6494">
+      <data key="d0">195.2046.peg.1182</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="Cluster 1813">
+      <data key="d0">195.2071.peg.1830</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">134</data>
+    </node>
+    <node id="Cluster 7231">
+      <data key="d0">195.2024.peg.720</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Citrate lyase beta chain (EC 4.1.3.6)</data>
+      <data key="d3">146</data>
+    </node>
+    <node id="Cluster 1031">
+      <data key="d0">195.2027.peg.1457</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">63</data>
+    </node>
+    <node id="Cluster 4045">
+      <data key="d0">195.2244.peg.1856</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Mobile element protein</data>
+      <data key="d3">65</data>
+    </node>
+    <node id="Cluster 5656">
+      <data key="d0">195.2033.peg.1665</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">30</data>
+    </node>
+    <node id="Cluster 3804">
+      <data key="d0">195.2133.peg.260</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ferric receptor CfrA</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 4735">
+      <data key="d0">195.2024.peg.1369</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">142</data>
+    </node>
+    <node id="Cluster 1929">
+      <data key="d0">195.2026.peg.1244</data>
+      <data key="d1">accessory</data>
+      <data key="d2">aminoglycoside 6-adenylyltransferase</data>
+      <data key="d3">67</data>
+    </node>
+    <node id="Cluster 2719">
+      <data key="d0">195.2034.peg.1459</data>
+      <data key="d1">unique</data>
+      <data key="d2">FIG00469675: hypothetical protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 1932">
+      <data key="d0">195.2063.peg.1229</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="Cluster 6057">
+      <data key="d0">195.2026.peg.522</data>
+      <data key="d1">accessory</data>
+      <data key="d2">putative periplasmic protein</data>
+      <data key="d3">29</data>
+    </node>
+    <node id="Cluster 232">
+      <data key="d0">195.2034.peg.1233</data>
+      <data key="d1">unique</data>
+      <data key="d2">Methyl-accepting chemotaxis protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 294">
+      <data key="d0">195.2056.peg.1223</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Flagellar hook-length control protein FliK</data>
+      <data key="d3">22</data>
+    </node>
+    <node id="Cluster 407">
+      <data key="d0">195.2087.peg.14</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">45</data>
+    </node>
+    <node id="Cluster 901">
+      <data key="d0">195.2034.peg.542</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Dicarboxylate carrier protein</data>
+      <data key="d3">53</data>
+    </node>
+    <node id="Cluster 411">
+      <data key="d0">195.2031.peg.952</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">68</data>
+    </node>
+    <node id="Cluster 6952">
+      <data key="d0">195.2031.peg.949</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00469658: hypothetical protein</data>
+      <data key="d3">68</data>
+    </node>
+    <node id="Cluster 415">
+      <data key="d0">195.2102.peg.12</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Filamentous haemagglutinin domain protein</data>
+      <data key="d3">47</data>
+    </node>
+    <node id="Cluster 5110">
+      <data key="d0">195.2024.peg.1007</data>
+      <data key="d1">core</data>
+      <data key="d2">UPF0102 protein YraN</data>
+      <data key="d3">267</data>
+    </node>
+    <node id="Cluster 651">
+      <data key="d0">195.2034.peg.80</data>
+      <data key="d1">unique</data>
+      <data key="d2">Membrane protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 5422">
+      <data key="d0">195.2241.peg.1465</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">64</data>
+    </node>
+    <node id="Cluster 5531">
+      <data key="d0">195.2033.peg.1170</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Channel-forming transporter/cytolysins activator of TpsB family</data>
+      <data key="d3">88</data>
+    </node>
+    <node id="Cluster 1675">
+      <data key="d0">195.2048.peg.1476</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Predicted glycosyltransferase involved in capsule biosynthesis</data>
+      <data key="d3">52</data>
+    </node>
+    <node id="Cluster 2920">
+      <data key="d0">195.2024.peg.1368</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">168</data>
+    </node>
+    <node id="Cluster 2250">
+      <data key="d0">195.2110.peg.1723</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">36</data>
+    </node>
+    <node id="Cluster 3019">
+      <data key="d0">195.2162.peg.1761</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative transferase</data>
+      <data key="d3">75</data>
+    </node>
+    <node id="Cluster 2378">
+      <data key="d0">195.2024.peg.1205</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Class D beta-lactamase (EC 3.5.2.6) =&gt; OXA-61 family</data>
+      <data key="d3">250</data>
+    </node>
+    <node id="Cluster 2542">
+      <data key="d0">195.2024.peg.341</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">159</data>
+    </node>
+    <node id="Cluster 5032">
+      <data key="d0">195.2024.peg.1178</data>
+      <data key="d1">accessory</data>
+      <data key="d2">probable periplasmic protein Cj0413 , putative</data>
+      <data key="d3">195</data>
+    </node>
+    <node id="Cluster 7194">
+      <data key="d0">195.2024.peg.106</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">175</data>
+    </node>
+    <node id="Cluster 7563">
+      <data key="d0">195.2053.peg.1084</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 2450">
+      <data key="d0">195.2051.peg.291</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Beta-1,4-galactosyltransferase</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 3227">
+      <data key="d0">195.2024.peg.448</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Similar to imidazole glycerol phosphate synthase amidotransferase subunit (LPS cluster)</data>
+      <data key="d3">259</data>
+    </node>
+    <node id="Cluster 3409">
+      <data key="d0">195.2024.peg.893</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Hypothetical protein Cj1505c</data>
+      <data key="d3">256</data>
+    </node>
+    <node id="Cluster 1146">
+      <data key="d0">195.2024.peg.950</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative transporter</data>
+      <data key="d3">183</data>
+    </node>
+    <node id="Cluster 1688">
+      <data key="d0">195.2024.peg.243</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Capsular polysaccharide synthesis protein</data>
+      <data key="d3">189</data>
+    </node>
+    <node id="Cluster 1733">
+      <data key="d0">195.2067.peg.1445</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">196</data>
+    </node>
+    <node id="Cluster 1825">
+      <data key="d0">195.2151.peg.1068</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470547: hypothetical protein</data>
+      <data key="d3">189</data>
+    </node>
+    <node id="Cluster 1949">
+      <data key="d0">195.2024.peg.1177</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">207</data>
+    </node>
+    <node id="Cluster 2406">
+      <data key="d0">195.2138.peg.1062</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">185</data>
+    </node>
+    <node id="Cluster 5856">
+      <data key="d0">195.2024.peg.340</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">178</data>
+    </node>
+    <node id="Cluster 7632">
+      <data key="d0">195.2024.peg.897</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">210</data>
+    </node>
+    <node id="Cluster 3417">
+      <data key="d0">195.2034.peg.1232</data>
+      <data key="d1">unique</data>
+      <data key="d2">Hypothetical protein Cj1505c</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 3937">
+      <data key="d0">195.2024.peg.1371</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">201</data>
+    </node>
+    <node id="Cluster 4691">
+      <data key="d0">195.2033.peg.49</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">58</data>
+    </node>
+    <node id="Cluster 3807">
+      <data key="d0">195.2201.peg.538</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Integral membrane protein</data>
+      <data key="d3">201</data>
+    </node>
+    <node id="Cluster 492">
+      <data key="d0">195.2026.peg.1150</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Channel-forming transporter/cytolysins activator of TpsB family</data>
+      <data key="d3">95</data>
+    </node>
+    <node id="Cluster 1033">
+      <data key="d0">195.2031.peg.1204</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">95</data>
+    </node>
+    <node id="Cluster 2226">
+      <data key="d0">195.2061.peg.165</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">260</data>
+    </node>
+    <node id="Cluster 2550">
+      <data key="d0">195.2031.peg.1313</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Major antigenic peptide PEB2</data>
+      <data key="d3">201</data>
+    </node>
+    <node id="Cluster 6029">
+      <data key="d0">195.2156.peg.446</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Inner membrane protein YihN</data>
+      <data key="d3">162</data>
+    </node>
+    <node id="Cluster 7384">
+      <data key="d0">195.2024.peg.1422</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">162</data>
+    </node>
+    <node id="Cluster 1368">
+      <data key="d0">195.2034.peg.1642</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">156</data>
+    </node>
+    <node id="Cluster 3987">
+      <data key="d0">195.2036.peg.717</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00471048: hypothetical protein</data>
+      <data key="d3">44</data>
+    </node>
+    <node id="Cluster 4925">
+      <data key="d0">195.2033.peg.98</data>
+      <data key="d1">accessory</data>
+      <data key="d2">VgrG protein</data>
+      <data key="d3">194</data>
+    </node>
+    <node id="Cluster 4959">
+      <data key="d0">195.2034.peg.1247</data>
+      <data key="d1">unique</data>
+      <data key="d2">AgrC, putative</data>
+      <data key="d3">20</data>
+    </node>
+    <node id="Cluster 5116">
+      <data key="d0">195.2034.peg.1620</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 5604">
+      <data key="d0">195.2034.peg.838</data>
+      <data key="d1">unique</data>
+      <data key="d2">conserved hypothetical protein</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 7246">
+      <data key="d0">195.2114.peg.1238</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">58</data>
+    </node>
+    <node id="Cluster 5941">
+      <data key="d0">195.2034.peg.839</data>
+      <data key="d1">unique</data>
+      <data key="d2">Helix-turn-helix domain protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 6254">
+      <data key="d0">195.2034.peg.837</data>
+      <data key="d1">unique</data>
+      <data key="d2">Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 6255">
+      <data key="d0">195.2034.peg.81</data>
+      <data key="d1">unique</data>
+      <data key="d2">Putative periplasmic protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 6777">
+      <data key="d0">195.2027.peg.1575</data>
+      <data key="d1">accessory</data>
+      <data key="d2">3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="Cluster 6782">
+      <data key="d0">195.2033.peg.1933</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="Cluster 4099">
+      <data key="d0">195.2276.peg.675</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">30</data>
+    </node>
+    <node id="Cluster 5927">
+      <data key="d0">195.2184.peg.746</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">222</data>
+    </node>
+    <node id="Cluster 7593">
+      <data key="d0">195.2026.peg.1637</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470572: hypothetical protein</data>
+      <data key="d3">32</data>
+    </node>
+    <node id="Cluster 148">
+      <data key="d0">195.2024.peg.515</data>
+      <data key="d1">accessory</data>
+      <data key="d2">L-glutamine kinase involved in O-methyl phosphoramidate capsule modification</data>
+      <data key="d3">211</data>
+    </node>
+    <node id="Cluster 1763">
+      <data key="d0">195.2026.peg.1791</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">112</data>
+    </node>
+    <node id="Cluster 3376">
+      <data key="d0">195.2187.peg.1636</data>
+      <data key="d1">accessory</data>
+      <data key="d2">lipopolysaccharide core biosynthesis protein LpsA</data>
+      <data key="d3">89</data>
+    </node>
+    <node id="Cluster 2069">
+      <data key="d0">195.2069.peg.1182</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00973752: TolA-like membrane protein</data>
+      <data key="d3">109</data>
+    </node>
+    <node id="Cluster 1243">
+      <data key="d0">195.2024.peg.1495</data>
+      <data key="d1">core</data>
+      <data key="d2">Uncharacterized MFS-type transporter</data>
+      <data key="d3">267</data>
+    </node>
+    <node id="Cluster 5209">
+      <data key="d0">195.2069.peg.1818</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00973752: TolA-like membrane protein</data>
+      <data key="d3">65</data>
+    </node>
+    <node id="Cluster 5267">
+      <data key="d0">195.2286.peg.1381</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">55</data>
+    </node>
+    <node id="Cluster 7259">
+      <data key="d0">195.2031.peg.1809</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470567: hypothetical protein</data>
+      <data key="d3">55</data>
+    </node>
+    <node id="Cluster 1079">
+      <data key="d0">195.2033.peg.187</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="Cluster 1322">
+      <data key="d0">195.2033.peg.189</data>
+      <data key="d1">accessory</data>
+      <data key="d2">UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="Cluster 1753">
+      <data key="d0">195.2033.peg.188</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="Cluster 2773">
+      <data key="d0">195.2024.peg.342</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">147</data>
+    </node>
+    <node id="Cluster 1713">
+      <data key="d0">195.2034.peg.1288</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Catalase-like heme-binding protein</data>
+      <data key="d3">35</data>
+    </node>
+    <node id="Cluster 7364">
+      <data key="d0">195.2122.peg.1452</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="Cluster 2581">
+      <data key="d0">195.2024.peg.1063</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">248</data>
+    </node>
+    <node id="Cluster 5036">
+      <data key="d0">195.2034.peg.1521</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">47</data>
+    </node>
+    <node id="Cluster 6214">
+      <data key="d0">195.2063.peg.403</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phosphoglycerate transporter protein PgtP</data>
+      <data key="d3">80</data>
+    </node>
+    <node id="Cluster 76">
+      <data key="d0">195.2027.peg.966</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">36</data>
+    </node>
+    <node id="Cluster 629">
+      <data key="d0">195.2194.peg.1106</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Type I restriction-modification system, DNA-methyltransferase subunit M (EC 2.1.1.72)</data>
+      <data key="d3">260</data>
+    </node>
+    <node id="Cluster 2262">
+      <data key="d0">195.2034.peg.786</data>
+      <data key="d1">accessory</data>
+      <data key="d2">DnaJ-related protein</data>
+      <data key="d3">88</data>
+    </node>
+    <node id="Cluster 3107">
+      <data key="d0">195.2048.peg.1512</data>
+      <data key="d1">accessory</data>
+      <data key="d2">DnaJ-related protein</data>
+      <data key="d3">175</data>
+    </node>
+    <node id="Cluster 4408">
+      <data key="d0">195.2024.peg.953</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Arsenate reductase (EC 1.20.4.4) thioredoxin-coupled, LMWP family</data>
+      <data key="d3">260</data>
+    </node>
+    <node id="Cluster 5269">
+      <data key="d0">195.2024.peg.952</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Arsenical resistance operon repressor</data>
+      <data key="d3">260</data>
+    </node>
+    <node id="Cluster 1752">
+      <data key="d0">195.2027.peg.961</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 2734">
+      <data key="d0">195.2024.peg.964</data>
+      <data key="d1">core</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">265</data>
+    </node>
+    <node id="Cluster 4051">
+      <data key="d0">195.2024.peg.1360</data>
+      <data key="d1">accessory</data>
+      <data key="d2">glcG protein</data>
+      <data key="d3">186</data>
+    </node>
+    <node id="Cluster 3478">
+      <data key="d0">195.2024.peg.257</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-sedoheptulose 7-phosphate isomerase (EC 5.3.1.28)</data>
+      <data key="d3">264</data>
+    </node>
+    <node id="Cluster 4983">
+      <data key="d0">195.2024.peg.1328</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)</data>
+      <data key="d3">214</data>
+    </node>
+    <node id="Cluster 7195">
+      <data key="d0">195.2024.peg.1686</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">227</data>
+    </node>
+    <node id="Cluster 7631">
+      <data key="d0">195.2024.peg.609</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">155</data>
+    </node>
+    <node id="Cluster 1284">
+      <data key="d0">195.2027.peg.872</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative large exoprotein involved in heme utilization or adhesion of ShlA/HecA/FhaA family</data>
+      <data key="d3">76</data>
+    </node>
+    <node id="Cluster 1386">
+      <data key="d0">195.2301.peg.1126</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative large exoprotein involved in heme utilization or adhesion of ShlA/HecA/FhaA family</data>
+      <data key="d3">75</data>
+    </node>
+    <node id="Cluster 2367">
+      <data key="d0">195.2027.peg.1005</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Cytolethal distending toxin subunit A</data>
+      <data key="d3">71</data>
+    </node>
+    <node id="Cluster 7068">
+      <data key="d0">195.2024.peg.204</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">234</data>
+    </node>
+    <node id="Cluster 1004">
+      <data key="d0">195.2038.peg.1106</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Major outer membrane protein</data>
+      <data key="d3">203</data>
+    </node>
+    <node id="Cluster 7301">
+      <data key="d0">195.2024.peg.610</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Conjugative transfer protein TrbL</data>
+      <data key="d3">230</data>
+    </node>
+    <node id="Cluster 2635">
+      <data key="d0">195.2024.peg.969</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">234</data>
+    </node>
+    <node id="Cluster 2638">
+      <data key="d0">195.2034.peg.809</data>
+      <data key="d1">accessory</data>
+      <data key="d2">probable periplasmic protein Cj0413 , putative</data>
+      <data key="d3">32</data>
+    </node>
+    <node id="Cluster 5936">
+      <data key="d0">195.2024.peg.725</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Dicarboxylate carrier protein</data>
+      <data key="d3">179</data>
+    </node>
+    <node id="Cluster 4184">
+      <data key="d0">195.2024.peg.183</data>
+      <data key="d1">core</data>
+      <data key="d2">Probable periplasmic protein Cj1079</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 60">
+      <data key="d0">195.2063.peg.1276</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CRISPR-associated endonuclease Cas9</data>
+      <data key="d3">72</data>
+    </node>
+    <node id="Cluster 75">
+      <data key="d0">195.2024.peg.900</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Formate dehydrogenase-O, major subunit (EC 1.2.1.2) @ selenocysteine-containing</data>
+      <data key="d3">250</data>
+    </node>
+    <node id="Cluster 2650">
+      <data key="d0">195.2028.peg.529</data>
+      <data key="d1">unique</data>
+      <data key="d2">Putative formate dehydrogenase-specific chaperone</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 2712">
+      <data key="d0">195.2024.peg.902</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative formate dehydrogenase-specific chaperone</data>
+      <data key="d3">254</data>
+    </node>
+    <node id="Cluster 3595">
+      <data key="d0">195.2028.peg.527</data>
+      <data key="d1">unique</data>
+      <data key="d2">Formate dehydrogenase-O, major subunit (EC 1.2.1.2) @ selenocysteine-containing</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="Cluster 5570">
+      <data key="d0">195.2028.peg.539</data>
+      <data key="d1">unique</data>
+      <data key="d2">C4-dicarboxylate anaerobic carrier, putative</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 6674">
+      <data key="d0">195.2060.peg.1695</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Formate dehydrogenase subunit or accessory protein</data>
+      <data key="d3">254</data>
+    </node>
+    <node id="Cluster 6730">
+      <data key="d0">195.2028.peg.528</data>
+      <data key="d1">unique</data>
+      <data key="d2">Formate dehydrogenase subunit or accessory protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 7341">
+      <data key="d0">195.2028.peg.538</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 1957">
+      <data key="d0">195.2026.peg.1285</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CRISPR-associated protein Cas1</data>
+      <data key="d3">72</data>
+    </node>
+    <node id="Cluster 4337">
+      <data key="d0">195.2026.peg.1286</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CRISPR-associated protein Cas2</data>
+      <data key="d3">73</data>
+    </node>
+    <node id="Cluster 5971">
+      <data key="d0">195.2028.peg.1459</data>
+      <data key="d1">unique</data>
+      <data key="d2">Ferric siderophore transport system, biopolymer transport protein ExbB</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 6779">
+      <data key="d0">195.2028.peg.540</data>
+      <data key="d1">unique</data>
+      <data key="d2">C4-dicarboxylate anaerobic carrier, putative</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 3676">
+      <data key="d0">195.2249.peg.1067</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Tgh102</data>
+      <data key="d3">140</data>
+    </node>
+    <node id="Cluster 4157">
+      <data key="d0">195.2249.peg.1128</data>
+      <data key="d1">accessory</data>
+      <data key="d2">AgrC, putative</data>
+      <data key="d3">122</data>
+    </node>
+    <node id="Cluster 110">
+      <data key="d0">195.2207.peg.919</data>
+      <data key="d1">unique</data>
+      <data key="d2">Formate dehydrogenase-O, major subunit (EC 1.2.1.2) @ selenocysteine-containing</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 168">
+      <data key="d0">195.2121.peg.679</data>
+      <data key="d1">unique</data>
+      <data key="d2">Formate dehydrogenase-O, major subunit (EC 1.2.1.2) @ selenocysteine-containing</data>
+      <data key="d3">8</data>
+    </node>
+    <node id="Cluster 4135">
+      <data key="d0">195.2258.peg.1651</data>
+      <data key="d1">accessory</data>
+      <data key="d2">TM2 domain family</data>
+      <data key="d3">261</data>
+    </node>
+    <node id="Cluster 3543">
+      <data key="d0">195.2033.peg.1687</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">45</data>
+    </node>
+    <node id="Cluster 4470">
+      <data key="d0">195.2046.peg.1668</data>
+      <data key="d1">unique</data>
+      <data key="d2">helicase, Snf2 family</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 3388">
+      <data key="d0">195.2024.peg.252</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Galactoside O-acetyltransferase( EC:2.3.1.79 )</data>
+      <data key="d3">168</data>
+    </node>
+    <node id="Cluster 202">
+      <data key="d0">195.2025.peg.1542</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative large exoprotein involved in heme utilization or adhesion of ShlA/HecA/FhaA family</data>
+      <data key="d3">177</data>
+    </node>
+    <node id="Cluster 3756">
+      <data key="d0">195.2024.peg.203</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">159</data>
+    </node>
+    <node id="Cluster 4447">
+      <data key="d0">195.2024.peg.251</data>
+      <data key="d1">accessory</data>
+      <data key="d2">unknown</data>
+      <data key="d3">199</data>
+    </node>
+    <node id="Cluster 7387">
+      <data key="d0">195.2027.peg.1010</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phosphoglycerate transporter protein PgtP</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 3057">
+      <data key="d0">195.2024.peg.202</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">159</data>
+    </node>
+    <node id="Cluster 1624">
+      <data key="d0">195.2148.peg.104</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Glycosyl transferase, group 2 family protein</data>
+      <data key="d3">176</data>
+    </node>
+    <node id="Cluster 1247">
+      <data key="d0">195.2038.peg.1542</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 4468">
+      <data key="d0">195.2038.peg.572</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 2258">
+      <data key="d0">195.2024.peg.949</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">179</data>
+    </node>
+    <node id="Cluster 3262">
+      <data key="d0">195.2024.peg.1193</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Cytolethal distending toxin subunit A</data>
+      <data key="d3">197</data>
+    </node>
+    <node id="Cluster 7509">
+      <data key="d0">195.2024.peg.1133</data>
+      <data key="d1">accessory</data>
+      <data key="d2">4-cresol dehydrogenase [hydroxylating] flavoprotein subunit (EC 1.17.99.1)</data>
+      <data key="d3">185</data>
+    </node>
+    <node id="Cluster 5204">
+      <data key="d0">195.2039.peg.1300</data>
+      <data key="d1">unique</data>
+      <data key="d2">Arsenical-resistance protein ACR3</data>
+      <data key="d3">8</data>
+    </node>
+    <node id="Cluster 6379">
+      <data key="d0">195.2026.peg.1388</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">41</data>
+    </node>
+    <node id="Cluster 80">
+      <data key="d0">195.2029.peg.1806</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Inner membrane protein forms channel for type IV secretion of T-DNA complex, VirB3 / ATPase required for both assembly of type IV secretion complex and secretion of T-DNA complex, VirB4</data>
+      <data key="d3">108</data>
+    </node>
+    <node id="Cluster 1018">
+      <data key="d0">195.2024.peg.545</data>
+      <data key="d1">core</data>
+      <data key="d2">Two-component system response regulator protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 783">
+      <data key="d0">195.2030.peg.704</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Mannose-1-phosphate guanylyltransferase (EC 2.7.7.13) / Mannose-6-phosphate isomerase (EC 5.3.1.8)</data>
+      <data key="d3">70</data>
+    </node>
+    <node id="Cluster 6989">
+      <data key="d0">195.2094.peg.1451</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 4280">
+      <data key="d0">195.2026.peg.1480</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">72</data>
+    </node>
+    <node id="Cluster 2809">
+      <data key="d0">195.2024.peg.1322</data>
+      <data key="d1">accessory</data>
+      <data key="d2">SrpA-related protein</data>
+      <data key="d3">254</data>
+    </node>
+    <node id="Cluster 3304">
+      <data key="d0">195.2060.peg.835</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Bacteriocin resistance protein; peptidase C39</data>
+      <data key="d3">184</data>
+    </node>
+    <node id="Cluster 4256">
+      <data key="d0">195.2024.peg.1529</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">173</data>
+    </node>
+    <node id="Cluster 3324">
+      <data key="d0">195.2024.peg.182</data>
+      <data key="d1">core</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 6845">
+      <data key="d0">195.2029.peg.1785</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">109</data>
+    </node>
+    <node id="Cluster 2469">
+      <data key="d0">195.2299.peg.1964</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">256</data>
+    </node>
+    <node id="Cluster 4236">
+      <data key="d0">195.2033.peg.864</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">19</data>
+    </node>
+    <node id="Cluster 433">
+      <data key="d0">195.2270.peg.1107</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">58</data>
+    </node>
+    <node id="Cluster 484">
+      <data key="d0">195.2026.peg.1367</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 576">
+      <data key="d0">195.2026.peg.1379</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 883">
+      <data key="d0">195.2182.peg.1103</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 915">
+      <data key="d0">195.2026.peg.1381</data>
+      <data key="d1">accessory</data>
+      <data key="d2">terminase B protein, putative</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 1519">
+      <data key="d0">195.2308.peg.1677</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">60</data>
+    </node>
+    <node id="Cluster 1529">
+      <data key="d0">195.2026.peg.1370</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 2076">
+      <data key="d0">195.2026.peg.1399</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 2451">
+      <data key="d0">195.2053.peg.1381</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Adenine-specific methyltransferase (EC 2.1.1.72)</data>
+      <data key="d3">53</data>
+    </node>
+    <node id="Cluster 2560">
+      <data key="d0">195.2026.peg.1400</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 2561">
+      <data key="d0">195.2026.peg.1389</data>
+      <data key="d1">accessory</data>
+      <data key="d2">phage repressor protein, putative</data>
+      <data key="d3">40</data>
+    </node>
+    <node id="Cluster 2746">
+      <data key="d0">195.2026.peg.1401</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">60</data>
+    </node>
+    <node id="Cluster 2996">
+      <data key="d0">195.2026.peg.1377</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 2997">
+      <data key="d0">195.2026.peg.1384</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 3062">
+      <data key="d0">195.2063.peg.1730</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 4052">
+      <data key="d0">195.2026.peg.798</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 4124">
+      <data key="d0">195.2026.peg.797</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 4431">
+      <data key="d0">195.2085.peg.1374</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 4542">
+      <data key="d0">195.2026.peg.1369</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 4688">
+      <data key="d0">195.2026.peg.1382</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 4739">
+      <data key="d0">195.2026.peg.1383</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 4740">
+      <data key="d0">195.2026.peg.1376</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 4741">
+      <data key="d0">195.2026.peg.799</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00471942: hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 5622">
+      <data key="d0">195.2026.peg.1402</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 5688">
+      <data key="d0">195.2026.peg.1380</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 5689">
+      <data key="d0">195.2026.peg.1394</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 5724">
+      <data key="d0">195.2026.peg.1396</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 5858">
+      <data key="d0">195.2026.peg.1397</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 6566">
+      <data key="d0">195.2026.peg.1378</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 6698">
+      <data key="d0">195.2026.peg.1368</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 1858">
+      <data key="d0">195.2039.peg.1346</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">22</data>
+    </node>
+    <node id="Cluster 3095">
+      <data key="d0">195.2048.peg.126</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">24</data>
+    </node>
+    <node id="Cluster 1691">
+      <data key="d0">195.2064.peg.650</data>
+      <data key="d1">unique</data>
+      <data key="d2">Capsular polysaccharide synthesis protein</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 6884">
+      <data key="d0">195.2033.peg.865</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Hypothetical protein pVir0042</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="Cluster 1912">
+      <data key="d0">195.2172.peg.1836</data>
+      <data key="d1">unique</data>
+      <data key="d2">CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase (EC 2.4.99.-)</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 1869">
+      <data key="d0">195.2080.peg.1853</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">23</data>
+    </node>
+    <node id="Cluster 3600">
+      <data key="d0">195.2122.peg.960</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Pentapeptide repeat family protein</data>
+      <data key="d3">25</data>
+    </node>
+    <node id="Cluster 2369">
+      <data key="d0">195.2063.peg.1874</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 3117">
+      <data key="d0">195.2314.peg.348</data>
+      <data key="d1">unique</data>
+      <data key="d2">Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34)</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 5057">
+      <data key="d0">195.2063.peg.1872</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 5698">
+      <data key="d0">195.2063.peg.1875</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 6670">
+      <data key="d0">195.2039.peg.1575</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 6764">
+      <data key="d0">195.2063.peg.1873</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 7395">
+      <data key="d0">195.2063.peg.1876</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 394">
+      <data key="d0">195.2244.peg.1775</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">117</data>
+    </node>
+    <node id="Cluster 6380">
+      <data key="d0">195.2029.peg.1813</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">117</data>
+    </node>
+    <node id="Cluster 7076">
+      <data key="d0">195.2046.peg.414</data>
+      <data key="d1">accessory</data>
+      <data key="d2">VgrG protein</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 2201">
+      <data key="d0">195.2046.peg.1708</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="Cluster 6342">
+      <data key="d0">195.2046.peg.1472</data>
+      <data key="d1">unique</data>
+      <data key="d2">Methyl-accepting chemotaxis signal transduction protein</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="Cluster 7698">
+      <data key="d0">195.2046.peg.1709</data>
+      <data key="d1">unique</data>
+      <data key="d2">FIG00470572: hypothetical protein</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="Cluster 1099">
+      <data key="d0">195.2025.peg.784</data>
+      <data key="d1">unique</data>
+      <data key="d2">Type I restriction-modification system, specificity subunit S</data>
+      <data key="d3">18</data>
+    </node>
+    <node id="Cluster 841">
+      <data key="d0">195.2025.peg.1656</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 1982">
+      <data key="d0">195.2025.peg.1654</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 2440">
+      <data key="d0">195.2024.peg.514</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Methyltransferase (EC 2.1.1.-), possibly involved in O-methyl phosphoramidate capsule modification</data>
+      <data key="d3">236</data>
+    </node>
+    <node id="Cluster 3737">
+      <data key="d0">195.2024.peg.510</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Cytidine diphosphoramidate kinase Cj1415</data>
+      <data key="d3">237</data>
+    </node>
+    <node id="Cluster 123">
+      <data key="d0">195.2084.peg.1459</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phage tail length tape-measure protein GpT</data>
+      <data key="d3">93</data>
+    </node>
+    <node id="Cluster 1654">
+      <data key="d0">195.2046.peg.1131</data>
+      <data key="d1">core</data>
+      <data key="d2">Enterochelin uptake periplasmic binding protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1701">
+      <data key="d0">195.2028.peg.23</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phage tail formation protein GpD</data>
+      <data key="d3">114</data>
+    </node>
+    <node id="Cluster 6502">
+      <data key="d0">195.2118.peg.1205</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 7169">
+      <data key="d0">195.2065.peg.1733</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00472875: hypothetical protein</data>
+      <data key="d3">25</data>
+    </node>
+    <node id="Cluster 135">
+      <data key="d0">195.2179.peg.889</data>
+      <data key="d1">core</data>
+      <data key="d2">[Protein-PII] uridylyltransferase (EC 2.7.7.59) / [Protein-PII]-UMP uridylyl-removing enzyme</data>
+      <data key="d3">267</data>
+    </node>
+    <node id="Cluster 5602">
+      <data key="d0">195.2029.peg.1775</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">110</data>
+    </node>
+    <node id="Cluster 4450">
+      <data key="d0">195.2024.peg.42</data>
+      <data key="d1">core</data>
+      <data key="d2">Copper metallochaperone PCu(A)C, inserts Cu(I) into cytochrome oxidase subunit II</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3480">
+      <data key="d0">195.2037.peg.638</data>
+      <data key="d1">unique</data>
+      <data key="d2">Possible sugar transferase</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="Cluster 1274">
+      <data key="d0">195.2024.peg.1212</data>
+      <data key="d1">accessory</data>
+      <data key="d2">8-amino-7-oxononanoate synthase (EC 2.3.1.47)</data>
+      <data key="d3">262</data>
+    </node>
+    <node id="Cluster 2784">
+      <data key="d0">195.2036.peg.385</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative efflux pump</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 3092">
+      <data key="d0">195.2032.peg.1223</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Putative efflux pump</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 3188">
+      <data key="d0">195.2024.peg.1211</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Pimeloyl-[acyl-carrier protein] methyl ester esterase BioG (EC 3.1.1.85)</data>
+      <data key="d3">262</data>
+    </node>
+    <node id="Cluster 3207">
+      <data key="d0">195.2024.peg.368</data>
+      <data key="d1">core</data>
+      <data key="d2">SAM-dependent methyltransferase</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 4254">
+      <data key="d0">195.2024.peg.1232</data>
+      <data key="d1">core</data>
+      <data key="d2">Tricarboxylate transport protein TctB</data>
+      <data key="d3">265</data>
+    </node>
+    <node id="Cluster 1415">
+      <data key="d0">195.2025.peg.783</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Fic family protein MloA</data>
+      <data key="d3">234</data>
+    </node>
+    <node id="Cluster 1550">
+      <data key="d0">195.2024.peg.954</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Arsenical-resistance protein ACR3</data>
+      <data key="d3">120</data>
+    </node>
+    <node id="Cluster 1907">
+      <data key="d0">195.2024.peg.951</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Uncharacterized membrane protein, YraQ family</data>
+      <data key="d3">138</data>
+    </node>
+    <node id="Cluster 3789">
+      <data key="d0">195.2024.peg.944</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Uncharacterized NAD(P)H oxidoreductase, YdeQ/YrkL/YwrO family</data>
+      <data key="d3">217</data>
+    </node>
+    <node id="Cluster 2684">
+      <data key="d0">195.2031.peg.642</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 4125">
+      <data key="d0">195.2031.peg.640</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 3161">
+      <data key="d0">195.2024.peg.1521</data>
+      <data key="d1">core</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 4386">
+      <data key="d0">195.2086.peg.283</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">219</data>
+    </node>
+    <node id="Cluster 282">
+      <data key="d0">195.2058.peg.414</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Methyl-accepting chemotaxis signal transduction protein</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="Cluster 3418">
+      <data key="d0">195.2046.peg.741</data>
+      <data key="d1">unique</data>
+      <data key="d2">Putative periplasmic protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 7392">
+      <data key="d0">195.2046.peg.740</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 1307">
+      <data key="d0">195.2244.peg.266</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Filamentous haemagglutinin domain protein</data>
+      <data key="d3">158</data>
+    </node>
+    <node id="Cluster 2397">
+      <data key="d0">195.2024.peg.517</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phosphoglutamine cytidylyltransferase (EC 2.7.7.-) in O-methyl phosphoramidate capsule modification</data>
+      <data key="d3">238</data>
+    </node>
+    <node id="Cluster 1390">
+      <data key="d0">195.2065.peg.1566</data>
+      <data key="d1">accessory</data>
+      <data key="d2">tRNA (uracil(54)-C5)-methyltransferase (EC 2.1.1.35) @ tmRNA (uracil(341)-C5)-methyltransferase</data>
+      <data key="d3">264</data>
+    </node>
+    <node id="Cluster 1504">
+      <data key="d0">195.2027.peg.684</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Family of unknown function (DUF450) family</data>
+      <data key="d3">51</data>
+    </node>
+    <node id="Cluster 4342">
+      <data key="d0">195.2180.peg.1319</data>
+      <data key="d1">accessory</data>
+      <data key="d2">lipopolysaccharide core biosynthesis protein LpsA</data>
+      <data key="d3">210</data>
+    </node>
+    <node id="Cluster 180">
+      <data key="d0">195.2026.peg.1520</data>
+      <data key="d1">unique</data>
+      <data key="d2">CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase (EC 2.4.99.-)</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="Cluster 195">
+      <data key="d0">195.2060.peg.1435</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="Cluster 2173">
+      <data key="d0">195.2240.peg.1810</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00005326: uncharacterized protein</data>
+      <data key="d3">263</data>
+    </node>
+    <node id="Cluster 3141">
+      <data key="d0">195.2024.peg.166</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34)</data>
+      <data key="d3">245</data>
+    </node>
+    <node id="Cluster 874">
+      <data key="d0">195.2026.peg.1788</data>
+      <data key="d1">unique</data>
+      <data key="d2">Uncharacterized amino acid permease, GabP family</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 1069">
+      <data key="d0">195.2026.peg.1780</data>
+      <data key="d1">unique</data>
+      <data key="d2">CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase (EC 2.4.99.-)</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 1237">
+      <data key="d0">195.2026.peg.1781</data>
+      <data key="d1">unique</data>
+      <data key="d2">UDP-glucose 6-dehydrogenase (EC 1.1.1.22)</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="Cluster 3855">
+      <data key="d0">195.2038.peg.465</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Hemerythrin domain protein</data>
+      <data key="d3">41</data>
+    </node>
+    <node id="Cluster 778">
+      <data key="d0">195.2047.peg.1715</data>
+      <data key="d1">unique</data>
+      <data key="d2">Phage protein Mup29, H</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="Cluster 1026">
+      <data key="d0">195.2038.peg.869</data>
+      <data key="d1">unique</data>
+      <data key="d2">Phage virion morphogenesis protein Mup30, F</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 6020">
+      <data key="d0">195.2047.peg.106</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="Cluster 6848">
+      <data key="d0">195.2047.peg.1794</data>
+      <data key="d1">unique</data>
+      <data key="d2">AgrC, putative</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="Cluster 7642">
+      <data key="d0">195.2047.peg.1258</data>
+      <data key="d1">unique</data>
+      <data key="d2">AgrC, putative</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="Cluster 1191">
+      <data key="d0">195.2046.peg.1737</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Inner membrane protein of type IV secretion of T-DNA complex, TonB-like, VirB10</data>
+      <data key="d3">113</data>
+    </node>
+    <node id="Cluster 1087">
+      <data key="d0">195.2024.peg.881</data>
+      <data key="d1">core</data>
+      <data key="d2">Two-component system sensor histidine kinase</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 2923">
+      <data key="d0">195.2032.peg.1338</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Inner membrane protein forms channel for type IV secretion of T-DNA complex, VirB8</data>
+      <data key="d3">113</data>
+    </node>
+    <node id="Cluster 3145">
+      <data key="d0">195.2029.peg.1789</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">113</data>
+    </node>
+    <node id="Cluster 1648">
+      <data key="d0">195.2212.peg.1408</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Minor pilin of type IV secretion complex, VirB5</data>
+      <data key="d3">111</data>
+    </node>
+    <node id="Cluster 1796">
+      <data key="d0">195.2046.peg.1639</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Outer membrane and periplasm component of type IV secretion of T-DNA complex, has secretin-like domain, VirB9</data>
+      <data key="d3">112</data>
+    </node>
+    <node id="Cluster 3440">
+      <data key="d0">195.2037.peg.1689</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Phage Rha protein</data>
+      <data key="d3">113</data>
+    </node>
+    <node id="Cluster 1228">
+      <data key="d0">195.2093.peg.430</data>
+      <data key="d1">core</data>
+      <data key="d2">Methionine synthase II (cobalamin-independent)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3476">
+      <data key="d0">195.2024.peg.88</data>
+      <data key="d1">core</data>
+      <data key="d2">GTP cyclohydrolase II (EC 3.5.4.25)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1179">
+      <data key="d0">195.2024.peg.939</data>
+      <data key="d1">unique</data>
+      <data key="d2">Type I restriction-modification system, specificity subunit S</data>
+      <data key="d3">19</data>
+    </node>
+    <node id="Cluster 1793">
+      <data key="d0">195.2024.peg.937</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">46</data>
+    </node>
+    <node id="Cluster 5181">
+      <data key="d0">195.2025.peg.780</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">102</data>
+    </node>
+    <node id="Cluster 5827">
+      <data key="d0">195.2025.peg.781</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">102</data>
+    </node>
+    <node id="Cluster 861">
+      <data key="d0">195.2024.peg.762</data>
+      <data key="d1">core</data>
+      <data key="d2">Putative transmembrane transport protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 2516">
+      <data key="d0">195.2024.peg.1524</data>
+      <data key="d1">core</data>
+      <data key="d2">Flagellar biosynthesis protein FliP</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 6778">
+      <data key="d0">195.2028.peg.38</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">99</data>
+    </node>
+    <node id="Cluster 6951">
+      <data key="d0">195.2028.peg.26</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">72</data>
+    </node>
+    <node id="Cluster 826">
+      <data key="d0">195.2102.peg.1722</data>
+      <data key="d1">core</data>
+      <data key="d2">Anaerobic C4-dicarboxylate transporter DcuA</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1219">
+      <data key="d0">195.2034.peg.106</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CDP-4-dehydro-6-deoxy-D-glucose 3-dehydratase (EC 4.2.1.-)</data>
+      <data key="d3">83</data>
+    </node>
+    <node id="Cluster 2554">
+      <data key="d0">195.2117.peg.1748</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="Cluster 6980">
+      <data key="d0">195.2032.peg.1337</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Lipoprotein of type IV secretion complex that spans outer membrane and periplasm, VirB7</data>
+      <data key="d3">111</data>
+    </node>
+    <node id="Cluster 3077">
+      <data key="d0">195.2034.peg.965</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">43</data>
+    </node>
+    <node id="Cluster 4451">
+      <data key="d0">195.2034.peg.966</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00638667: hypothetical protein</data>
+      <data key="d3">43</data>
+    </node>
+    <node id="Cluster 1774">
+      <data key="d0">195.2024.peg.814</data>
+      <data key="d1">accessory</data>
+      <data key="d2">D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 2008">
+      <data key="d0">195.2024.peg.813</data>
+      <data key="d1">accessory</data>
+      <data key="d2">NAD-dependent epimerase/dehydratase</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 2426">
+      <data key="d0">195.2024.peg.815</data>
+      <data key="d1">accessory</data>
+      <data key="d2">2-dehydro-3-deoxyglucarate aldolase (EC 4.1.2.20)</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 2704">
+      <data key="d0">195.2109.peg.1515</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Metal-dependent hydrolase</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 4190">
+      <data key="d0">195.2024.peg.827</data>
+      <data key="d1">accessory</data>
+      <data key="d2">3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)</data>
+      <data key="d3">101</data>
+    </node>
+    <node id="Cluster 5448">
+      <data key="d0">195.2024.peg.826</data>
+      <data key="d1">accessory</data>
+      <data key="d2">3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)</data>
+      <data key="d3">101</data>
+    </node>
+    <node id="Cluster 1939">
+      <data key="d0">195.2299.peg.1892</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4)</data>
+      <data key="d3">188</data>
+    </node>
+    <node id="Cluster 3336">
+      <data key="d0">195.2026.peg.1533</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Adenylylsulfate kinase (EC 2.7.1.25)</data>
+      <data key="d3">188</data>
+    </node>
+    <node id="Cluster 425">
+      <data key="d0">195.2179.peg.341</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Flagellar hook-length control protein FliK</data>
+      <data key="d3">48</data>
+    </node>
+    <node id="Cluster 3078">
+      <data key="d0">195.2066.peg.947</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="Cluster 1141">
+      <data key="d0">195.2024.peg.363</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Membrane protein</data>
+      <data key="d3">112</data>
+    </node>
+    <node id="Cluster 1255">
+      <data key="d0">195.2024.peg.453</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-2-acetamido-2,6-dideoxy-alpha-D-xylo-hexos-4-ulose aminotransferase [PLP]</data>
+      <data key="d3">252</data>
+    </node>
+    <node id="Cluster 4304">
+      <data key="d0">195.2025.peg.1727</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">158</data>
+    </node>
+    <node id="Cluster 2679">
+      <data key="d0">195.2024.peg.459</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CMP-N,N'-diacetyllegionaminic acid synthase (EC 2.7.7.82)</data>
+      <data key="d3">253</data>
+    </node>
+    <node id="Cluster 3272">
+      <data key="d0">195.2056.peg.1610</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">118</data>
+    </node>
+    <node id="Cluster 894">
+      <data key="d0">195.2056.peg.1611</data>
+      <data key="d1">accessory</data>
+      <data key="d2">haloacid dehalogenase-like hydrolase domain/phosphoribulokinase domain protein</data>
+      <data key="d3">89</data>
+    </node>
+    <node id="Cluster 1285">
+      <data key="d0">195.2030.peg.703</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-mannose 4,6-dehydratase (EC 4.2.1.47)</data>
+      <data key="d3">71</data>
+    </node>
+    <node id="Cluster 620">
+      <data key="d0">195.2034.peg.730</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Nucleoside-diphosphate-sugar pyrophosphorylase involved in lipopolysaccharide biosynthesis/translation initiation factor 2B, gamma/epsilon subunits (eIF-2Bgamma/eIF-2Bepsilon) / Nucleoside-diphosphate-sugar pyrophosphorylase involved in lipopolysaccharide biosynthesis/translation initiation factor 2B, gamma/epsilon subunits (eIF-2Bgamma/eIF-2Bepsilon)</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 984">
+      <data key="d0">195.2030.peg.705</data>
+      <data key="d1">accessory</data>
+      <data key="d2">CDP-4-dehydro-6-deoxy-D-glucose 3-dehydratase (EC 4.2.1.-)</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="Cluster 1554">
+      <data key="d0">195.2030.peg.701</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-L-fucose synthetase (EC 1.1.1.271)</data>
+      <data key="d3">63</data>
+    </node>
+    <node id="Cluster 2569">
+      <data key="d0">195.2042.peg.416</data>
+      <data key="d1">accessory</data>
+      <data key="d2">capsular polysaccharide biosynthesis protein, putative</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 3503">
+      <data key="d0">195.2030.peg.702</data>
+      <data key="d1">accessory</data>
+      <data key="d2">dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13)</data>
+      <data key="d3">64</data>
+    </node>
+    <node id="Cluster 4088">
+      <data key="d0">195.2024.peg.1329</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">144</data>
+    </node>
+    <node id="Cluster 1572">
+      <data key="d0">195.2197.peg.21</data>
+      <data key="d1">accessory</data>
+      <data key="d2">3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)</data>
+      <data key="d3">118</data>
+    </node>
+    <node id="Cluster 5525">
+      <data key="d0">195.2024.peg.438</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470572: hypothetical protein</data>
+      <data key="d3">102</data>
+    </node>
+    <node id="Cluster 1575">
+      <data key="d0">195.2024.peg.948</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Dienelactone hydrolase and related enzymes</data>
+      <data key="d3">180</data>
+    </node>
+    <node id="Cluster 2601">
+      <data key="d0">195.2026.peg.1643</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Acetyltransferase, GNAT family</data>
+      <data key="d3">189</data>
+    </node>
+    <node id="Cluster 5189">
+      <data key="d0">195.2124.peg.1259</data>
+      <data key="d1">accessory</data>
+      <data key="d2">formyl transferase domain protein</data>
+      <data key="d3">119</data>
+    </node>
+    <node id="Cluster 6805">
+      <data key="d0">195.2196.peg.1644</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">108</data>
+    </node>
+    <node id="Cluster 7337">
+      <data key="d0">195.2024.peg.440</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00470572: hypothetical protein</data>
+      <data key="d3">108</data>
+    </node>
+    <node id="Cluster 7161">
+      <data key="d0">195.2027.peg.1328</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">18</data>
+    </node>
+    <node id="Cluster 3542">
+      <data key="d0">195.2029.peg.1776</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Ribbon-helix-helix protein, copG family domain protein</data>
+      <data key="d3">111</data>
+    </node>
+    <node id="Cluster 886">
+      <data key="d0">195.2024.peg.743</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Fibronectin/fibrinogen-binding protein</data>
+      <data key="d3">263</data>
+    </node>
+    <node id="Cluster 1142">
+      <data key="d0">195.2024.peg.604</data>
+      <data key="d1">core</data>
+      <data key="d2">tRNA (guanine(46)-N(7))-methyltransferase (EC 2.1.1.33)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1161">
+      <data key="d0">195.2031.peg.1750</data>
+      <data key="d1">accessory</data>
+      <data key="d2">UDP-N,N'-diacetylbacillosamine 2-epimerase (hydrolyzing) (EC 3.2.1.184)</data>
+      <data key="d3">242</data>
+    </node>
+    <node id="Cluster 846">
+      <data key="d0">195.2138.peg.1692</data>
+      <data key="d1">accessory</data>
+      <data key="d2">PhoX, Predicted phosphatase</data>
+      <data key="d3">111</data>
+    </node>
+    <node id="Cluster 4659">
+      <data key="d0">195.2024.peg.1051</data>
+      <data key="d1">core</data>
+      <data key="d2">ATP synthase epsilon chain (EC 3.6.3.14)</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 3819">
+      <data key="d0">195.2028.peg.1311</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">52</data>
+    </node>
+    <node id="Cluster 3571">
+      <data key="d0">195.2024.peg.1311</data>
+      <data key="d1">core</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">268</data>
+    </node>
+    <node id="Cluster 1339">
+      <data key="d0">195.2031.peg.1798</data>
+      <data key="d1">accessory</data>
+      <data key="d2">UDP-N-acetylglucosamine 2-epimerase (hydrolyzing) (EC 3.2.1.183)</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 1515">
+      <data key="d0">195.2113.peg.361</data>
+      <data key="d1">accessory</data>
+      <data key="d2">N-acetylneuraminate synthase (EC 2.5.1.56)</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Cluster 3631">
+      <data key="d0">195.2031.peg.1076</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">19</data>
+    </node>
+    <node id="Cluster 5749">
+      <data key="d0">195.2175.peg.704</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="Cluster 5479">
+      <data key="d0">195.2024.peg.987</data>
+      <data key="d1">accessory</data>
+      <data key="d2">integral membrane protein, putative</data>
+      <data key="d3">239</data>
+    </node>
+    <node id="Cluster 5777">
+      <data key="d0">195.2118.peg.1011</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Hemerythrin-like iron-binding protein</data>
+      <data key="d3">259</data>
+    </node>
+    <node id="Cluster 3815">
+      <data key="d0">195.2024.peg.1602</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Biotin sulfoxide reductase (EC 1.-.-.-) / Free methionine-(S)-sulfoxide reductase</data>
+      <data key="d3">98</data>
+    </node>
+    <node id="Cluster 6738">
+      <data key="d0">195.2056.peg.1200</data>
+      <data key="d1">core</data>
+      <data key="d2">FIG00469817: hypothetical protein</data>
+      <data key="d3">266</data>
+    </node>
+    <node id="Cluster 1893">
+      <data key="d0">195.2040.peg.38</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="Cluster 2287">
+      <data key="d0">195.2092.peg.1571</data>
+      <data key="d1">accessory</data>
+      <data key="d2">GDP-4-amino-4,6-dideoxy-alpha-D-acetylglucosamine N-acetyltransferase</data>
+      <data key="d3">189</data>
+    </node>
+    <node id="Cluster 2323">
+      <data key="d0">195.2040.peg.40</data>
+      <data key="d1">unique</data>
+      <data key="d2">GDP-4-amino-4,6-dideoxy-alpha-D-acetylglucosamine N-acetyltransferase</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="Cluster 4766">
+      <data key="d0">195.2031.peg.495</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Cytolethal distending toxin subunit C</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="Cluster 6666">
+      <data key="d0">195.2031.peg.494</data>
+      <data key="d1">accessory</data>
+      <data key="d2">Cytolethal distending toxin subunit C</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="Cluster 3193">
+      <data key="d0">195.2029.peg.1774</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">102</data>
+    </node>
+    <node id="Cluster 1003">
+      <data key="d0">195.2027.peg.1442</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">43</data>
+    </node>
+    <node id="Cluster 5625">
+      <data key="d0">195.2038.peg.1789</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">43</data>
+    </node>
+    <node id="Cluster 3013">
+      <data key="d0">195.2052.peg.127</data>
+      <data key="d1">unique</data>
+      <data key="d2">Outer membrane liproprotein mapA precursor</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 3393">
+      <data key="d0">195.2052.peg.126</data>
+      <data key="d1">unique</data>
+      <data key="d2">Uncharacterized protein HP_1473</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Cluster 2939">
+      <data key="d0">195.2035.peg.1573</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">97</data>
+    </node>
+    <node id="Cluster 5450">
+      <data key="d0">195.2033.peg.1704</data>
+      <data key="d1">accessory</data>
+      <data key="d2">FIG00471323: hypothetical protein</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="Cluster 2683">
+      <data key="d0">195.2028.peg.44</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">66</data>
+    </node>
+    <node id="Cluster 6605">
+      <data key="d0">195.2028.peg.42</data>
+      <data key="d1">accessory</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">92</data>
+    </node>
+    <node id="Cluster 4075">
+      <data key="d0">195.2040.peg.1097</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="Cluster 5800">
+      <data key="d0">195.2040.peg.1098</data>
+      <data key="d1">unique</data>
+      <data key="d2">hypothetical protein</data>
+      <data key="d3">10</data>
+    </node>
+    <edge source="Cluster 742" target="Cluster 5224" />
+    <edge source="Cluster 742" target="Cluster 5652" />
+    <edge source="Cluster 5224" target="Cluster 5652" />
+    <edge source="Cluster 5766" target="Cluster 5242" />
+    <edge source="Cluster 1" target="Cluster 916" />
+    <edge source="Cluster 172" target="Cluster 1257" />
+    <edge source="Cluster 172" target="Cluster 2213" />
+    <edge source="Cluster 172" target="Cluster 4797" />
+    <edge source="Cluster 172" target="Cluster 7383" />
+    <edge source="Cluster 2213" target="Cluster 4797" />
+    <edge source="Cluster 4797" target="Cluster 1271" />
+    <edge source="Cluster 4797" target="Cluster 1304" />
+    <edge source="Cluster 4797" target="Cluster 5034" />
+    <edge source="Cluster 4797" target="Cluster 6780" />
+    <edge source="Cluster 4797" target="Cluster 7690" />
+    <edge source="Cluster 7383" target="Cluster 111" />
+    <edge source="Cluster 7383" target="Cluster 3413" />
+    <edge source="Cluster 1271" target="Cluster 314" />
+    <edge source="Cluster 1271" target="Cluster 2984" />
+    <edge source="Cluster 1271" target="Cluster 5034" />
+    <edge source="Cluster 1271" target="Cluster 6780" />
+    <edge source="Cluster 314" target="Cluster 5034" />
+    <edge source="Cluster 314" target="Cluster 6780" />
+    <edge source="Cluster 314" target="Cluster 7690" />
+    <edge source="Cluster 2984" target="Cluster 1304" />
+    <edge source="Cluster 2984" target="Cluster 5034" />
+    <edge source="Cluster 2984" target="Cluster 6780" />
+    <edge source="Cluster 5034" target="Cluster 6780" />
+    <edge source="Cluster 150" target="Cluster 5373" />
+    <edge source="Cluster 1778" target="Cluster 3460" />
+    <edge source="Cluster 3460" target="Cluster 4956" />
+    <edge source="Cluster 3460" target="Cluster 1448" />
+    <edge source="Cluster 3460" target="Cluster 2188" />
+    <edge source="Cluster 3460" target="Cluster 3704" />
+    <edge source="Cluster 3460" target="Cluster 7466" />
+    <edge source="Cluster 2131" target="Cluster 1276" />
+    <edge source="Cluster 2131" target="Cluster 2783" />
+    <edge source="Cluster 2131" target="Cluster 3194" />
+    <edge source="Cluster 1276" target="Cluster 2783" />
+    <edge source="Cluster 1276" target="Cluster 2784" />
+    <edge source="Cluster 1276" target="Cluster 3092" />
+    <edge source="Cluster 1276" target="Cluster 3194" />
+    <edge source="Cluster 2783" target="Cluster 2784" />
+    <edge source="Cluster 2783" target="Cluster 3092" />
+    <edge source="Cluster 2783" target="Cluster 3194" />
+    <edge source="Cluster 3194" target="Cluster 2784" />
+    <edge source="Cluster 3194" target="Cluster 3092" />
+    <edge source="Cluster 5" target="Cluster 533" />
+    <edge source="Cluster 533" target="Cluster 2607" />
+    <edge source="Cluster 1236" target="Cluster 166" />
+    <edge source="Cluster 166" target="Cluster 4069" />
+    <edge source="Cluster 166" target="Cluster 7364" />
+    <edge source="Cluster 166" target="Cluster 691" />
+    <edge source="Cluster 166" target="Cluster 1713" />
+    <edge source="Cluster 166" target="Cluster 4099" />
+    <edge source="Cluster 57" target="Cluster 234" />
+    <edge source="Cluster 57" target="Cluster 1215" />
+    <edge source="Cluster 57" target="Cluster 3569" />
+    <edge source="Cluster 57" target="Cluster 4350" />
+    <edge source="Cluster 234" target="Cluster 1076" />
+    <edge source="Cluster 234" target="Cluster 1940" />
+    <edge source="Cluster 1215" target="Cluster 1076" />
+    <edge source="Cluster 1215" target="Cluster 1940" />
+    <edge source="Cluster 3569" target="Cluster 1076" />
+    <edge source="Cluster 3569" target="Cluster 1940" />
+    <edge source="Cluster 4350" target="Cluster 1076" />
+    <edge source="Cluster 4350" target="Cluster 1940" />
+    <edge source="Cluster 4350" target="Cluster 4893" />
+    <edge source="Cluster 125" target="Cluster 1066" />
+    <edge source="Cluster 125" target="Cluster 2548" />
+    <edge source="Cluster 1066" target="Cluster 1763" />
+    <edge source="Cluster 1066" target="Cluster 2069" />
+    <edge source="Cluster 1066" target="Cluster 3376" />
+    <edge source="Cluster 1066" target="Cluster 3267" />
+    <edge source="Cluster 1066" target="Cluster 4161" />
+    <edge source="Cluster 1066" target="Cluster 4712" />
+    <edge source="Cluster 1066" target="Cluster 5927" />
+    <edge source="Cluster 2548" target="Cluster 3267" />
+    <edge source="Cluster 1076" target="Cluster 383" />
+    <edge source="Cluster 1076" target="Cluster 763" />
+    <edge source="Cluster 1076" target="Cluster 1956" />
+    <edge source="Cluster 1076" target="Cluster 4161" />
+    <edge source="Cluster 1076" target="Cluster 4712" />
+    <edge source="Cluster 1076" target="Cluster 5261" />
+    <edge source="Cluster 1076" target="Cluster 5762" />
+    <edge source="Cluster 383" target="Cluster 1940" />
+    <edge source="Cluster 383" target="Cluster 4184" />
+    <edge source="Cluster 763" target="Cluster 1940" />
+    <edge source="Cluster 1956" target="Cluster 1940" />
+    <edge source="Cluster 4161" target="Cluster 1940" />
+    <edge source="Cluster 4161" target="Cluster 3807" />
+    <edge source="Cluster 4161" target="Cluster 1763" />
+    <edge source="Cluster 4161" target="Cluster 3376" />
+    <edge source="Cluster 4712" target="Cluster 1940" />
+    <edge source="Cluster 4712" target="Cluster 1763" />
+    <edge source="Cluster 4712" target="Cluster 2069" />
+    <edge source="Cluster 4712" target="Cluster 3376" />
+    <edge source="Cluster 4712" target="Cluster 3267" />
+    <edge source="Cluster 5261" target="Cluster 1940" />
+    <edge source="Cluster 5762" target="Cluster 1940" />
+    <edge source="Cluster 5762" target="Cluster 2308" />
+    <edge source="Cluster 3221" target="Cluster 691" />
+    <edge source="Cluster 3221" target="Cluster 3267" />
+    <edge source="Cluster 3221" target="Cluster 6129" />
+    <edge source="Cluster 691" target="Cluster 232" />
+    <edge source="Cluster 691" target="Cluster 651" />
+    <edge source="Cluster 691" target="Cluster 3417" />
+    <edge source="Cluster 691" target="Cluster 4959" />
+    <edge source="Cluster 691" target="Cluster 5116" />
+    <edge source="Cluster 691" target="Cluster 5604" />
+    <edge source="Cluster 691" target="Cluster 5941" />
+    <edge source="Cluster 691" target="Cluster 6254" />
+    <edge source="Cluster 691" target="Cluster 6255" />
+    <edge source="Cluster 691" target="Cluster 1543" />
+    <edge source="Cluster 691" target="Cluster 1996" />
+    <edge source="Cluster 691" target="Cluster 3107" />
+    <edge source="Cluster 691" target="Cluster 1307" />
+    <edge source="Cluster 691" target="Cluster 1688" />
+    <edge source="Cluster 691" target="Cluster 2397" />
+    <edge source="Cluster 691" target="Cluster 5380" />
+    <edge source="Cluster 691" target="Cluster 5936" />
+    <edge source="Cluster 691" target="Cluster 7246" />
+    <edge source="Cluster 691" target="Cluster 7508" />
+    <edge source="Cluster 691" target="Cluster 7632" />
+    <edge source="Cluster 6129" target="Cluster 6214" />
+    <edge source="Cluster 6129" target="Cluster 1284" />
+    <edge source="Cluster 6129" target="Cluster 1386" />
+    <edge source="Cluster 6129" target="Cluster 2367" />
+    <edge source="Cluster 4893" target="Cluster 4351" />
+    <edge source="Cluster 4893" target="Cluster 1929" />
+    <edge source="Cluster 4618" target="Cluster 5524" />
+    <edge source="Cluster 5524" target="Cluster 1448" />
+    <edge source="Cluster 5524" target="Cluster 449" />
+    <edge source="Cluster 5524" target="Cluster 7466" />
+    <edge source="Cluster 5524" target="Cluster 7802" />
+    <edge source="Cluster 5565" target="Cluster 1101" />
+    <edge source="Cluster 5565" target="Cluster 1249" />
+    <edge source="Cluster 1101" target="Cluster 5422" />
+    <edge source="Cluster 1101" target="Cluster 5531" />
+    <edge source="Cluster 1249" target="Cluster 5531" />
+    <edge source="Cluster 1249" target="Cluster 7384" />
+    <edge source="Cluster 1358" target="Cluster 3703" />
+    <edge source="Cluster 1358" target="Cluster 6150" />
+    <edge source="Cluster 3703" target="Cluster 411" />
+    <edge source="Cluster 3703" target="Cluster 3937" />
+    <edge source="Cluster 3703" target="Cluster 4691" />
+    <edge source="Cluster 3703" target="Cluster 6952" />
+    <edge source="Cluster 6150" target="Cluster 411" />
+    <edge source="Cluster 6150" target="Cluster 3937" />
+    <edge source="Cluster 6150" target="Cluster 4691" />
+    <edge source="Cluster 6150" target="Cluster 6952" />
+    <edge source="Cluster 5044" target="Cluster 2519" />
+    <edge source="Cluster 2519" target="Cluster 232" />
+    <edge source="Cluster 2519" target="Cluster 294" />
+    <edge source="Cluster 2519" target="Cluster 651" />
+    <edge source="Cluster 2519" target="Cluster 2378" />
+    <edge source="Cluster 2519" target="Cluster 3417" />
+    <edge source="Cluster 2519" target="Cluster 5604" />
+    <edge source="Cluster 2519" target="Cluster 5941" />
+    <edge source="Cluster 2519" target="Cluster 6254" />
+    <edge source="Cluster 2519" target="Cluster 6255" />
+    <edge source="Cluster 2519" target="Cluster 1713" />
+    <edge source="Cluster 2519" target="Cluster 4099" />
+    <edge source="Cluster 2519" target="Cluster 5032" />
+    <edge source="Cluster 2519" target="Cluster 7246" />
+    <edge source="Cluster 2519" target="Cluster 7364" />
+    <edge source="Cluster 5547" target="Cluster 849" />
+    <edge source="Cluster 5547" target="Cluster 4237" />
+    <edge source="Cluster 5547" target="Cluster 4315" />
+    <edge source="Cluster 5547" target="Cluster 5033" />
+    <edge source="Cluster 5547" target="Cluster 5380" />
+    <edge source="Cluster 5547" target="Cluster 5447" />
+    <edge source="Cluster 5547" target="Cluster 5691" />
+    <edge source="Cluster 5547" target="Cluster 6202" />
+    <edge source="Cluster 5547" target="Cluster 7508" />
+    <edge source="Cluster 5547" target="Cluster 7776" />
+    <edge source="Cluster 849" target="Cluster 629" />
+    <edge source="Cluster 849" target="Cluster 2226" />
+    <edge source="Cluster 849" target="Cluster 3478" />
+    <edge source="Cluster 849" target="Cluster 3388" />
+    <edge source="Cluster 849" target="Cluster 5033" />
+    <edge source="Cluster 849" target="Cluster 1624" />
+    <edge source="Cluster 849" target="Cluster 7631" />
+    <edge source="Cluster 849" target="Cluster 7776" />
+    <edge source="Cluster 849" target="Cluster 5691" />
+    <edge source="Cluster 849" target="Cluster 3756" />
+    <edge source="Cluster 849" target="Cluster 4315" />
+    <edge source="Cluster 849" target="Cluster 7509" />
+    <edge source="Cluster 4237" target="Cluster 3388" />
+    <edge source="Cluster 4237" target="Cluster 1624" />
+    <edge source="Cluster 4237" target="Cluster 202" />
+    <edge source="Cluster 4237" target="Cluster 1284" />
+    <edge source="Cluster 4237" target="Cluster 1386" />
+    <edge source="Cluster 4237" target="Cluster 5447" />
+    <edge source="Cluster 4237" target="Cluster 5691" />
+    <edge source="Cluster 4237" target="Cluster 5927" />
+    <edge source="Cluster 4237" target="Cluster 7508" />
+    <edge source="Cluster 4237" target="Cluster 7776" />
+    <edge source="Cluster 4315" target="Cluster 3388" />
+    <edge source="Cluster 4315" target="Cluster 7631" />
+    <edge source="Cluster 4315" target="Cluster 3756" />
+    <edge source="Cluster 5033" target="Cluster 5180" />
+    <edge source="Cluster 5033" target="Cluster 3388" />
+    <edge source="Cluster 5033" target="Cluster 1284" />
+    <edge source="Cluster 5033" target="Cluster 3756" />
+    <edge source="Cluster 5033" target="Cluster 7387" />
+    <edge source="Cluster 5033" target="Cluster 7508" />
+    <edge source="Cluster 5033" target="Cluster 7631" />
+    <edge source="Cluster 5033" target="Cluster 7776" />
+    <edge source="Cluster 5380" target="Cluster 294" />
+    <edge source="Cluster 5380" target="Cluster 7364" />
+    <edge source="Cluster 5380" target="Cluster 7387" />
+    <edge source="Cluster 5380" target="Cluster 1713" />
+    <edge source="Cluster 5380" target="Cluster 2397" />
+    <edge source="Cluster 5380" target="Cluster 2440" />
+    <edge source="Cluster 5380" target="Cluster 3737" />
+    <edge source="Cluster 5380" target="Cluster 5032" />
+    <edge source="Cluster 5380" target="Cluster 5691" />
+    <edge source="Cluster 5380" target="Cluster 7246" />
+    <edge source="Cluster 5447" target="Cluster 2226" />
+    <edge source="Cluster 5447" target="Cluster 3478" />
+    <edge source="Cluster 5447" target="Cluster 7776" />
+    <edge source="Cluster 5447" target="Cluster 5927" />
+    <edge source="Cluster 5447" target="Cluster 5691" />
+    <edge source="Cluster 5691" target="Cluster 3409" />
+    <edge source="Cluster 5691" target="Cluster 1624" />
+    <edge source="Cluster 5691" target="Cluster 4447" />
+    <edge source="Cluster 5691" target="Cluster 5927" />
+    <edge source="Cluster 5691" target="Cluster 202" />
+    <edge source="Cluster 5691" target="Cluster 1386" />
+    <edge source="Cluster 5691" target="Cluster 7508" />
+    <edge source="Cluster 5691" target="Cluster 7509" />
+    <edge source="Cluster 6202" target="Cluster 1713" />
+    <edge source="Cluster 6202" target="Cluster 4099" />
+    <edge source="Cluster 6202" target="Cluster 5927" />
+    <edge source="Cluster 6202" target="Cluster 7301" />
+    <edge source="Cluster 6202" target="Cluster 7364" />
+    <edge source="Cluster 7508" target="Cluster 6029" />
+    <edge source="Cluster 7508" target="Cluster 4447" />
+    <edge source="Cluster 7508" target="Cluster 7631" />
+    <edge source="Cluster 7508" target="Cluster 7776" />
+    <edge source="Cluster 7776" target="Cluster 1186" />
+    <edge source="Cluster 7776" target="Cluster 1624" />
+    <edge source="Cluster 7776" target="Cluster 4447" />
+    <edge source="Cluster 7776" target="Cluster 7387" />
+    <edge source="Cluster 7776" target="Cluster 202" />
+    <edge source="Cluster 7776" target="Cluster 1386" />
+    <edge source="Cluster 7776" target="Cluster 5927" />
+    <edge source="Cluster 7776" target="Cluster 7509" />
+    <edge source="Cluster 797" target="Cluster 6843" />
+    <edge source="Cluster 880" target="Cluster 1147" />
+    <edge source="Cluster 880" target="Cluster 4769" />
+    <edge source="Cluster 880" target="Cluster 4990" />
+    <edge source="Cluster 880" target="Cluster 5863" />
+    <edge source="Cluster 1147" target="Cluster 793" />
+    <edge source="Cluster 1147" target="Cluster 4990" />
+    <edge source="Cluster 4769" target="Cluster 7076" />
+    <edge source="Cluster 4769" target="Cluster 4809" />
+    <edge source="Cluster 4769" target="Cluster 6219" />
+    <edge source="Cluster 4769" target="Cluster 5863" />
+    <edge source="Cluster 4990" target="Cluster 1004" />
+    <edge source="Cluster 5863" target="Cluster 7076" />
+    <edge source="Cluster 5863" target="Cluster 4809" />
+    <edge source="Cluster 5863" target="Cluster 6219" />
+    <edge source="Cluster 1317" target="Cluster 2747" />
+    <edge source="Cluster 1317" target="Cluster 6570" />
+    <edge source="Cluster 1448" target="Cluster 1543" />
+    <edge source="Cluster 1448" target="Cluster 1996" />
+    <edge source="Cluster 1448" target="Cluster 2769" />
+    <edge source="Cluster 1448" target="Cluster 3328" />
+    <edge source="Cluster 1448" target="Cluster 7802" />
+    <edge source="Cluster 1543" target="Cluster 1079" />
+    <edge source="Cluster 1543" target="Cluster 1322" />
+    <edge source="Cluster 1543" target="Cluster 1388" />
+    <edge source="Cluster 1543" target="Cluster 1688" />
+    <edge source="Cluster 1543" target="Cluster 1753" />
+    <edge source="Cluster 1543" target="Cluster 1825" />
+    <edge source="Cluster 1543" target="Cluster 4099" />
+    <edge source="Cluster 1996" target="Cluster 1079" />
+    <edge source="Cluster 1996" target="Cluster 1322" />
+    <edge source="Cluster 1996" target="Cluster 1388" />
+    <edge source="Cluster 1996" target="Cluster 1688" />
+    <edge source="Cluster 1996" target="Cluster 1753" />
+    <edge source="Cluster 1996" target="Cluster 1825" />
+    <edge source="Cluster 1996" target="Cluster 2773" />
+    <edge source="Cluster 1996" target="Cluster 4099" />
+    <edge source="Cluster 3328" target="Cluster 759" />
+    <edge source="Cluster 3328" target="Cluster 2188" />
+    <edge source="Cluster 3328" target="Cluster 3704" />
+    <edge source="Cluster 7802" target="Cluster 772" />
+    <edge source="Cluster 7802" target="Cluster 2188" />
+    <edge source="Cluster 7802" target="Cluster 3704" />
+    <edge source="Cluster 7802" target="Cluster 89" />
+    <edge source="Cluster 1920" target="Cluster 1784" />
+    <edge source="Cluster 1920" target="Cluster 4613" />
+    <edge source="Cluster 1784" target="Cluster 2621" />
+    <edge source="Cluster 1784" target="Cluster 4613" />
+    <edge source="Cluster 1784" target="Cluster 1550" />
+    <edge source="Cluster 4613" target="Cluster 2621" />
+    <edge source="Cluster 4613" target="Cluster 6197" />
+    <edge source="Cluster 4613" target="Cluster 6252" />
+    <edge source="Cluster 2308" target="Cluster 6486" />
+    <edge source="Cluster 6486" target="Cluster 2961" />
+    <edge source="Cluster 599" target="Cluster 4518" />
+    <edge source="Cluster 4518" target="Cluster 4960" />
+    <edge source="Cluster 4518" target="Cluster 1390" />
+    <edge source="Cluster 4518" target="Cluster 4342" />
+    <edge source="Cluster 3726" target="Cluster 5484" />
+    <edge source="Cluster 5484" target="Cluster 3966" />
+    <edge source="Cluster 5484" target="Cluster 5452" />
+    <edge source="Cluster 3966" target="Cluster 244" />
+    <edge source="Cluster 3966" target="Cluster 4647" />
+    <edge source="Cluster 244" target="Cluster 5452" />
+    <edge source="Cluster 4647" target="Cluster 5452" />
+    <edge source="Cluster 1481" target="Cluster 1867" />
+    <edge source="Cluster 1481" target="Cluster 2522" />
+    <edge source="Cluster 1481" target="Cluster 2551" />
+    <edge source="Cluster 1481" target="Cluster 3685" />
+    <edge source="Cluster 1867" target="Cluster 2522" />
+    <edge source="Cluster 1867" target="Cluster 2551" />
+    <edge source="Cluster 1867" target="Cluster 3685" />
+    <edge source="Cluster 2522" target="Cluster 2551" />
+    <edge source="Cluster 2522" target="Cluster 3685" />
+    <edge source="Cluster 2551" target="Cluster 3685" />
+    <edge source="Cluster 4764" target="Cluster 6165" />
+    <edge source="Cluster 1264" target="Cluster 5528" />
+    <edge source="Cluster 1507" target="Cluster 338" />
+    <edge source="Cluster 1507" target="Cluster 1499" />
+    <edge source="Cluster 1507" target="Cluster 1822" />
+    <edge source="Cluster 338" target="Cluster 2469" />
+    <edge source="Cluster 338" target="Cluster 4236" />
+    <edge source="Cluster 1499" target="Cluster 2469" />
+    <edge source="Cluster 1822" target="Cluster 2469" />
+    <edge source="Cluster 6613" target="Cluster 1306" />
+    <edge source="Cluster 6613" target="Cluster 1490" />
+    <edge source="Cluster 6613" target="Cluster 1984" />
+    <edge source="Cluster 1306" target="Cluster 6664" />
+    <edge source="Cluster 1306" target="Cluster 433" />
+    <edge source="Cluster 1306" target="Cluster 484" />
+    <edge source="Cluster 1306" target="Cluster 576" />
+    <edge source="Cluster 1306" target="Cluster 883" />
+    <edge source="Cluster 1306" target="Cluster 915" />
+    <edge source="Cluster 1306" target="Cluster 1519" />
+    <edge source="Cluster 1306" target="Cluster 1529" />
+    <edge source="Cluster 1306" target="Cluster 2076" />
+    <edge source="Cluster 1306" target="Cluster 2451" />
+    <edge source="Cluster 1306" target="Cluster 2560" />
+    <edge source="Cluster 1306" target="Cluster 2561" />
+    <edge source="Cluster 1306" target="Cluster 2746" />
+    <edge source="Cluster 1306" target="Cluster 2996" />
+    <edge source="Cluster 1306" target="Cluster 2997" />
+    <edge source="Cluster 1306" target="Cluster 3062" />
+    <edge source="Cluster 1306" target="Cluster 4052" />
+    <edge source="Cluster 1306" target="Cluster 4124" />
+    <edge source="Cluster 1306" target="Cluster 4431" />
+    <edge source="Cluster 1306" target="Cluster 4542" />
+    <edge source="Cluster 1306" target="Cluster 4688" />
+    <edge source="Cluster 1306" target="Cluster 4739" />
+    <edge source="Cluster 1306" target="Cluster 4740" />
+    <edge source="Cluster 1306" target="Cluster 4741" />
+    <edge source="Cluster 1306" target="Cluster 5622" />
+    <edge source="Cluster 1306" target="Cluster 5688" />
+    <edge source="Cluster 1306" target="Cluster 5689" />
+    <edge source="Cluster 1306" target="Cluster 5724" />
+    <edge source="Cluster 1306" target="Cluster 5858" />
+    <edge source="Cluster 1306" target="Cluster 6379" />
+    <edge source="Cluster 1306" target="Cluster 6566" />
+    <edge source="Cluster 1306" target="Cluster 6698" />
+    <edge source="Cluster 1490" target="Cluster 433" />
+    <edge source="Cluster 1490" target="Cluster 484" />
+    <edge source="Cluster 1490" target="Cluster 576" />
+    <edge source="Cluster 1490" target="Cluster 883" />
+    <edge source="Cluster 1490" target="Cluster 915" />
+    <edge source="Cluster 1490" target="Cluster 1519" />
+    <edge source="Cluster 1490" target="Cluster 1529" />
+    <edge source="Cluster 1490" target="Cluster 1858" />
+    <edge source="Cluster 1490" target="Cluster 2076" />
+    <edge source="Cluster 1490" target="Cluster 2560" />
+    <edge source="Cluster 1490" target="Cluster 2746" />
+    <edge source="Cluster 1490" target="Cluster 2996" />
+    <edge source="Cluster 1490" target="Cluster 3062" />
+    <edge source="Cluster 1490" target="Cluster 3095" />
+    <edge source="Cluster 1490" target="Cluster 4052" />
+    <edge source="Cluster 1490" target="Cluster 4124" />
+    <edge source="Cluster 1490" target="Cluster 4431" />
+    <edge source="Cluster 1490" target="Cluster 4542" />
+    <edge source="Cluster 1490" target="Cluster 4688" />
+    <edge source="Cluster 1490" target="Cluster 4739" />
+    <edge source="Cluster 1490" target="Cluster 4740" />
+    <edge source="Cluster 1490" target="Cluster 4741" />
+    <edge source="Cluster 1490" target="Cluster 5622" />
+    <edge source="Cluster 1490" target="Cluster 5688" />
+    <edge source="Cluster 1490" target="Cluster 5689" />
+    <edge source="Cluster 1490" target="Cluster 5724" />
+    <edge source="Cluster 1490" target="Cluster 5858" />
+    <edge source="Cluster 1490" target="Cluster 6566" />
+    <edge source="Cluster 1490" target="Cluster 6698" />
+    <edge source="Cluster 1984" target="Cluster 6664" />
+    <edge source="Cluster 1984" target="Cluster 433" />
+    <edge source="Cluster 1984" target="Cluster 484" />
+    <edge source="Cluster 1984" target="Cluster 576" />
+    <edge source="Cluster 1984" target="Cluster 883" />
+    <edge source="Cluster 1984" target="Cluster 915" />
+    <edge source="Cluster 1984" target="Cluster 1519" />
+    <edge source="Cluster 1984" target="Cluster 1529" />
+    <edge source="Cluster 1984" target="Cluster 2076" />
+    <edge source="Cluster 1984" target="Cluster 2451" />
+    <edge source="Cluster 1984" target="Cluster 2560" />
+    <edge source="Cluster 1984" target="Cluster 2561" />
+    <edge source="Cluster 1984" target="Cluster 2746" />
+    <edge source="Cluster 1984" target="Cluster 2996" />
+    <edge source="Cluster 1984" target="Cluster 2997" />
+    <edge source="Cluster 1984" target="Cluster 3062" />
+    <edge source="Cluster 1984" target="Cluster 4052" />
+    <edge source="Cluster 1984" target="Cluster 4124" />
+    <edge source="Cluster 1984" target="Cluster 4431" />
+    <edge source="Cluster 1984" target="Cluster 4542" />
+    <edge source="Cluster 1984" target="Cluster 4688" />
+    <edge source="Cluster 1984" target="Cluster 4739" />
+    <edge source="Cluster 1984" target="Cluster 4740" />
+    <edge source="Cluster 1984" target="Cluster 4741" />
+    <edge source="Cluster 1984" target="Cluster 5622" />
+    <edge source="Cluster 1984" target="Cluster 5688" />
+    <edge source="Cluster 1984" target="Cluster 5689" />
+    <edge source="Cluster 1984" target="Cluster 5724" />
+    <edge source="Cluster 1984" target="Cluster 5858" />
+    <edge source="Cluster 1984" target="Cluster 6379" />
+    <edge source="Cluster 1984" target="Cluster 6566" />
+    <edge source="Cluster 1984" target="Cluster 6698" />
+    <edge source="Cluster 6664" target="Cluster 4200" />
+    <edge source="Cluster 4200" target="Cluster 433" />
+    <edge source="Cluster 4200" target="Cluster 484" />
+    <edge source="Cluster 4200" target="Cluster 576" />
+    <edge source="Cluster 4200" target="Cluster 883" />
+    <edge source="Cluster 4200" target="Cluster 915" />
+    <edge source="Cluster 4200" target="Cluster 1519" />
+    <edge source="Cluster 4200" target="Cluster 1529" />
+    <edge source="Cluster 4200" target="Cluster 2076" />
+    <edge source="Cluster 4200" target="Cluster 2451" />
+    <edge source="Cluster 4200" target="Cluster 2560" />
+    <edge source="Cluster 4200" target="Cluster 2746" />
+    <edge source="Cluster 4200" target="Cluster 2996" />
+    <edge source="Cluster 4200" target="Cluster 3062" />
+    <edge source="Cluster 4200" target="Cluster 4052" />
+    <edge source="Cluster 4200" target="Cluster 4124" />
+    <edge source="Cluster 4200" target="Cluster 4431" />
+    <edge source="Cluster 4200" target="Cluster 4542" />
+    <edge source="Cluster 4200" target="Cluster 4688" />
+    <edge source="Cluster 4200" target="Cluster 4739" />
+    <edge source="Cluster 4200" target="Cluster 4740" />
+    <edge source="Cluster 4200" target="Cluster 4741" />
+    <edge source="Cluster 4200" target="Cluster 5622" />
+    <edge source="Cluster 4200" target="Cluster 5688" />
+    <edge source="Cluster 4200" target="Cluster 5689" />
+    <edge source="Cluster 4200" target="Cluster 5724" />
+    <edge source="Cluster 4200" target="Cluster 5858" />
+    <edge source="Cluster 4200" target="Cluster 6566" />
+    <edge source="Cluster 4200" target="Cluster 6698" />
+    <edge source="Cluster 3261" target="Cluster 1388" />
+    <edge source="Cluster 1388" target="Cluster 3409" />
+    <edge source="Cluster 5481" target="Cluster 2415" />
+    <edge source="Cluster 5481" target="Cluster 3575" />
+    <edge source="Cluster 245" target="Cluster 3556" />
+    <edge source="Cluster 245" target="Cluster 3746" />
+    <edge source="Cluster 245" target="Cluster 7199" />
+    <edge source="Cluster 3746" target="Cluster 634" />
+    <edge source="Cluster 3746" target="Cluster 1813" />
+    <edge source="Cluster 3746" target="Cluster 7231" />
+    <edge source="Cluster 7199" target="Cluster 634" />
+    <edge source="Cluster 7199" target="Cluster 3804" />
+    <edge source="Cluster 7199" target="Cluster 3177" />
+    <edge source="Cluster 7199" target="Cluster 4809" />
+    <edge source="Cluster 7199" target="Cluster 6219" />
+    <edge source="Cluster 449" target="Cluster 89" />
+    <edge source="Cluster 449" target="Cluster 772" />
+    <edge source="Cluster 449" target="Cluster 2188" />
+    <edge source="Cluster 449" target="Cluster 3704" />
+    <edge source="Cluster 772" target="Cluster 2049" />
+    <edge source="Cluster 772" target="Cluster 2862" />
+    <edge source="Cluster 772" target="Cluster 5301" />
+    <edge source="Cluster 772" target="Cluster 6337" />
+    <edge source="Cluster 634" target="Cluster 2460" />
+    <edge source="Cluster 634" target="Cluster 3177" />
+    <edge source="Cluster 634" target="Cluster 4809" />
+    <edge source="Cluster 634" target="Cluster 6219" />
+    <edge source="Cluster 2460" target="Cluster 3804" />
+    <edge source="Cluster 2460" target="Cluster 4925" />
+    <edge source="Cluster 2460" target="Cluster 4809" />
+    <edge source="Cluster 2460" target="Cluster 6219" />
+    <edge source="Cluster 3177" target="Cluster 3804" />
+    <edge source="Cluster 3177" target="Cluster 7076" />
+    <edge source="Cluster 4809" target="Cluster 3804" />
+    <edge source="Cluster 4809" target="Cluster 4470" />
+    <edge source="Cluster 4809" target="Cluster 7076" />
+    <edge source="Cluster 4809" target="Cluster 282" />
+    <edge source="Cluster 4809" target="Cluster 2201" />
+    <edge source="Cluster 4809" target="Cluster 3418" />
+    <edge source="Cluster 4809" target="Cluster 6342" />
+    <edge source="Cluster 4809" target="Cluster 7392" />
+    <edge source="Cluster 4809" target="Cluster 7698" />
+    <edge source="Cluster 6219" target="Cluster 3804" />
+    <edge source="Cluster 6219" target="Cluster 4470" />
+    <edge source="Cluster 6219" target="Cluster 7076" />
+    <edge source="Cluster 6219" target="Cluster 282" />
+    <edge source="Cluster 6219" target="Cluster 2201" />
+    <edge source="Cluster 6219" target="Cluster 3418" />
+    <edge source="Cluster 6219" target="Cluster 6342" />
+    <edge source="Cluster 6219" target="Cluster 7392" />
+    <edge source="Cluster 6219" target="Cluster 7698" />
+    <edge source="Cluster 759" target="Cluster 7466" />
+    <edge source="Cluster 7466" target="Cluster 4735" />
+    <edge source="Cluster 793" target="Cluster 2713" />
+    <edge source="Cluster 793" target="Cluster 1004" />
+    <edge source="Cluster 793" target="Cluster 1141" />
+    <edge source="Cluster 1541" target="Cluster 1581" />
+    <edge source="Cluster 1541" target="Cluster 3230" />
+    <edge source="Cluster 1581" target="Cluster 3230" />
+    <edge source="Cluster 2000" target="Cluster 1158" />
+    <edge source="Cluster 2000" target="Cluster 2393" />
+    <edge source="Cluster 2000" target="Cluster 3351" />
+    <edge source="Cluster 1158" target="Cluster 1146" />
+    <edge source="Cluster 1158" target="Cluster 2258" />
+    <edge source="Cluster 1158" target="Cluster 1550" />
+    <edge source="Cluster 1158" target="Cluster 1907" />
+    <edge source="Cluster 1158" target="Cluster 3789" />
+    <edge source="Cluster 2393" target="Cluster 1550" />
+    <edge source="Cluster 2393" target="Cluster 1907" />
+    <edge source="Cluster 3351" target="Cluster 1550" />
+    <edge source="Cluster 3351" target="Cluster 1907" />
+    <edge source="Cluster 3351" target="Cluster 3789" />
+    <edge source="Cluster 2816" target="Cluster 3778" />
+    <edge source="Cluster 2816" target="Cluster 6494" />
+    <edge source="Cluster 3778" target="Cluster 1031" />
+    <edge source="Cluster 3778" target="Cluster 4045" />
+    <edge source="Cluster 3778" target="Cluster 5656" />
+    <edge source="Cluster 6494" target="Cluster 4135" />
+    <edge source="Cluster 6494" target="Cluster 1018" />
+    <edge source="Cluster 1813" target="Cluster 7231" />
+    <edge source="Cluster 1031" target="Cluster 5656" />
+    <edge source="Cluster 1031" target="Cluster 4045" />
+    <edge source="Cluster 4045" target="Cluster 2554" />
+    <edge source="Cluster 2719" target="Cluster 1932" />
+    <edge source="Cluster 2719" target="Cluster 6057" />
+    <edge source="Cluster 1932" target="Cluster 232" />
+    <edge source="Cluster 1932" target="Cluster 651" />
+    <edge source="Cluster 1932" target="Cluster 3417" />
+    <edge source="Cluster 1932" target="Cluster 5941" />
+    <edge source="Cluster 1932" target="Cluster 6254" />
+    <edge source="Cluster 1932" target="Cluster 6255" />
+    <edge source="Cluster 1932" target="Cluster 195" />
+    <edge source="Cluster 6057" target="Cluster 195" />
+    <edge source="Cluster 407" target="Cluster 901" />
+    <edge source="Cluster 411" target="Cluster 6952" />
+    <edge source="Cluster 415" target="Cluster 5110" />
+    <edge source="Cluster 5110" target="Cluster 6845" />
+    <edge source="Cluster 5531" target="Cluster 3807" />
+    <edge source="Cluster 5531" target="Cluster 1033" />
+    <edge source="Cluster 5531" target="Cluster 2920" />
+    <edge source="Cluster 5531" target="Cluster 492" />
+    <edge source="Cluster 1675" target="Cluster 2920" />
+    <edge source="Cluster 2920" target="Cluster 3807" />
+    <edge source="Cluster 2920" target="Cluster 3937" />
+    <edge source="Cluster 2920" target="Cluster 7068" />
+    <edge source="Cluster 2920" target="Cluster 1033" />
+    <edge source="Cluster 2920" target="Cluster 2550" />
+    <edge source="Cluster 2920" target="Cluster 492" />
+    <edge source="Cluster 2920" target="Cluster 1247" />
+    <edge source="Cluster 2920" target="Cluster 1368" />
+    <edge source="Cluster 2920" target="Cluster 4468" />
+    <edge source="Cluster 2920" target="Cluster 7384" />
+    <edge source="Cluster 2250" target="Cluster 3019" />
+    <edge source="Cluster 3019" target="Cluster 6777" />
+    <edge source="Cluster 2378" target="Cluster 2542" />
+    <edge source="Cluster 2378" target="Cluster 5032" />
+    <edge source="Cluster 2378" target="Cluster 7194" />
+    <edge source="Cluster 2378" target="Cluster 7563" />
+    <edge source="Cluster 2542" target="Cluster 5856" />
+    <edge source="Cluster 2542" target="Cluster 3107" />
+    <edge source="Cluster 2542" target="Cluster 7194" />
+    <edge source="Cluster 2542" target="Cluster 2262" />
+    <edge source="Cluster 2542" target="Cluster 5032" />
+    <edge source="Cluster 5032" target="Cluster 5856" />
+    <edge source="Cluster 5032" target="Cluster 7364" />
+    <edge source="Cluster 5032" target="Cluster 2258" />
+    <edge source="Cluster 5032" target="Cluster 1713" />
+    <edge source="Cluster 5032" target="Cluster 7246" />
+    <edge source="Cluster 7194" target="Cluster 3409" />
+    <edge source="Cluster 7563" target="Cluster 3409" />
+    <edge source="Cluster 2450" target="Cluster 3227" />
+    <edge source="Cluster 3409" target="Cluster 1146" />
+    <edge source="Cluster 3409" target="Cluster 1688" />
+    <edge source="Cluster 3409" target="Cluster 1733" />
+    <edge source="Cluster 3409" target="Cluster 1825" />
+    <edge source="Cluster 3409" target="Cluster 1949" />
+    <edge source="Cluster 3409" target="Cluster 2406" />
+    <edge source="Cluster 3409" target="Cluster 5856" />
+    <edge source="Cluster 3409" target="Cluster 7632" />
+    <edge source="Cluster 1146" target="Cluster 2262" />
+    <edge source="Cluster 1146" target="Cluster 3107" />
+    <edge source="Cluster 1146" target="Cluster 4099" />
+    <edge source="Cluster 1146" target="Cluster 4408" />
+    <edge source="Cluster 1146" target="Cluster 5269" />
+    <edge source="Cluster 1688" target="Cluster 1713" />
+    <edge source="Cluster 1825" target="Cluster 4386" />
+    <edge source="Cluster 1825" target="Cluster 4099" />
+    <edge source="Cluster 1825" target="Cluster 861" />
+    <edge source="Cluster 1825" target="Cluster 2516" />
+    <edge source="Cluster 1949" target="Cluster 4099" />
+    <edge source="Cluster 2406" target="Cluster 7364" />
+    <edge source="Cluster 2406" target="Cluster 3107" />
+    <edge source="Cluster 5856" target="Cluster 7246" />
+    <edge source="Cluster 3937" target="Cluster 1368" />
+    <edge source="Cluster 3807" target="Cluster 492" />
+    <edge source="Cluster 3807" target="Cluster 1033" />
+    <edge source="Cluster 3807" target="Cluster 2226" />
+    <edge source="Cluster 3807" target="Cluster 2550" />
+    <edge source="Cluster 3807" target="Cluster 6029" />
+    <edge source="Cluster 3807" target="Cluster 7384" />
+    <edge source="Cluster 492" target="Cluster 1033" />
+    <edge source="Cluster 492" target="Cluster 2550" />
+    <edge source="Cluster 492" target="Cluster 1368" />
+    <edge source="Cluster 492" target="Cluster 3057" />
+    <edge source="Cluster 492" target="Cluster 7384" />
+    <edge source="Cluster 1033" target="Cluster 3376" />
+    <edge source="Cluster 1033" target="Cluster 76" />
+    <edge source="Cluster 1033" target="Cluster 3388" />
+    <edge source="Cluster 1033" target="Cluster 2550" />
+    <edge source="Cluster 1033" target="Cluster 3057" />
+    <edge source="Cluster 1033" target="Cluster 3756" />
+    <edge source="Cluster 1033" target="Cluster 7384" />
+    <edge source="Cluster 2226" target="Cluster 4051" />
+    <edge source="Cluster 2550" target="Cluster 7384" />
+    <edge source="Cluster 6029" target="Cluster 3388" />
+    <edge source="Cluster 6029" target="Cluster 3756" />
+    <edge source="Cluster 6029" target="Cluster 4447" />
+    <edge source="Cluster 6029" target="Cluster 7631" />
+    <edge source="Cluster 7384" target="Cluster 3388" />
+    <edge source="Cluster 3987" target="Cluster 4925" />
+    <edge source="Cluster 4925" target="Cluster 7593" />
+    <edge source="Cluster 4925" target="Cluster 5036" />
+    <edge source="Cluster 7246" target="Cluster 7364" />
+    <edge source="Cluster 7246" target="Cluster 2635" />
+    <edge source="Cluster 7246" target="Cluster 4099" />
+    <edge source="Cluster 6782" target="Cluster 4099" />
+    <edge source="Cluster 6782" target="Cluster 5927" />
+    <edge source="Cluster 4099" target="Cluster 7364" />
+    <edge source="Cluster 4099" target="Cluster 1713" />
+    <edge source="Cluster 4099" target="Cluster 2397" />
+    <edge source="Cluster 5927" target="Cluster 1624" />
+    <edge source="Cluster 5927" target="Cluster 7387" />
+    <edge source="Cluster 5927" target="Cluster 1386" />
+    <edge source="Cluster 7593" target="Cluster 148" />
+    <edge source="Cluster 148" target="Cluster 3480" />
+    <edge source="Cluster 1763" target="Cluster 3376" />
+    <edge source="Cluster 3376" target="Cluster 2069" />
+    <edge source="Cluster 3376" target="Cluster 5209" />
+    <edge source="Cluster 2069" target="Cluster 1243" />
+    <edge source="Cluster 5267" target="Cluster 7259" />
+    <edge source="Cluster 1079" target="Cluster 1322" />
+    <edge source="Cluster 1079" target="Cluster 1753" />
+    <edge source="Cluster 1322" target="Cluster 1753" />
+    <edge source="Cluster 2773" target="Cluster 2262" />
+    <edge source="Cluster 2773" target="Cluster 3107" />
+    <edge source="Cluster 1713" target="Cluster 2635" />
+    <edge source="Cluster 1713" target="Cluster 5936" />
+    <edge source="Cluster 7364" target="Cluster 2581" />
+    <edge source="Cluster 7364" target="Cluster 2635" />
+    <edge source="Cluster 7364" target="Cluster 2638" />
+    <edge source="Cluster 7364" target="Cluster 5936" />
+    <edge source="Cluster 5036" target="Cluster 1004" />
+    <edge source="Cluster 5036" target="Cluster 4280" />
+    <edge source="Cluster 5036" target="Cluster 7076" />
+    <edge source="Cluster 5036" target="Cluster 282" />
+    <edge source="Cluster 5036" target="Cluster 6342" />
+    <edge source="Cluster 2262" target="Cluster 2258" />
+    <edge source="Cluster 3107" target="Cluster 2258" />
+    <edge source="Cluster 3107" target="Cluster 5936" />
+    <edge source="Cluster 4408" target="Cluster 2258" />
+    <edge source="Cluster 4408" target="Cluster 1550" />
+    <edge source="Cluster 4408" target="Cluster 1907" />
+    <edge source="Cluster 4408" target="Cluster 3789" />
+    <edge source="Cluster 5269" target="Cluster 2258" />
+    <edge source="Cluster 5269" target="Cluster 1550" />
+    <edge source="Cluster 5269" target="Cluster 1907" />
+    <edge source="Cluster 5269" target="Cluster 3789" />
+    <edge source="Cluster 1752" target="Cluster 2734" />
+    <edge source="Cluster 4051" target="Cluster 3478" />
+    <edge source="Cluster 3478" target="Cluster 4983" />
+    <edge source="Cluster 3478" target="Cluster 7195" />
+    <edge source="Cluster 3478" target="Cluster 7631" />
+    <edge source="Cluster 7631" target="Cluster 3388" />
+    <edge source="Cluster 7631" target="Cluster 4447" />
+    <edge source="Cluster 7631" target="Cluster 202" />
+    <edge source="Cluster 7631" target="Cluster 1284" />
+    <edge source="Cluster 7631" target="Cluster 3262" />
+    <edge source="Cluster 7631" target="Cluster 3756" />
+    <edge source="Cluster 1284" target="Cluster 3388" />
+    <edge source="Cluster 1284" target="Cluster 1624" />
+    <edge source="Cluster 1284" target="Cluster 4447" />
+    <edge source="Cluster 1386" target="Cluster 3388" />
+    <edge source="Cluster 1386" target="Cluster 1624" />
+    <edge source="Cluster 2635" target="Cluster 2440" />
+    <edge source="Cluster 2635" target="Cluster 3737" />
+    <edge source="Cluster 60" target="Cluster 75" />
+    <edge source="Cluster 60" target="Cluster 2650" />
+    <edge source="Cluster 60" target="Cluster 2712" />
+    <edge source="Cluster 60" target="Cluster 3595" />
+    <edge source="Cluster 60" target="Cluster 5570" />
+    <edge source="Cluster 60" target="Cluster 6674" />
+    <edge source="Cluster 60" target="Cluster 6730" />
+    <edge source="Cluster 60" target="Cluster 7341" />
+    <edge source="Cluster 75" target="Cluster 1957" />
+    <edge source="Cluster 75" target="Cluster 4337" />
+    <edge source="Cluster 2650" target="Cluster 1957" />
+    <edge source="Cluster 2650" target="Cluster 4337" />
+    <edge source="Cluster 2650" target="Cluster 5971" />
+    <edge source="Cluster 2650" target="Cluster 6779" />
+    <edge source="Cluster 2712" target="Cluster 1957" />
+    <edge source="Cluster 2712" target="Cluster 3676" />
+    <edge source="Cluster 2712" target="Cluster 4157" />
+    <edge source="Cluster 2712" target="Cluster 4337" />
+    <edge source="Cluster 3595" target="Cluster 1957" />
+    <edge source="Cluster 3595" target="Cluster 110" />
+    <edge source="Cluster 3595" target="Cluster 168" />
+    <edge source="Cluster 3595" target="Cluster 4337" />
+    <edge source="Cluster 3595" target="Cluster 5971" />
+    <edge source="Cluster 3595" target="Cluster 6779" />
+    <edge source="Cluster 5570" target="Cluster 1957" />
+    <edge source="Cluster 5570" target="Cluster 4337" />
+    <edge source="Cluster 5570" target="Cluster 7341" />
+    <edge source="Cluster 6674" target="Cluster 1957" />
+    <edge source="Cluster 6674" target="Cluster 3676" />
+    <edge source="Cluster 6674" target="Cluster 4157" />
+    <edge source="Cluster 6674" target="Cluster 4337" />
+    <edge source="Cluster 6730" target="Cluster 1957" />
+    <edge source="Cluster 6730" target="Cluster 4337" />
+    <edge source="Cluster 6730" target="Cluster 5971" />
+    <edge source="Cluster 6730" target="Cluster 6779" />
+    <edge source="Cluster 7341" target="Cluster 1957" />
+    <edge source="Cluster 7341" target="Cluster 4337" />
+    <edge source="Cluster 5971" target="Cluster 6779" />
+    <edge source="Cluster 4135" target="Cluster 3543" />
+    <edge source="Cluster 4135" target="Cluster 4470" />
+    <edge source="Cluster 3543" target="Cluster 1018" />
+    <edge source="Cluster 4470" target="Cluster 1018" />
+    <edge source="Cluster 3388" target="Cluster 202" />
+    <edge source="Cluster 3388" target="Cluster 3756" />
+    <edge source="Cluster 3388" target="Cluster 4447" />
+    <edge source="Cluster 3388" target="Cluster 7387" />
+    <edge source="Cluster 202" target="Cluster 1624" />
+    <edge source="Cluster 3756" target="Cluster 4447" />
+    <edge source="Cluster 4447" target="Cluster 7387" />
+    <edge source="Cluster 7387" target="Cluster 1624" />
+    <edge source="Cluster 3057" target="Cluster 4450" />
+    <edge source="Cluster 5204" target="Cluster 6379" />
+    <edge source="Cluster 6379" target="Cluster 1691" />
+    <edge source="Cluster 80" target="Cluster 1018" />
+    <edge source="Cluster 1018" target="Cluster 783" />
+    <edge source="Cluster 1018" target="Cluster 6989" />
+    <edge source="Cluster 783" target="Cluster 1219" />
+    <edge source="Cluster 4280" target="Cluster 2809" />
+    <edge source="Cluster 4280" target="Cluster 3304" />
+    <edge source="Cluster 4280" target="Cluster 4256" />
+    <edge source="Cluster 3324" target="Cluster 6845" />
+    <edge source="Cluster 2469" target="Cluster 1415" />
+    <edge source="Cluster 2469" target="Cluster 1869" />
+    <edge source="Cluster 2469" target="Cluster 3600" />
+    <edge source="Cluster 4236" target="Cluster 1858" />
+    <edge source="Cluster 4236" target="Cluster 3141" />
+    <edge source="Cluster 484" target="Cluster 576" />
+    <edge source="Cluster 484" target="Cluster 883" />
+    <edge source="Cluster 484" target="Cluster 915" />
+    <edge source="Cluster 484" target="Cluster 1529" />
+    <edge source="Cluster 484" target="Cluster 2076" />
+    <edge source="Cluster 484" target="Cluster 2173" />
+    <edge source="Cluster 484" target="Cluster 2996" />
+    <edge source="Cluster 484" target="Cluster 3141" />
+    <edge source="Cluster 484" target="Cluster 4052" />
+    <edge source="Cluster 484" target="Cluster 4542" />
+    <edge source="Cluster 484" target="Cluster 4688" />
+    <edge source="Cluster 484" target="Cluster 4739" />
+    <edge source="Cluster 484" target="Cluster 4740" />
+    <edge source="Cluster 484" target="Cluster 5688" />
+    <edge source="Cluster 484" target="Cluster 5689" />
+    <edge source="Cluster 484" target="Cluster 5724" />
+    <edge source="Cluster 484" target="Cluster 5858" />
+    <edge source="Cluster 484" target="Cluster 6566" />
+    <edge source="Cluster 484" target="Cluster 6698" />
+    <edge source="Cluster 576" target="Cluster 883" />
+    <edge source="Cluster 576" target="Cluster 915" />
+    <edge source="Cluster 576" target="Cluster 1529" />
+    <edge source="Cluster 576" target="Cluster 2076" />
+    <edge source="Cluster 576" target="Cluster 2173" />
+    <edge source="Cluster 576" target="Cluster 2996" />
+    <edge source="Cluster 576" target="Cluster 3141" />
+    <edge source="Cluster 576" target="Cluster 4052" />
+    <edge source="Cluster 576" target="Cluster 4542" />
+    <edge source="Cluster 576" target="Cluster 4688" />
+    <edge source="Cluster 576" target="Cluster 4739" />
+    <edge source="Cluster 576" target="Cluster 4740" />
+    <edge source="Cluster 576" target="Cluster 5688" />
+    <edge source="Cluster 576" target="Cluster 5689" />
+    <edge source="Cluster 576" target="Cluster 5724" />
+    <edge source="Cluster 576" target="Cluster 5858" />
+    <edge source="Cluster 576" target="Cluster 6566" />
+    <edge source="Cluster 576" target="Cluster 6698" />
+    <edge source="Cluster 883" target="Cluster 915" />
+    <edge source="Cluster 883" target="Cluster 1529" />
+    <edge source="Cluster 883" target="Cluster 2076" />
+    <edge source="Cluster 883" target="Cluster 2173" />
+    <edge source="Cluster 883" target="Cluster 2996" />
+    <edge source="Cluster 883" target="Cluster 3141" />
+    <edge source="Cluster 883" target="Cluster 4052" />
+    <edge source="Cluster 883" target="Cluster 4542" />
+    <edge source="Cluster 883" target="Cluster 4688" />
+    <edge source="Cluster 883" target="Cluster 4739" />
+    <edge source="Cluster 883" target="Cluster 4740" />
+    <edge source="Cluster 883" target="Cluster 5688" />
+    <edge source="Cluster 883" target="Cluster 5689" />
+    <edge source="Cluster 883" target="Cluster 5724" />
+    <edge source="Cluster 883" target="Cluster 5858" />
+    <edge source="Cluster 883" target="Cluster 6566" />
+    <edge source="Cluster 883" target="Cluster 6698" />
+    <edge source="Cluster 915" target="Cluster 1529" />
+    <edge source="Cluster 915" target="Cluster 2076" />
+    <edge source="Cluster 915" target="Cluster 2173" />
+    <edge source="Cluster 915" target="Cluster 2996" />
+    <edge source="Cluster 915" target="Cluster 3141" />
+    <edge source="Cluster 915" target="Cluster 4052" />
+    <edge source="Cluster 915" target="Cluster 4542" />
+    <edge source="Cluster 915" target="Cluster 4688" />
+    <edge source="Cluster 915" target="Cluster 4739" />
+    <edge source="Cluster 915" target="Cluster 4740" />
+    <edge source="Cluster 915" target="Cluster 5688" />
+    <edge source="Cluster 915" target="Cluster 5689" />
+    <edge source="Cluster 915" target="Cluster 5724" />
+    <edge source="Cluster 915" target="Cluster 5858" />
+    <edge source="Cluster 915" target="Cluster 6566" />
+    <edge source="Cluster 915" target="Cluster 6698" />
+    <edge source="Cluster 1519" target="Cluster 3141" />
+    <edge source="Cluster 1529" target="Cluster 2076" />
+    <edge source="Cluster 1529" target="Cluster 2173" />
+    <edge source="Cluster 1529" target="Cluster 2996" />
+    <edge source="Cluster 1529" target="Cluster 3141" />
+    <edge source="Cluster 1529" target="Cluster 4052" />
+    <edge source="Cluster 1529" target="Cluster 4542" />
+    <edge source="Cluster 1529" target="Cluster 4688" />
+    <edge source="Cluster 1529" target="Cluster 4739" />
+    <edge source="Cluster 1529" target="Cluster 4740" />
+    <edge source="Cluster 1529" target="Cluster 5688" />
+    <edge source="Cluster 1529" target="Cluster 5689" />
+    <edge source="Cluster 1529" target="Cluster 5724" />
+    <edge source="Cluster 1529" target="Cluster 5858" />
+    <edge source="Cluster 1529" target="Cluster 6566" />
+    <edge source="Cluster 1529" target="Cluster 6698" />
+    <edge source="Cluster 2076" target="Cluster 2173" />
+    <edge source="Cluster 2076" target="Cluster 2996" />
+    <edge source="Cluster 2076" target="Cluster 3141" />
+    <edge source="Cluster 2076" target="Cluster 4052" />
+    <edge source="Cluster 2076" target="Cluster 4542" />
+    <edge source="Cluster 2076" target="Cluster 4688" />
+    <edge source="Cluster 2076" target="Cluster 4739" />
+    <edge source="Cluster 2076" target="Cluster 4740" />
+    <edge source="Cluster 2076" target="Cluster 5688" />
+    <edge source="Cluster 2076" target="Cluster 5689" />
+    <edge source="Cluster 2076" target="Cluster 5724" />
+    <edge source="Cluster 2076" target="Cluster 5858" />
+    <edge source="Cluster 2076" target="Cluster 6566" />
+    <edge source="Cluster 2076" target="Cluster 6698" />
+    <edge source="Cluster 2451" target="Cluster 1691" />
+    <edge source="Cluster 2560" target="Cluster 2173" />
+    <edge source="Cluster 2560" target="Cluster 3141" />
+    <edge source="Cluster 2560" target="Cluster 5622" />
+    <edge source="Cluster 2561" target="Cluster 1691" />
+    <edge source="Cluster 2561" target="Cluster 1912" />
+    <edge source="Cluster 2561" target="Cluster 2369" />
+    <edge source="Cluster 2561" target="Cluster 3117" />
+    <edge source="Cluster 2561" target="Cluster 5057" />
+    <edge source="Cluster 2561" target="Cluster 5698" />
+    <edge source="Cluster 2561" target="Cluster 6764" />
+    <edge source="Cluster 2561" target="Cluster 7395" />
+    <edge source="Cluster 2746" target="Cluster 3141" />
+    <edge source="Cluster 2996" target="Cluster 2173" />
+    <edge source="Cluster 2996" target="Cluster 3141" />
+    <edge source="Cluster 2996" target="Cluster 4052" />
+    <edge source="Cluster 2996" target="Cluster 4542" />
+    <edge source="Cluster 2996" target="Cluster 4688" />
+    <edge source="Cluster 2996" target="Cluster 4739" />
+    <edge source="Cluster 2996" target="Cluster 4740" />
+    <edge source="Cluster 2996" target="Cluster 5688" />
+    <edge source="Cluster 2996" target="Cluster 5689" />
+    <edge source="Cluster 2996" target="Cluster 5724" />
+    <edge source="Cluster 2996" target="Cluster 5858" />
+    <edge source="Cluster 2996" target="Cluster 6566" />
+    <edge source="Cluster 2996" target="Cluster 6698" />
+    <edge source="Cluster 3062" target="Cluster 2173" />
+    <edge source="Cluster 3062" target="Cluster 3141" />
+    <edge source="Cluster 4052" target="Cluster 3141" />
+    <edge source="Cluster 4052" target="Cluster 2173" />
+    <edge source="Cluster 4052" target="Cluster 4542" />
+    <edge source="Cluster 4052" target="Cluster 4688" />
+    <edge source="Cluster 4052" target="Cluster 4739" />
+    <edge source="Cluster 4052" target="Cluster 4740" />
+    <edge source="Cluster 4052" target="Cluster 5688" />
+    <edge source="Cluster 4052" target="Cluster 5689" />
+    <edge source="Cluster 4052" target="Cluster 5724" />
+    <edge source="Cluster 4052" target="Cluster 5858" />
+    <edge source="Cluster 4052" target="Cluster 6566" />
+    <edge source="Cluster 4052" target="Cluster 6698" />
+    <edge source="Cluster 4124" target="Cluster 3141" />
+    <edge source="Cluster 4124" target="Cluster 2173" />
+    <edge source="Cluster 4124" target="Cluster 4431" />
+    <edge source="Cluster 4431" target="Cluster 3141" />
+    <edge source="Cluster 4431" target="Cluster 2173" />
+    <edge source="Cluster 4542" target="Cluster 3141" />
+    <edge source="Cluster 4542" target="Cluster 2173" />
+    <edge source="Cluster 4542" target="Cluster 4688" />
+    <edge source="Cluster 4542" target="Cluster 4739" />
+    <edge source="Cluster 4542" target="Cluster 4740" />
+    <edge source="Cluster 4542" target="Cluster 5688" />
+    <edge source="Cluster 4542" target="Cluster 5689" />
+    <edge source="Cluster 4542" target="Cluster 5724" />
+    <edge source="Cluster 4542" target="Cluster 5858" />
+    <edge source="Cluster 4542" target="Cluster 6566" />
+    <edge source="Cluster 4542" target="Cluster 6698" />
+    <edge source="Cluster 4688" target="Cluster 3141" />
+    <edge source="Cluster 4688" target="Cluster 2173" />
+    <edge source="Cluster 4688" target="Cluster 4739" />
+    <edge source="Cluster 4688" target="Cluster 4740" />
+    <edge source="Cluster 4688" target="Cluster 5688" />
+    <edge source="Cluster 4688" target="Cluster 5689" />
+    <edge source="Cluster 4688" target="Cluster 5724" />
+    <edge source="Cluster 4688" target="Cluster 5858" />
+    <edge source="Cluster 4688" target="Cluster 6566" />
+    <edge source="Cluster 4688" target="Cluster 6698" />
+    <edge source="Cluster 4739" target="Cluster 3141" />
+    <edge source="Cluster 4739" target="Cluster 2173" />
+    <edge source="Cluster 4739" target="Cluster 4740" />
+    <edge source="Cluster 4739" target="Cluster 5688" />
+    <edge source="Cluster 4739" target="Cluster 5689" />
+    <edge source="Cluster 4739" target="Cluster 5724" />
+    <edge source="Cluster 4739" target="Cluster 5858" />
+    <edge source="Cluster 4739" target="Cluster 6566" />
+    <edge source="Cluster 4739" target="Cluster 6698" />
+    <edge source="Cluster 4740" target="Cluster 3141" />
+    <edge source="Cluster 4740" target="Cluster 2173" />
+    <edge source="Cluster 4740" target="Cluster 5688" />
+    <edge source="Cluster 4740" target="Cluster 5689" />
+    <edge source="Cluster 4740" target="Cluster 5724" />
+    <edge source="Cluster 4740" target="Cluster 5858" />
+    <edge source="Cluster 4740" target="Cluster 6566" />
+    <edge source="Cluster 4740" target="Cluster 6698" />
+    <edge source="Cluster 4741" target="Cluster 3141" />
+    <edge source="Cluster 4741" target="Cluster 2173" />
+    <edge source="Cluster 5622" target="Cluster 3141" />
+    <edge source="Cluster 5622" target="Cluster 2173" />
+    <edge source="Cluster 5688" target="Cluster 3141" />
+    <edge source="Cluster 5688" target="Cluster 2173" />
+    <edge source="Cluster 5688" target="Cluster 5689" />
+    <edge source="Cluster 5688" target="Cluster 5724" />
+    <edge source="Cluster 5688" target="Cluster 5858" />
+    <edge source="Cluster 5688" target="Cluster 6566" />
+    <edge source="Cluster 5688" target="Cluster 6698" />
+    <edge source="Cluster 5689" target="Cluster 3141" />
+    <edge source="Cluster 5689" target="Cluster 2173" />
+    <edge source="Cluster 5689" target="Cluster 5724" />
+    <edge source="Cluster 5689" target="Cluster 5858" />
+    <edge source="Cluster 5689" target="Cluster 6566" />
+    <edge source="Cluster 5689" target="Cluster 6698" />
+    <edge source="Cluster 5724" target="Cluster 3141" />
+    <edge source="Cluster 5724" target="Cluster 2173" />
+    <edge source="Cluster 5724" target="Cluster 5858" />
+    <edge source="Cluster 5724" target="Cluster 6566" />
+    <edge source="Cluster 5724" target="Cluster 6698" />
+    <edge source="Cluster 5858" target="Cluster 3141" />
+    <edge source="Cluster 5858" target="Cluster 2173" />
+    <edge source="Cluster 5858" target="Cluster 6566" />
+    <edge source="Cluster 5858" target="Cluster 6698" />
+    <edge source="Cluster 6566" target="Cluster 3141" />
+    <edge source="Cluster 6566" target="Cluster 2173" />
+    <edge source="Cluster 6566" target="Cluster 6698" />
+    <edge source="Cluster 6698" target="Cluster 3141" />
+    <edge source="Cluster 6698" target="Cluster 2173" />
+    <edge source="Cluster 3095" target="Cluster 6670" />
+    <edge source="Cluster 1691" target="Cluster 6884" />
+    <edge source="Cluster 6884" target="Cluster 1912" />
+    <edge source="Cluster 6884" target="Cluster 2369" />
+    <edge source="Cluster 6884" target="Cluster 3117" />
+    <edge source="Cluster 6884" target="Cluster 5057" />
+    <edge source="Cluster 6884" target="Cluster 5698" />
+    <edge source="Cluster 6884" target="Cluster 6764" />
+    <edge source="Cluster 6884" target="Cluster 7395" />
+    <edge source="Cluster 1912" target="Cluster 1869" />
+    <edge source="Cluster 1912" target="Cluster 3600" />
+    <edge source="Cluster 1869" target="Cluster 2369" />
+    <edge source="Cluster 1869" target="Cluster 5057" />
+    <edge source="Cluster 1869" target="Cluster 6764" />
+    <edge source="Cluster 1869" target="Cluster 7395" />
+    <edge source="Cluster 1869" target="Cluster 3141" />
+    <edge source="Cluster 3600" target="Cluster 2369" />
+    <edge source="Cluster 3600" target="Cluster 5057" />
+    <edge source="Cluster 3600" target="Cluster 6764" />
+    <edge source="Cluster 3600" target="Cluster 7395" />
+    <edge source="Cluster 394" target="Cluster 6380" />
+    <edge source="Cluster 7076" target="Cluster 2201" />
+    <edge source="Cluster 7076" target="Cluster 6342" />
+    <edge source="Cluster 7076" target="Cluster 7698" />
+    <edge source="Cluster 2201" target="Cluster 7698" />
+    <edge source="Cluster 6342" target="Cluster 826" />
+    <edge source="Cluster 1099" target="Cluster 841" />
+    <edge source="Cluster 1099" target="Cluster 1982" />
+    <edge source="Cluster 841" target="Cluster 1982" />
+    <edge source="Cluster 123" target="Cluster 1654" />
+    <edge source="Cluster 123" target="Cluster 1701" />
+    <edge source="Cluster 6502" target="Cluster 7169" />
+    <edge source="Cluster 7169" target="Cluster 180" />
+    <edge source="Cluster 7169" target="Cluster 874" />
+    <edge source="Cluster 7169" target="Cluster 1069" />
+    <edge source="Cluster 7169" target="Cluster 1237" />
+    <edge source="Cluster 135" target="Cluster 5602" />
+    <edge source="Cluster 5602" target="Cluster 4450" />
+    <edge source="Cluster 3480" target="Cluster 3207" />
+    <edge source="Cluster 3480" target="Cluster 4254" />
+    <edge source="Cluster 1274" target="Cluster 2784" />
+    <edge source="Cluster 1274" target="Cluster 3092" />
+    <edge source="Cluster 2784" target="Cluster 3188" />
+    <edge source="Cluster 3092" target="Cluster 3188" />
+    <edge source="Cluster 3207" target="Cluster 6980" />
+    <edge source="Cluster 1550" target="Cluster 1907" />
+    <edge source="Cluster 3789" target="Cluster 3161" />
+    <edge source="Cluster 2684" target="Cluster 4125" />
+    <edge source="Cluster 3418" target="Cluster 7392" />
+    <edge source="Cluster 1390" target="Cluster 1504" />
+    <edge source="Cluster 1390" target="Cluster 4342" />
+    <edge source="Cluster 1504" target="Cluster 7161" />
+    <edge source="Cluster 4342" target="Cluster 3815" />
+    <edge source="Cluster 4342" target="Cluster 6738" />
+    <edge source="Cluster 3855" target="Cluster 778" />
+    <edge source="Cluster 3855" target="Cluster 1026" />
+    <edge source="Cluster 3855" target="Cluster 6020" />
+    <edge source="Cluster 3855" target="Cluster 6848" />
+    <edge source="Cluster 3855" target="Cluster 7642" />
+    <edge source="Cluster 1026" target="Cluster 3631" />
+    <edge source="Cluster 1026" target="Cluster 5749" />
+    <edge source="Cluster 1191" target="Cluster 1087" />
+    <edge source="Cluster 1191" target="Cluster 2923" />
+    <edge source="Cluster 1191" target="Cluster 3145" />
+    <edge source="Cluster 1087" target="Cluster 1648" />
+    <edge source="Cluster 1087" target="Cluster 1796" />
+    <edge source="Cluster 1087" target="Cluster 2923" />
+    <edge source="Cluster 1087" target="Cluster 3145" />
+    <edge source="Cluster 2923" target="Cluster 3145" />
+    <edge source="Cluster 3440" target="Cluster 1228" />
+    <edge source="Cluster 3440" target="Cluster 3476" />
+    <edge source="Cluster 1179" target="Cluster 1793" />
+    <edge source="Cluster 5181" target="Cluster 5827" />
+    <edge source="Cluster 6778" target="Cluster 6951" />
+    <edge source="Cluster 1219" target="Cluster 3272" />
+    <edge source="Cluster 1219" target="Cluster 620" />
+    <edge source="Cluster 1219" target="Cluster 984" />
+    <edge source="Cluster 1219" target="Cluster 1554" />
+    <edge source="Cluster 1219" target="Cluster 2569" />
+    <edge source="Cluster 1219" target="Cluster 3503" />
+    <edge source="Cluster 3077" target="Cluster 4451" />
+    <edge source="Cluster 1774" target="Cluster 2008" />
+    <edge source="Cluster 1774" target="Cluster 2426" />
+    <edge source="Cluster 1774" target="Cluster 2704" />
+    <edge source="Cluster 1774" target="Cluster 4190" />
+    <edge source="Cluster 1774" target="Cluster 5448" />
+    <edge source="Cluster 2008" target="Cluster 2426" />
+    <edge source="Cluster 2008" target="Cluster 2704" />
+    <edge source="Cluster 2008" target="Cluster 4190" />
+    <edge source="Cluster 2008" target="Cluster 5448" />
+    <edge source="Cluster 2426" target="Cluster 2704" />
+    <edge source="Cluster 2426" target="Cluster 4190" />
+    <edge source="Cluster 2426" target="Cluster 5448" />
+    <edge source="Cluster 2704" target="Cluster 4190" />
+    <edge source="Cluster 2704" target="Cluster 5448" />
+    <edge source="Cluster 4190" target="Cluster 1939" />
+    <edge source="Cluster 4190" target="Cluster 3336" />
+    <edge source="Cluster 4190" target="Cluster 5448" />
+    <edge source="Cluster 5448" target="Cluster 1939" />
+    <edge source="Cluster 5448" target="Cluster 3336" />
+    <edge source="Cluster 425" target="Cluster 3078" />
+    <edge source="Cluster 1141" target="Cluster 4088" />
+    <edge source="Cluster 1255" target="Cluster 4304" />
+    <edge source="Cluster 4304" target="Cluster 2679" />
+    <edge source="Cluster 4304" target="Cluster 1161" />
+    <edge source="Cluster 4304" target="Cluster 5625" />
+    <edge source="Cluster 3272" target="Cluster 894" />
+    <edge source="Cluster 3272" target="Cluster 1285" />
+    <edge source="Cluster 894" target="Cluster 620" />
+    <edge source="Cluster 894" target="Cluster 2569" />
+    <edge source="Cluster 1285" target="Cluster 620" />
+    <edge source="Cluster 1285" target="Cluster 2569" />
+    <edge source="Cluster 1285" target="Cluster 3571" />
+    <edge source="Cluster 984" target="Cluster 3571" />
+    <edge source="Cluster 1572" target="Cluster 5525" />
+    <edge source="Cluster 1575" target="Cluster 2601" />
+    <edge source="Cluster 2601" target="Cluster 5189" />
+    <edge source="Cluster 6805" target="Cluster 7337" />
+    <edge source="Cluster 3542" target="Cluster 886" />
+    <edge source="Cluster 3542" target="Cluster 1142" />
+    <edge source="Cluster 886" target="Cluster 3193" />
+    <edge source="Cluster 1142" target="Cluster 3819" />
+    <edge source="Cluster 846" target="Cluster 4659" />
+    <edge source="Cluster 1339" target="Cluster 1515" />
+    <edge source="Cluster 5479" target="Cluster 5777" />
+    <edge source="Cluster 3815" target="Cluster 6738" />
+    <edge source="Cluster 1893" target="Cluster 2287" />
+    <edge source="Cluster 1893" target="Cluster 2323" />
+    <edge source="Cluster 4766" target="Cluster 6666" />
+    <edge source="Cluster 1003" target="Cluster 5625" />
+    <edge source="Cluster 3013" target="Cluster 3393" />
+    <edge source="Cluster 2939" target="Cluster 5450" />
+    <edge source="Cluster 2683" target="Cluster 6605" />
+    <edge source="Cluster 4075" target="Cluster 5800" />
+  </graph>
+</graphml>
