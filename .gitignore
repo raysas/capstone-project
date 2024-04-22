@@ -13,6 +13,7 @@ pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campyl
 pangenome-repo/Pangenome-Analysis-Workflow/codes/*/*_CDS.fasta 
 
 pangenome-repo/Pangenome-Analysis-Workflow/codes/Pseudomonas_aeruginosa/Pseudomonas_aeruginosa.fasta.clstr
+pangenome-repo/Pangenome-Analysis-Workflow/codes/Acinetobacter_baumannii/Acinetobacter_baumannii.fasta.clstr
 
 updates/april2/FULL_correlation_matrix.csv
 data/graphs/soft_thresholding_4_power_C.coli_ciprofloxacin.gml
