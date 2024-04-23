@@ -327,7 +327,6 @@ def get_cluster_representatives(clstr_path:str, save_csv:bool=False)->pd.DataFra
 
 def get_cluster_attributes(clstr_path, freq_path, pan_annot_path, clstr_fasta_path):
 
-
     clstr_patric_id_df=get_cluster_representatives(clstr_path)
     clstr_gene_class_df= get_cluster_pan_gene_class(pan_annot_path)
     _patric_id_product_df=get_representative_products(clstr_fasta_path)
@@ -414,6 +413,42 @@ def set_cluster_attributes(G:nx.Graph, pipeline_output=_output_path)->nx.Graph:
 
     return G
 
+# --------------- LOR calculation ----------------
+
+def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.DataFrame:
+    '''
+    takes in a path to a phenotype file to make a df out of it
+    if a presence_df is provided, it will filter the pheno_df to only include samples that are in the presence_df
+
+    param:
+    ----
+        - pheno_path: str
+        - presence_df: pd.DataFrame (optional)
+
+    return:
+    ----
+        - pheno_df: pd.DataFrame
+    '''
+    pheno_df = pd.read_csv(pheno_path, index_col=0)
+
+    # print('pheno dim:', pheno_df.shape)
+    
+    # -- convert presence_df cols to str temporarily to trace error
+    presence_df.columns = presence_df.columns.astype(str)
+
+    #samples stripped
+    if presence_df is not None:
+        samples_presence= presence_df.columns
+        mask = pheno_df.index.astype(str).isin(samples_presence)
+        # print(mask)
+        # print(pheno_df.index)
+        # print(samples_presence) #same type
+        pheno_df = pheno_df.loc[mask]
+
+    # print('pheno dim:', pheno_df.shape)
+
+    return pheno_df
+
 def split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, pheno_df: pd.DataFrame)->(pd.DataFrame, pd.DataFrame):
     '''
     takes a gene absence presence dataframe (n x m) with the samples classification and splits it to 2 dataframes:
@@ -440,6 +475,7 @@ def split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, pheno_df: pd.D
     mask = pheno_df.index.astype(str).isin(samples_presence)
     pheno_df = pheno_df.loc[mask]
 
+
     # get the list of R and S samples:
     R=[];S=[];U=[]
     for sample in pheno_df.index:
@@ -459,8 +495,7 @@ def split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, pheno_df: pd.D
     R_df = unlabeled_presence_df[R]
     S_df = unlabeled_presence_df[S]
 
-    #make a subdf of all columns that are in S of the presence_df
-    
+
 
     return R_df, S_df
 
@@ -496,8 +531,10 @@ def generate_RS_presence_counts(R:pd.DataFrame, S:pd.DataFrame)->pd.DataFrame:
     S_present=S.sum(axis=1)
     S_absent=S.shape[1]-S_present
 
+    indices=R.index
 
     new_df=pd.DataFrame({'R_present':R_present, 'R_absent':R_absent, 'S_present':S_present, 'S_absent':S_absent})
+    new_df.index=indices
 
     #the 0.5 correction:
     for index in new_df.index:
@@ -506,8 +543,6 @@ def generate_RS_presence_counts(R:pd.DataFrame, S:pd.DataFrame)->pd.DataFrame:
             new_df.loc[index]=new_df.loc[index]+0.5
 
     return new_df
-
-# RS_counts_df=generate_RS_presence_counts(R_df, S_df)
 
 def compute_log_odds_ratio(RS_counts_df:pd.DataFrame)->pd.DataFrame:
     '''
@@ -538,19 +573,21 @@ def compute_log_odds_ratio(RS_counts_df:pd.DataFrame)->pd.DataFrame:
     df=pd.DataFrame({"log_odds":log_odds})
     return df
 
-def get_cluster_resistance_LOR(presence_df:pd.DataFrame, pheno_df:pd.DataFrame)-> pd.DataFrame:
+def get_cluster_resistance_LOR(presence_df:pd.DataFrame, pheno_path:str)-> pd.DataFrame:
     '''
     Knits all the steps from splitting the matrix to computing the log odds ratio for each gene in the matrix
 
     param:
     -----
         * presence_df: pd.DataFrame, GxS
-        * pheno_df: pd.DataFrame, Sx1
+        * pheno_df: str, path to the phenotype file
 
     return:
     -------
         * log_odds_df: pd.DataFrame, Gx1
     '''
+    pheno_df = generate_phenotype_df(pheno_path, presence_df)
+    # print(pheno_df)
     
     R,S=split_matrix_by_phenotype(presence_df, pheno_df)
     RS_counts = generate_RS_presence_counts(R, S)
