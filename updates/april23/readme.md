@@ -12,3 +12,8 @@
 ![](image.png)
 
 * E: 398210, V: 5311 when 200 models are used, with corr threshold=0.4; species=Acinetobacter_baumannii, drug=amikacin.
+
+E: 222504, V: 6953 when 200 models are used, with corr threshold=0.4; species=Campylobacter_coli, drug=ciprofloxacin.
+    * 16138 interactions have nan p-values - removed
+    * Number of rejected H0: 1275 out of 206366
+    * final number of nodes: 544, final number of edges: 1275
