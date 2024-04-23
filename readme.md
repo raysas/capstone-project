@@ -244,6 +244,19 @@ When more genetic variants are considered, the number of interactions increases 
 
 "Although originally designed for human GWAS, a few microbial association studies [2, 29] have used the software PLINK [14]. Note that PLINK was made for SNP-type genotypic variation rather than gene presence/absence and that it assumes diploidy and is thus from a purely theoretical perspective not appropriate for bacterial data. In practice, however, it performs well enough" - [Rapid scoring of genes in microbial pan-genome-wide association studies with Scoary](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1108-8)
 
+"Given a network
+of interactions among these genes (such as a previously measured PPI network), we invoke the principle
+that disease-related genes are more likely to have biological interactions with each other than with randomly
+chosen genes" - [Network propagation: a universal amplifier of genetic associations](https://sci-hub.se/10.1038/nrg.2017.38)
+
+" Network propagation is a special case of graph convolutions,
+a mathematical operation extensively used in graph neural net-
+works, which would suggest the possibility of extending the infor-
+mation diffusion analysis using a deep learning framework. How-
+ever, due to the low power of GWA studies, deep learning mod-
+els run the risk of overfitting and being outperformed by more
+straightforward propagation methods." - [Network propagation for GWAS analysis: a practical guide to leveraging molecular networks for disease gene discovery](https://www.mendeley.com/reference-manager/reader-v2/fd18de49-b9bb-3547-b7f5-bec20c04c5c5/6c152d8f-4470-1b4f-2865-93193aa04beb)
+
 ------------
 
 ## Ideas
