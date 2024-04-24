@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-clstr_product_path = '../data/cluster_descriptions/cluster_product.csv'
-clstr_product_df=pd.read_csv(clstr_product_path, index_col=0)   
+# clstr_product_path = '../data/cluster_descriptions/cluster_product.csv'
+# clstr_product_df=pd.read_csv(clstr_product_path, index_col=0)   
 
 def transform_cluster_to_product(cluster_name):
     #match it ffrom clstr_poduct_df from the index
@@ -125,8 +125,8 @@ def get_top_n_nodes(G, n=10, show_product=False, weighted=False):
         # min_weight=
         # abs_min_weight= abs(min_weight)
 
-        for edge in G.edges(data=True):
-            edge[2]['positive_weight'] = edge[2]['weight'] + abs_min_weight
+        # for edge in G.edges(data=True):
+        #     edge[2]['positive_weight'] = edge[2]['weight'] + abs_min_weight
 
         ######################
         
@@ -171,11 +171,4 @@ def get_top_n_nodes(G, n=10, show_product=False, weighted=False):
             all_df[col] = all_df[col].apply(lambda x: transform_cluster_to_product(x))
 
     return all_df
-
-
-def get_top_n_nodes(G, n=10, show_product=False):
-
-    #create positive weights for edges:
-    for edge in G.edges(data=True):
-        edge[2]['positive_weight'] = abs(edge[2]['weight'])
 
