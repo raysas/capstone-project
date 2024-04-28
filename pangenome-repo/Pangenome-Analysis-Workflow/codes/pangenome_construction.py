@@ -121,6 +121,8 @@ def construct_pangenome(species, save = True):
                'Staphylococcus_aureus': [1252.9279205747, 125.29279205747, 1459.99279205747],
                'Streptococcus_pneumoniae': [2481.830587, 248.1830587, 3112.883059]}
     
+    # ------------------------------------------------------------------------
+    # -- can not do this step for other genomes
     x = np.arange(1, var_freq.var_freq.max(), step = 1).tolist()
     bisect.insort(x, sol.x)
     bisect.insort(x, inf_pts[species][0])
@@ -145,6 +147,8 @@ def construct_pangenome(species, save = True):
     plt.legend()
     plt.title(species)
     plt.savefig(species+'/'+species+"_pangenome_division.png")
+
+    # ------------------------------------------------------------------------
 
     if(save):
       var_counts['gene_class'] = np.repeat("", var_counts.shape[0])

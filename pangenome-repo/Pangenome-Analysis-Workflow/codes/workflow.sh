@@ -72,7 +72,7 @@ for file in "$directory"/*.csv; do
 	clustering_time=$(date +%s)
 
 	# CD-HIT command 
-	cd-hit -i $species_name/$cds_fname.fasta -o $species_name/$species_name.fasta -n 5 -c 0.8 -aL 0.8 -M 8000
+	cd-hit -i $species_name/$cds_fname.fasta -o $species_name/$species_name.fasta -n 5 -c 0.8 -aL 0.8 -M 8000 -d 100
 	
 	run_time=$(($(date +%s) - clustering_time)) 
 	echo
