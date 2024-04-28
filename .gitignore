@@ -12,7 +12,7 @@ pangenome-repo/Pangenome-Analysis-Workflow/test_output/Campylobacter_coli/Campyl
 pangenome-repo/Pangenome-Analysis-Workflow/codes/Escherichia_coli/Escherchia_coli.fasta.clstr
 
 
-data/presence_matrices/Acinetobacter_baumannii_GxS.csv
+data/presence_matrices/*_GxS.csv
 
 # extracted CDS files from the PATRIC - >100MB
 pangenome-repo/Pangenome-Analysis-Workflow/codes/*/*_CDS.fasta 
