@@ -19,6 +19,7 @@ Functions:
  
 note: even though there are many helper functions, kept public in case needed (so far)
 
+* autoincrement_col(df:pd.DataFrame, col:str)->pd.DataFrame
 * generate_files_paths(pipeline_output_path:str)->str, str, str, str
 * get_cluster_frequency(freq_path:str)->pd.DataFrame
 * get_cluster_representatives(clstr_path:str, save_csv:bool=False)->pd.DataFrame
@@ -46,6 +47,27 @@ import sys
 import networkx as nx
 import pandas as pd
 import numpy as np
+
+def autoincrement_col(df:pd.DataFrame, col:str)->pd.DataFrame:
+    '''
+    Autoincrement a column by adding _# to it everytime its duplicated
+
+    e.g., one -> one_1, one -> one_2, two -> two_1
+
+    param:
+    ------
+    - df: pd.DataFrame, dataframe
+    - col: str, column name to autoincrement
+
+    return:
+    -------
+    - df: pd.DataFrame, dataframe with the column autoincremented
+
+    p.s. the resultant dataframe will be have unqiue values in the unqiue - can be firther set as index if desired
+    '''
+    df[col] = df[col].add('_').add(df.groupby(col).cumcount().add(1).astype(str))
+    return df
+
 
 def generate_files_paths(pipeline_output_path):
     '''
@@ -207,6 +229,9 @@ def get_representative_products(clstr_fasta_path:str)->pd.DataFrame:
     
 
     df = pd.DataFrame(dict.items(), columns=['gene_representative', 'product_name'])
+
+    # -- autoincrement the product name, accounting for alleles
+    autoincrement_col(df, 'product_name')
     
     return df
 

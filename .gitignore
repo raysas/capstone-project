@@ -25,3 +25,8 @@ data/graphs/soft_thresholding_4_power_C.coli_ciprofloxacin.gml
 
 # large weights file
 data/graphs-5/700_randomized_SVM_weightsCampylobacter_coli_ciprofloxacin.csv
+
+
+# temp files contaning memoized data frames
+
+data/temp

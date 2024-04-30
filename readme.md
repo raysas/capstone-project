@@ -7,6 +7,11 @@ _date: 1/28/2024 5:23PM_
 
 [Antimicrobial Resistance Prediction in PATRIC and RAST](https://www.nature.com/articles/srep27930)
 
+### to read
+
+- Power RA, Parkhill J, de Oliveira T. Microbial genome-wide association studies: lessons from human GWAS. Nat Rev Genet. 2017;18: 41–50. pmid:27840430 
+- Hyun, J. C., Kavvas, E. S., Monk, J. M., & Palsson, B. O. (2020). Machine learning with random subspace ensembles identifies antimicrobial resistance determinants from pan-genomes of three pathogens. PLoS computational biology, 16(3), e1007608.
+
 ### Reviews
 
 - [Machine Learning for Antimicrobial Resistance Prediction: Current Practice, Limitations, and Clinical Perspective](https://journals.asm.org/doi/full/10.1128/cmr.00179-21)
@@ -203,6 +208,8 @@ PATRIC
 
 
 ### Notable lines:
+
+"The identification of gene-AMR relationships falls under the umbrella of microbial genome-wide association studies (GWAS), which bear many similarities to human GWAS [14]" - [Machine learning with random subspace ensembles identifies antimicrobial resistance determinants from pan-genomes of three pathogens](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007608#pcbi.1007608.ref014)
 
 "ML models typically treat genes as independent predictors, with no consideration of structural and functional linkages; they also may not be accurate when new mutational variants of known AMR genes emerge" - [Machine Learning for Antimicrobial Resistance Prediction: Current Practice, Limitations, and Clinical Perspective](https://journals.asm.org/doi/full/10.1128/cmr.00179-21)
 
