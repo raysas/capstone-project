@@ -1,2357 +1,0 @@
-
-______________________________________________________
-
-Extracting CDS from Genome IDs of Mycobacterium_tuberculosis
-______________________________________________________
-
-Creating new CDS fasta file for Mycobacterium_tuberculosis
-Extracting CDS from genome ID 1010834.3
-Extracting CDS from genome ID 1010835.3
-Extracting CDS from genome ID 1010836.3
-Extracting CDS from genome ID 1078763.3
-Extracting CDS from genome ID 1126682.4
-Extracting CDS from genome ID 1126683.4
-Extracting CDS from genome ID 1126684.4
-Extracting CDS from genome ID 1138877.3
-Extracting CDS from genome ID 1151113.3
-Extracting CDS from genome ID 1160714.3
-Extracting CDS from genome ID 1160715.3
-Extracting CDS from genome ID 1160716.3
-Extracting CDS from genome ID 1200347.3
-Extracting CDS from genome ID 1200348.3
-Extracting CDS from genome ID 1240677.3
-Extracting CDS from genome ID 1245275.3
-Extracting CDS from genome ID 1245787.3
-Extracting CDS from genome ID 1249615.4
-Extracting CDS from genome ID 1262525.3
-Extracting CDS from genome ID 1262526.3
-Extracting CDS from genome ID 1262529.3
-Extracting CDS from genome ID 1266446.3
-Extracting CDS from genome ID 1267355.3
-Extracting CDS from genome ID 1267356.3
-Extracting CDS from genome ID 1267357.3
-Extracting CDS from genome ID 1267358.3
-Extracting CDS from genome ID 1267359.3
-Extracting CDS from genome ID 1267360.3
-Extracting CDS from genome ID 1267361.3
-Extracting CDS from genome ID 1267362.3
-Extracting CDS from genome ID 1267363.3
-Extracting CDS from genome ID 1267364.3
-Extracting CDS from genome ID 1274431.3
-Extracting CDS from genome ID 1279011.3
-Extracting CDS from genome ID 1279039.3
-Extracting CDS from genome ID 1295720.3
-Extracting CDS from genome ID 1295721.3
-Extracting CDS from genome ID 1295723.3
-Extracting CDS from genome ID 1295724.3
-Extracting CDS from genome ID 1295725.3
-Extracting CDS from genome ID 1295726.3
-Extracting CDS from genome ID 1295727.3
-Extracting CDS from genome ID 1295739.3
-Extracting CDS from genome ID 1295740.3
-Extracting CDS from genome ID 1295742.3
-Extracting CDS from genome ID 1295744.3
-Extracting CDS from genome ID 1295745.3
-Extracting CDS from genome ID 1295746.3
-Extracting CDS from genome ID 1295747.3
-Extracting CDS from genome ID 1295751.3
-Extracting CDS from genome ID 1295753.3
-Extracting CDS from genome ID 1295756.3
-Extracting CDS from genome ID 1295757.3
-Extracting CDS from genome ID 1295758.3
-Extracting CDS from genome ID 1295759.3
-Extracting CDS from genome ID 1295760.3
-Extracting CDS from genome ID 1295763.3
-Extracting CDS from genome ID 1295764.3
-Extracting CDS from genome ID 1295766.3
-Extracting CDS from genome ID 1295767.3
-Extracting CDS from genome ID 1295769.3
-Extracting CDS from genome ID 1295771.3
-Extracting CDS from genome ID 1295772.3
-Extracting CDS from genome ID 1295773.3
-Extracting CDS from genome ID 1295774.3
-Extracting CDS from genome ID 1295775.3
-Extracting CDS from genome ID 1295776.3
-Extracting CDS from genome ID 1295781.3
-Extracting CDS from genome ID 1295782.3
-Extracting CDS from genome ID 1295790.3
-Extracting CDS from genome ID 1295791.3
-Extracting CDS from genome ID 1295792.3
-Extracting CDS from genome ID 1295795.3
-Extracting CDS from genome ID 1295796.3
-Extracting CDS from genome ID 1295797.3
-Extracting CDS from genome ID 1295798.3
-Extracting CDS from genome ID 1295799.3
-Extracting CDS from genome ID 1295800.3
-Extracting CDS from genome ID 1295801.3
-Extracting CDS from genome ID 1295802.3
-Extracting CDS from genome ID 1295803.3
-Extracting CDS from genome ID 1295804.3
-Extracting CDS from genome ID 1295805.3
-Extracting CDS from genome ID 1295806.3
-Extracting CDS from genome ID 1295807.3
-Extracting CDS from genome ID 1295808.3
-Extracting CDS from genome ID 1306400.3
-Extracting CDS from genome ID 1306414.3
-Extracting CDS from genome ID 1310115.3
-Extracting CDS from genome ID 1322343.3
-Extracting CDS from genome ID 1324218.3
-Extracting CDS from genome ID 1324219.3
-Extracting CDS from genome ID 1324220.3
-Extracting CDS from genome ID 1324221.3
-Extracting CDS from genome ID 1324222.3
-Extracting CDS from genome ID 1324223.3
-Extracting CDS from genome ID 1324224.3
-Extracting CDS from genome ID 1324225.3
-Extracting CDS from genome ID 1324226.3
-Extracting CDS from genome ID 1324227.3
-Extracting CDS from genome ID 1324228.3
-Extracting CDS from genome ID 1324229.3
-Extracting CDS from genome ID 1324230.3
-Extracting CDS from genome ID 1324231.3
-Extracting CDS from genome ID 1324232.3
-Extracting CDS from genome ID 1324233.3
-Extracting CDS from genome ID 1324235.3
-Extracting CDS from genome ID 1324236.3
-Extracting CDS from genome ID 1324237.3
-Extracting CDS from genome ID 1324238.3
-Extracting CDS from genome ID 1324239.3
-Extracting CDS from genome ID 1324240.3
-Extracting CDS from genome ID 1324241.3
-Extracting CDS from genome ID 1324242.3
-Extracting CDS from genome ID 1324243.3
-Extracting CDS from genome ID 1324244.3
-Extracting CDS from genome ID 1324245.3
-Extracting CDS from genome ID 1324246.3
-Extracting CDS from genome ID 1324247.3
-Extracting CDS from genome ID 1324248.3
-Extracting CDS from genome ID 1324249.3
-Extracting CDS from genome ID 1324250.3
-Extracting CDS from genome ID 1324251.3
-Extracting CDS from genome ID 1324252.3
-Extracting CDS from genome ID 1324253.3
-Extracting CDS from genome ID 1324254.3
-Extracting CDS from genome ID 1324255.3
-Extracting CDS from genome ID 1324256.3
-Extracting CDS from genome ID 1324257.3
-Extracting CDS from genome ID 1324258.3
-Extracting CDS from genome ID 1324259.3
-Extracting CDS from genome ID 1324260.3
-Extracting CDS from genome ID 1324262.3
-Extracting CDS from genome ID 1324263.3
-Extracting CDS from genome ID 1324264.3
-Extracting CDS from genome ID 1324265.3
-Extracting CDS from genome ID 1324266.3
-Extracting CDS from genome ID 1324267.3
-Extracting CDS from genome ID 1324268.3
-Extracting CDS from genome ID 1324270.3
-Extracting CDS from genome ID 1324271.3
-Extracting CDS from genome ID 1324272.3
-Extracting CDS from genome ID 1324273.3
-Extracting CDS from genome ID 1324274.3
-Extracting CDS from genome ID 1324275.3
-Extracting CDS from genome ID 1324276.3
-Extracting CDS from genome ID 1324277.3
-Extracting CDS from genome ID 1324278.3
-Extracting CDS from genome ID 1324279.3
-Extracting CDS from genome ID 1324280.3
-Extracting CDS from genome ID 1324281.3
-Extracting CDS from genome ID 1324282.3
-Extracting CDS from genome ID 1324283.3
-Extracting CDS from genome ID 1324284.3
-Extracting CDS from genome ID 1324285.3
-Extracting CDS from genome ID 1324286.3
-Extracting CDS from genome ID 1324287.3
-Extracting CDS from genome ID 1324288.3
-Extracting CDS from genome ID 1324289.3
-Extracting CDS from genome ID 1324290.3
-Extracting CDS from genome ID 1324291.3
-Extracting CDS from genome ID 1324292.3
-Extracting CDS from genome ID 1324293.3
-Extracting CDS from genome ID 1324294.3
-Extracting CDS from genome ID 1324295.3
-Extracting CDS from genome ID 1324296.3
-Extracting CDS from genome ID 1324297.3
-Extracting CDS from genome ID 1324298.3
-Extracting CDS from genome ID 1324299.3
-Extracting CDS from genome ID 1324300.3
-Extracting CDS from genome ID 1324301.3
-Extracting CDS from genome ID 1354101.3
-Extracting CDS from genome ID 1354102.3
-Extracting CDS from genome ID 1354103.3
-Extracting CDS from genome ID 1354105.3
-Extracting CDS from genome ID 1354106.3
-Extracting CDS from genome ID 1354107.3
-Extracting CDS from genome ID 1354108.3
-Extracting CDS from genome ID 1354109.3
-Extracting CDS from genome ID 1354110.3
-Extracting CDS from genome ID 1354111.3
-Extracting CDS from genome ID 1354112.3
-Extracting CDS from genome ID 1354113.3
-Extracting CDS from genome ID 1354114.3
-Extracting CDS from genome ID 1354115.3
-Extracting CDS from genome ID 1354116.3
-Extracting CDS from genome ID 1354117.3
-Extracting CDS from genome ID 1354119.3
-Extracting CDS from genome ID 1354120.3
-Extracting CDS from genome ID 1354121.3
-Extracting CDS from genome ID 1354122.3
-Extracting CDS from genome ID 1354123.3
-Extracting CDS from genome ID 1354124.3
-Extracting CDS from genome ID 1354125.3
-Extracting CDS from genome ID 1354126.3
-Extracting CDS from genome ID 1354127.3
-Extracting CDS from genome ID 1354128.3
-Extracting CDS from genome ID 1354129.3
-Extracting CDS from genome ID 1354130.3
-Extracting CDS from genome ID 1354131.3
-Extracting CDS from genome ID 1354132.3
-Extracting CDS from genome ID 1354133.3
-Extracting CDS from genome ID 1354134.3
-Extracting CDS from genome ID 1354135.3
-Extracting CDS from genome ID 1354136.3
-Extracting CDS from genome ID 1354137.3
-Extracting CDS from genome ID 1354138.3
-Extracting CDS from genome ID 1354139.3
-Extracting CDS from genome ID 1354140.3
-Extracting CDS from genome ID 1354142.3
-Extracting CDS from genome ID 1354143.3
-Extracting CDS from genome ID 1354144.3
-Extracting CDS from genome ID 1354145.3
-Extracting CDS from genome ID 1354146.3
-Extracting CDS from genome ID 1354147.3
-Extracting CDS from genome ID 1354148.3
-Extracting CDS from genome ID 1354149.3
-Extracting CDS from genome ID 1354150.3
-Extracting CDS from genome ID 1354151.3
-Extracting CDS from genome ID 1354152.3
-Extracting CDS from genome ID 1354153.3
-Extracting CDS from genome ID 1354154.3
-Extracting CDS from genome ID 1354155.3
-Extracting CDS from genome ID 1354156.3
-Extracting CDS from genome ID 1354157.3
-Extracting CDS from genome ID 1354158.3
-Extracting CDS from genome ID 1354159.3
-Extracting CDS from genome ID 1397853.3
-Extracting CDS from genome ID 1397854.3
-Extracting CDS from genome ID 1397855.3
-Extracting CDS from genome ID 1397856.3
-Extracting CDS from genome ID 1397857.3
-Extracting CDS from genome ID 1397858.3
-Extracting CDS from genome ID 1397859.3
-Extracting CDS from genome ID 1397860.3
-Extracting CDS from genome ID 1397861.3
-Extracting CDS from genome ID 1397862.3
-Extracting CDS from genome ID 1397863.3
-Extracting CDS from genome ID 1397864.3
-Extracting CDS from genome ID 1397865.3
-Extracting CDS from genome ID 1397866.3
-Extracting CDS from genome ID 1397867.3
-Extracting CDS from genome ID 1397868.3
-Extracting CDS from genome ID 1397869.3
-Extracting CDS from genome ID 1397871.3
-Extracting CDS from genome ID 1397872.3
-Extracting CDS from genome ID 1397873.3
-Extracting CDS from genome ID 1397874.3
-Extracting CDS from genome ID 1397875.3
-Extracting CDS from genome ID 1397876.3
-Extracting CDS from genome ID 1397877.3
-Extracting CDS from genome ID 1397878.3
-Extracting CDS from genome ID 1397879.3
-Extracting CDS from genome ID 1397880.3
-Extracting CDS from genome ID 1397881.3
-Extracting CDS from genome ID 1397882.3
-Extracting CDS from genome ID 1397883.3
-Extracting CDS from genome ID 1397884.3
-Extracting CDS from genome ID 1397885.3
-Extracting CDS from genome ID 1397886.3
-Extracting CDS from genome ID 1397887.3
-Extracting CDS from genome ID 1397888.3
-Extracting CDS from genome ID 1397889.3
-Extracting CDS from genome ID 1397890.3
-Extracting CDS from genome ID 1397891.3
-Extracting CDS from genome ID 1397892.3
-Extracting CDS from genome ID 1397893.3
-Extracting CDS from genome ID 1397894.3
-Extracting CDS from genome ID 1397895.3
-Extracting CDS from genome ID 1397896.3
-Extracting CDS from genome ID 1397897.3
-Extracting CDS from genome ID 1397899.3
-Extracting CDS from genome ID 1397900.3
-Extracting CDS from genome ID 1397901.3
-Extracting CDS from genome ID 1397902.3
-Extracting CDS from genome ID 1397903.3
-Extracting CDS from genome ID 1397904.3
-Extracting CDS from genome ID 1397905.3
-Extracting CDS from genome ID 1397906.3
-Extracting CDS from genome ID 1397907.3
-Extracting CDS from genome ID 1397908.3
-Extracting CDS from genome ID 1397909.3
-Extracting CDS from genome ID 1397910.3
-Extracting CDS from genome ID 1397911.3
-Extracting CDS from genome ID 1397912.3
-Extracting CDS from genome ID 1397913.3
-Extracting CDS from genome ID 1397914.3
-Extracting CDS from genome ID 1397915.3
-Extracting CDS from genome ID 1397916.3
-Extracting CDS from genome ID 1397917.3
-Extracting CDS from genome ID 1397918.3
-Extracting CDS from genome ID 1397919.3
-Extracting CDS from genome ID 1397920.3
-Extracting CDS from genome ID 1397921.3
-Extracting CDS from genome ID 1397922.3
-Extracting CDS from genome ID 1397923.3
-Extracting CDS from genome ID 1397924.3
-Extracting CDS from genome ID 1397925.3
-Extracting CDS from genome ID 1397926.3
-Extracting CDS from genome ID 1397927.3
-Extracting CDS from genome ID 1397928.3
-Extracting CDS from genome ID 1397929.3
-Extracting CDS from genome ID 1397930.3
-Extracting CDS from genome ID 1397931.3
-Extracting CDS from genome ID 1397932.3
-Extracting CDS from genome ID 1397933.3
-Extracting CDS from genome ID 1397934.3
-Extracting CDS from genome ID 1397935.3
-Extracting CDS from genome ID 1397936.3
-Extracting CDS from genome ID 1397937.3
-Extracting CDS from genome ID 1397938.3
-Extracting CDS from genome ID 1397939.3
-Extracting CDS from genome ID 1397940.3
-Extracting CDS from genome ID 1397941.3
-Extracting CDS from genome ID 1400870.3
-Extracting CDS from genome ID 1400871.3
-Extracting CDS from genome ID 1400872.3
-Extracting CDS from genome ID 1400873.3
-Extracting CDS from genome ID 1400874.3
-Extracting CDS from genome ID 1400875.3
-Extracting CDS from genome ID 1400877.3
-Extracting CDS from genome ID 1400879.3
-Extracting CDS from genome ID 1400880.3
-Extracting CDS from genome ID 1400881.3
-Extracting CDS from genome ID 1400882.3
-Extracting CDS from genome ID 1400883.3
-Extracting CDS from genome ID 1400884.3
-Extracting CDS from genome ID 1400885.3
-Extracting CDS from genome ID 1400886.3
-Extracting CDS from genome ID 1400887.3
-Extracting CDS from genome ID 1400888.3
-Extracting CDS from genome ID 1400889.3
-Extracting CDS from genome ID 1400891.3
-Extracting CDS from genome ID 1400893.3
-Extracting CDS from genome ID 1400894.3
-Extracting CDS from genome ID 1400895.3
-Extracting CDS from genome ID 1400897.3
-Extracting CDS from genome ID 1400898.3
-Extracting CDS from genome ID 1400899.3
-Extracting CDS from genome ID 1400902.3
-Extracting CDS from genome ID 1400904.3
-Extracting CDS from genome ID 1400907.3
-Extracting CDS from genome ID 1400908.3
-Extracting CDS from genome ID 1400909.3
-Extracting CDS from genome ID 1400911.3
-Extracting CDS from genome ID 1400912.3
-Extracting CDS from genome ID 1400914.3
-Extracting CDS from genome ID 1400915.3
-Extracting CDS from genome ID 1400916.3
-Extracting CDS from genome ID 1400918.3
-Extracting CDS from genome ID 1400920.3
-Extracting CDS from genome ID 1400921.3
-Extracting CDS from genome ID 1400922.3
-Extracting CDS from genome ID 1400923.3
-Extracting CDS from genome ID 1400924.3
-Extracting CDS from genome ID 1400925.3
-Extracting CDS from genome ID 1400926.3
-Extracting CDS from genome ID 1400927.3
-Extracting CDS from genome ID 1400928.3
-Extracting CDS from genome ID 1400929.3
-Extracting CDS from genome ID 1400930.3
-Extracting CDS from genome ID 1400931.3
-Extracting CDS from genome ID 1400932.3
-Extracting CDS from genome ID 1400933.3
-Extracting CDS from genome ID 1400935.3
-Extracting CDS from genome ID 1400936.3
-Extracting CDS from genome ID 1400937.3
-Extracting CDS from genome ID 1400938.3
-Extracting CDS from genome ID 1400939.3
-Extracting CDS from genome ID 1400940.3
-Extracting CDS from genome ID 1400941.3
-Extracting CDS from genome ID 1402583.3
-Extracting CDS from genome ID 1402584.3
-Extracting CDS from genome ID 1402585.3
-Extracting CDS from genome ID 1402586.3
-Extracting CDS from genome ID 1402587.3
-Extracting CDS from genome ID 1402588.3
-Extracting CDS from genome ID 1402589.3
-Extracting CDS from genome ID 1402590.3
-Extracting CDS from genome ID 1402591.3
-Extracting CDS from genome ID 1402592.3
-Extracting CDS from genome ID 1402593.3
-Extracting CDS from genome ID 1402595.3
-Extracting CDS from genome ID 1402596.3
-Extracting CDS from genome ID 1402597.3
-Extracting CDS from genome ID 1402598.3
-Extracting CDS from genome ID 1402599.3
-Extracting CDS from genome ID 1402600.3
-Extracting CDS from genome ID 1402601.3
-Extracting CDS from genome ID 1402602.3
-Extracting CDS from genome ID 1408904.4
-Extracting CDS from genome ID 1408905.4
-Extracting CDS from genome ID 1408906.4
-Extracting CDS from genome ID 1408907.4
-Extracting CDS from genome ID 1408909.4
-Extracting CDS from genome ID 1408911.4
-Extracting CDS from genome ID 1408912.4
-Extracting CDS from genome ID 1408913.4
-Extracting CDS from genome ID 1408914.4
-Extracting CDS from genome ID 1408915.4
-Extracting CDS from genome ID 1408916.4
-Extracting CDS from genome ID 1408918.4
-Extracting CDS from genome ID 1408919.4
-Extracting CDS from genome ID 1408920.4
-Extracting CDS from genome ID 1408921.4
-Extracting CDS from genome ID 1408922.4
-Extracting CDS from genome ID 1408923.4
-Extracting CDS from genome ID 1408924.4
-Extracting CDS from genome ID 1408925.4
-Extracting CDS from genome ID 1408926.4
-Extracting CDS from genome ID 1408927.4
-Extracting CDS from genome ID 1408928.4
-Extracting CDS from genome ID 1408929.4
-Extracting CDS from genome ID 1408930.4
-Extracting CDS from genome ID 1408931.4
-Extracting CDS from genome ID 1408932.4
-Extracting CDS from genome ID 1408933.4
-Extracting CDS from genome ID 1408934.4
-Extracting CDS from genome ID 1408935.4
-Extracting CDS from genome ID 1408936.4
-Extracting CDS from genome ID 1408937.4
-Extracting CDS from genome ID 1408938.4
-Extracting CDS from genome ID 1408939.4
-Extracting CDS from genome ID 1408940.4
-Extracting CDS from genome ID 1408941.4
-Extracting CDS from genome ID 1408942.4
-Extracting CDS from genome ID 1408943.4
-Extracting CDS from genome ID 1408944.4
-Extracting CDS from genome ID 1408945.4
-Extracting CDS from genome ID 1408946.4
-Extracting CDS from genome ID 1408947.4
-Extracting CDS from genome ID 1408948.4
-Extracting CDS from genome ID 1408949.4
-Extracting CDS from genome ID 1408950.4
-Extracting CDS from genome ID 1408951.4
-Extracting CDS from genome ID 1408952.4
-Extracting CDS from genome ID 1408953.4
-Extracting CDS from genome ID 1408954.4
-Extracting CDS from genome ID 1408955.4
-Extracting CDS from genome ID 1408956.4
-Extracting CDS from genome ID 1408957.4
-Extracting CDS from genome ID 1408958.4
-Extracting CDS from genome ID 1408959.4
-Extracting CDS from genome ID 1408960.4
-Extracting CDS from genome ID 1408962.4
-Extracting CDS from genome ID 1408963.4
-Extracting CDS from genome ID 1408964.4
-Extracting CDS from genome ID 1408965.4
-Extracting CDS from genome ID 1408967.4
-Extracting CDS from genome ID 1408968.4
-Extracting CDS from genome ID 1408969.4
-Extracting CDS from genome ID 1408970.4
-Extracting CDS from genome ID 1408971.4
-Extracting CDS from genome ID 1408972.3
-Extracting CDS from genome ID 1408973.4
-Extracting CDS from genome ID 1408974.4
-Extracting CDS from genome ID 1408975.4
-Extracting CDS from genome ID 1417008.3
-Extracting CDS from genome ID 1417009.3
-Extracting CDS from genome ID 1417010.3
-Extracting CDS from genome ID 1417011.3
-Extracting CDS from genome ID 1417012.3
-Extracting CDS from genome ID 1417013.3
-Extracting CDS from genome ID 1417014.3
-Extracting CDS from genome ID 1417015.3
-Extracting CDS from genome ID 1417016.3
-Extracting CDS from genome ID 1417017.3
-Extracting CDS from genome ID 1417018.3
-Extracting CDS from genome ID 1417019.3
-Extracting CDS from genome ID 1417020.3
-Extracting CDS from genome ID 1417021.3
-Extracting CDS from genome ID 1417023.3
-Extracting CDS from genome ID 1417026.3
-Extracting CDS from genome ID 1417027.3
-Extracting CDS from genome ID 1417028.3
-Extracting CDS from genome ID 1417029.3
-Extracting CDS from genome ID 1417030.3
-Extracting CDS from genome ID 1417031.3
-Extracting CDS from genome ID 1418250.3
-Extracting CDS from genome ID 1418251.3
-Extracting CDS from genome ID 1418252.3
-Extracting CDS from genome ID 1418253.3
-Extracting CDS from genome ID 1418254.3
-Extracting CDS from genome ID 1418255.3
-Extracting CDS from genome ID 1418256.3
-Extracting CDS from genome ID 1421917.3
-Extracting CDS from genome ID 1421918.3
-Extracting CDS from genome ID 1421919.3
-Extracting CDS from genome ID 1421920.3
-Extracting CDS from genome ID 1421921.3
-Extracting CDS from genome ID 1421922.3
-Extracting CDS from genome ID 1421923.3
-Extracting CDS from genome ID 1421924.3
-Extracting CDS from genome ID 1421925.3
-Extracting CDS from genome ID 1421926.3
-Extracting CDS from genome ID 1421927.3
-Extracting CDS from genome ID 1421928.3
-Extracting CDS from genome ID 1421929.3
-Extracting CDS from genome ID 1421930.3
-Extracting CDS from genome ID 1421931.3
-Extracting CDS from genome ID 1421932.3
-Extracting CDS from genome ID 1421933.3
-Extracting CDS from genome ID 1421934.3
-Extracting CDS from genome ID 1421935.3
-Extracting CDS from genome ID 1421936.3
-Extracting CDS from genome ID 1421937.3
-Extracting CDS from genome ID 1421938.3
-Extracting CDS from genome ID 1421939.3
-Extracting CDS from genome ID 1421940.3
-Extracting CDS from genome ID 1421941.3
-Extracting CDS from genome ID 1421942.3
-Extracting CDS from genome ID 1421943.3
-Extracting CDS from genome ID 1421944.3
-Extracting CDS from genome ID 1421945.3
-Extracting CDS from genome ID 1421946.3
-Extracting CDS from genome ID 1421947.3
-Extracting CDS from genome ID 1421948.3
-Extracting CDS from genome ID 1421949.3
-Extracting CDS from genome ID 1421950.3
-Extracting CDS from genome ID 1421951.3
-Extracting CDS from genome ID 1421952.3
-Extracting CDS from genome ID 1421953.3
-Extracting CDS from genome ID 1421954.3
-Extracting CDS from genome ID 1421955.3
-Extracting CDS from genome ID 1421956.3
-Extracting CDS from genome ID 1421957.3
-Extracting CDS from genome ID 1421958.3
-Extracting CDS from genome ID 1421959.3
-Extracting CDS from genome ID 1421960.3
-Extracting CDS from genome ID 1421961.3
-Extracting CDS from genome ID 1421962.3
-Extracting CDS from genome ID 1421964.3
-Extracting CDS from genome ID 1421965.3
-Extracting CDS from genome ID 1421966.3
-Extracting CDS from genome ID 1421967.3
-Extracting CDS from genome ID 1421968.3
-Extracting CDS from genome ID 1421969.3
-Extracting CDS from genome ID 1421970.3
-Extracting CDS from genome ID 1421971.3
-Extracting CDS from genome ID 1421972.3
-Extracting CDS from genome ID 1421973.3
-Extracting CDS from genome ID 1421974.3
-Extracting CDS from genome ID 1421975.3
-Extracting CDS from genome ID 1421976.3
-Extracting CDS from genome ID 1421977.3
-Extracting CDS from genome ID 1421978.3
-Extracting CDS from genome ID 1421979.3
-Extracting CDS from genome ID 1421980.3
-Extracting CDS from genome ID 1421982.3
-Extracting CDS from genome ID 1421983.3
-Extracting CDS from genome ID 1421984.3
-Extracting CDS from genome ID 1421985.3
-Extracting CDS from genome ID 1421986.3
-Extracting CDS from genome ID 1421987.3
-Extracting CDS from genome ID 1421988.3
-Extracting CDS from genome ID 1421989.3
-Extracting CDS from genome ID 1421990.3
-Extracting CDS from genome ID 1421991.3
-Extracting CDS from genome ID 1421992.3
-Extracting CDS from genome ID 1421993.3
-Extracting CDS from genome ID 1421994.3
-Extracting CDS from genome ID 1421995.3
-Extracting CDS from genome ID 1421996.3
-Extracting CDS from genome ID 1421997.3
-Extracting CDS from genome ID 1421998.3
-Extracting CDS from genome ID 1421999.3
-Extracting CDS from genome ID 1422000.3
-Extracting CDS from genome ID 1422001.3
-Extracting CDS from genome ID 1422002.3
-Extracting CDS from genome ID 1422003.3
-Extracting CDS from genome ID 1422004.3
-Extracting CDS from genome ID 1422005.3
-Extracting CDS from genome ID 1422006.3
-Extracting CDS from genome ID 1422007.3
-Extracting CDS from genome ID 1422008.3
-Extracting CDS from genome ID 1422009.3
-Extracting CDS from genome ID 1422010.3
-Extracting CDS from genome ID 1422011.3
-Extracting CDS from genome ID 1422012.3
-Extracting CDS from genome ID 1422013.3
-Extracting CDS from genome ID 1422014.3
-Extracting CDS from genome ID 1422015.3
-Extracting CDS from genome ID 1422016.3
-Extracting CDS from genome ID 1422017.3
-Extracting CDS from genome ID 1422018.3
-Extracting CDS from genome ID 1422019.3
-Extracting CDS from genome ID 1422020.3
-Extracting CDS from genome ID 1422021.3
-Extracting CDS from genome ID 1422022.3
-Extracting CDS from genome ID 1422023.3
-Extracting CDS from genome ID 1422024.3
-Extracting CDS from genome ID 1422025.3
-Extracting CDS from genome ID 1422026.3
-Extracting CDS from genome ID 1422027.3
-Extracting CDS from genome ID 1422029.3
-Extracting CDS from genome ID 1422030.3
-Extracting CDS from genome ID 1422033.3
-Extracting CDS from genome ID 1422034.3
-Extracting CDS from genome ID 1422035.3
-Extracting CDS from genome ID 1422036.3
-Extracting CDS from genome ID 1422037.3
-Extracting CDS from genome ID 1422038.3
-Extracting CDS from genome ID 1422039.3
-Extracting CDS from genome ID 1422040.3
-Extracting CDS from genome ID 1422041.3
-Extracting CDS from genome ID 1422042.3
-Extracting CDS from genome ID 1422043.3
-Extracting CDS from genome ID 1422044.3
-Extracting CDS from genome ID 1422045.3
-Extracting CDS from genome ID 1422046.3
-Extracting CDS from genome ID 1422047.3
-Extracting CDS from genome ID 1422048.3
-Extracting CDS from genome ID 1422049.3
-Extracting CDS from genome ID 1422050.3
-Extracting CDS from genome ID 1422051.3
-Extracting CDS from genome ID 1422052.3
-Extracting CDS from genome ID 1422053.3
-Extracting CDS from genome ID 1422054.3
-Extracting CDS from genome ID 1422055.3
-Extracting CDS from genome ID 1422056.3
-Extracting CDS from genome ID 1422057.3
-Extracting CDS from genome ID 1422058.3
-Extracting CDS from genome ID 1422059.3
-Extracting CDS from genome ID 1422060.3
-Extracting CDS from genome ID 1422061.3
-Extracting CDS from genome ID 1422062.3
-Extracting CDS from genome ID 1422063.3
-Extracting CDS from genome ID 1422064.3
-Extracting CDS from genome ID 1422065.3
-Extracting CDS from genome ID 1422066.3
-Extracting CDS from genome ID 1422067.3
-Extracting CDS from genome ID 1422068.3
-Extracting CDS from genome ID 1422069.3
-Extracting CDS from genome ID 1422070.3
-Extracting CDS from genome ID 1422071.3
-Extracting CDS from genome ID 1422072.3
-Extracting CDS from genome ID 1422073.3
-Extracting CDS from genome ID 1422074.3
-Extracting CDS from genome ID 1422075.3
-Extracting CDS from genome ID 1422076.3
-Extracting CDS from genome ID 1422077.3
-Extracting CDS from genome ID 1422078.3
-Extracting CDS from genome ID 1422079.3
-Extracting CDS from genome ID 1422080.3
-Extracting CDS from genome ID 1422081.3
-Extracting CDS from genome ID 1422082.3
-Extracting CDS from genome ID 1422083.3
-Extracting CDS from genome ID 1422084.3
-Extracting CDS from genome ID 1422085.3
-Extracting CDS from genome ID 1422087.3
-Extracting CDS from genome ID 1422088.3
-Extracting CDS from genome ID 1422089.3
-Extracting CDS from genome ID 1422090.3
-Extracting CDS from genome ID 1422091.3
-Extracting CDS from genome ID 1422092.3
-Extracting CDS from genome ID 1422093.3
-Extracting CDS from genome ID 1422094.3
-Extracting CDS from genome ID 1422095.3
-Extracting CDS from genome ID 1422096.3
-Extracting CDS from genome ID 1422097.3
-Extracting CDS from genome ID 1422098.3
-Extracting CDS from genome ID 1422100.3
-Extracting CDS from genome ID 1422103.3
-Extracting CDS from genome ID 1422104.3
-Extracting CDS from genome ID 1422105.3
-Extracting CDS from genome ID 1422106.3
-Extracting CDS from genome ID 1422107.3
-Extracting CDS from genome ID 1422108.3
-Extracting CDS from genome ID 1422109.3
-Extracting CDS from genome ID 1422110.3
-Extracting CDS from genome ID 1422111.3
-Extracting CDS from genome ID 1422112.3
-Extracting CDS from genome ID 1422113.3
-Extracting CDS from genome ID 1423425.3
-Extracting CDS from genome ID 1423426.3
-Extracting CDS from genome ID 1423427.3
-Extracting CDS from genome ID 1423428.3
-Extracting CDS from genome ID 1423429.3
-Extracting CDS from genome ID 1423430.3
-Extracting CDS from genome ID 1423431.3
-Extracting CDS from genome ID 1423432.3
-Extracting CDS from genome ID 1423435.3
-Extracting CDS from genome ID 1423436.3
-Extracting CDS from genome ID 1423437.3
-Extracting CDS from genome ID 1423438.3
-Extracting CDS from genome ID 1423439.3
-Extracting CDS from genome ID 1423440.3
-Extracting CDS from genome ID 1423441.3
-Extracting CDS from genome ID 1423442.3
-Extracting CDS from genome ID 1423443.3
-Extracting CDS from genome ID 1423444.3
-Extracting CDS from genome ID 1423445.3
-Extracting CDS from genome ID 1423446.3
-Extracting CDS from genome ID 1423447.3
-Extracting CDS from genome ID 1423448.3
-Extracting CDS from genome ID 1423449.3
-Extracting CDS from genome ID 1423450.3
-Extracting CDS from genome ID 1423451.3
-Extracting CDS from genome ID 1423452.3
-Extracting CDS from genome ID 1423453.3
-Extracting CDS from genome ID 1423454.3
-Extracting CDS from genome ID 1423455.3
-Extracting CDS from genome ID 1423456.3
-Extracting CDS from genome ID 1423457.3
-Extracting CDS from genome ID 1423458.3
-Extracting CDS from genome ID 1423459.3
-Extracting CDS from genome ID 1423460.3
-Extracting CDS from genome ID 1423461.3
-Extracting CDS from genome ID 1423462.3
-Extracting CDS from genome ID 1423463.3
-Extracting CDS from genome ID 1423464.3
-Extracting CDS from genome ID 1423465.3
-Extracting CDS from genome ID 1423467.3
-Extracting CDS from genome ID 1423468.3
-Extracting CDS from genome ID 1423469.3
-Extracting CDS from genome ID 1423470.3
-Extracting CDS from genome ID 1423471.3
-Extracting CDS from genome ID 1423472.3
-Extracting CDS from genome ID 1423473.3
-Extracting CDS from genome ID 1423474.3
-Extracting CDS from genome ID 1423475.3
-Extracting CDS from genome ID 1423476.3
-Extracting CDS from genome ID 1423477.3
-Extracting CDS from genome ID 1423478.3
-Extracting CDS from genome ID 1423479.3
-Extracting CDS from genome ID 1423480.3
-Extracting CDS from genome ID 1423481.3
-Extracting CDS from genome ID 1423482.3
-Extracting CDS from genome ID 1423483.3
-Extracting CDS from genome ID 1423484.3
-Extracting CDS from genome ID 1423485.3
-Extracting CDS from genome ID 1423486.3
-Extracting CDS from genome ID 1423487.3
-Extracting CDS from genome ID 1423488.3
-Extracting CDS from genome ID 1423489.3
-Extracting CDS from genome ID 1423490.3
-Extracting CDS from genome ID 1423492.3
-Extracting CDS from genome ID 1423493.3
-Extracting CDS from genome ID 1423494.3
-Extracting CDS from genome ID 1423495.3
-Extracting CDS from genome ID 1423496.3
-Extracting CDS from genome ID 1423497.3
-Extracting CDS from genome ID 1423498.3
-Extracting CDS from genome ID 1423499.3
-Extracting CDS from genome ID 1423500.3
-Extracting CDS from genome ID 1423501.3
-Extracting CDS from genome ID 1423502.3
-Extracting CDS from genome ID 1423503.3
-Extracting CDS from genome ID 1423504.3
-Extracting CDS from genome ID 1423505.3
-Extracting CDS from genome ID 1423506.3
-Extracting CDS from genome ID 1423507.3
-Extracting CDS from genome ID 1423508.3
-Extracting CDS from genome ID 1423509.3
-Extracting CDS from genome ID 1423510.3
-Extracting CDS from genome ID 1423511.3
-Extracting CDS from genome ID 1423512.3
-Extracting CDS from genome ID 1423513.3
-Extracting CDS from genome ID 1423514.3
-Extracting CDS from genome ID 1423515.3
-Extracting CDS from genome ID 1423516.3
-Extracting CDS from genome ID 1423517.3
-Extracting CDS from genome ID 1423518.3
-Extracting CDS from genome ID 1423519.3
-Extracting CDS from genome ID 1423520.3
-Extracting CDS from genome ID 1423521.3
-Extracting CDS from genome ID 1423522.3
-Extracting CDS from genome ID 1423523.3
-Extracting CDS from genome ID 1423524.3
-Extracting CDS from genome ID 1423526.3
-Extracting CDS from genome ID 1423527.3
-Extracting CDS from genome ID 1423528.3
-Extracting CDS from genome ID 1423529.3
-Extracting CDS from genome ID 1423530.3
-Extracting CDS from genome ID 1423531.3
-Extracting CDS from genome ID 1423532.3
-Extracting CDS from genome ID 1423533.3
-Extracting CDS from genome ID 1423534.3
-Extracting CDS from genome ID 1423535.3
-Extracting CDS from genome ID 1423536.3
-Extracting CDS from genome ID 1423537.3
-Extracting CDS from genome ID 1423538.3
-Extracting CDS from genome ID 1423539.3
-Extracting CDS from genome ID 1423540.3
-Extracting CDS from genome ID 1423541.3
-Extracting CDS from genome ID 1423542.3
-Extracting CDS from genome ID 1423543.3
-Extracting CDS from genome ID 1423544.3
-Extracting CDS from genome ID 1423545.3
-Extracting CDS from genome ID 1423546.3
-Extracting CDS from genome ID 1423547.3
-Extracting CDS from genome ID 1423548.3
-Extracting CDS from genome ID 1423549.3
-Extracting CDS from genome ID 1423551.3
-Extracting CDS from genome ID 1423552.3
-Extracting CDS from genome ID 1423553.3
-Extracting CDS from genome ID 1423554.3
-Extracting CDS from genome ID 1423555.3
-Extracting CDS from genome ID 1423556.3
-Extracting CDS from genome ID 1423557.3
-Extracting CDS from genome ID 1423558.3
-Extracting CDS from genome ID 1423559.3
-Extracting CDS from genome ID 1423560.3
-Extracting CDS from genome ID 1423561.3
-Extracting CDS from genome ID 1423562.3
-Extracting CDS from genome ID 1423563.3
-Extracting CDS from genome ID 1423564.3
-Extracting CDS from genome ID 1423565.3
-Extracting CDS from genome ID 1423566.3
-Extracting CDS from genome ID 1423567.3
-Extracting CDS from genome ID 1423569.3
-Extracting CDS from genome ID 1423570.3
-Extracting CDS from genome ID 1423571.3
-Extracting CDS from genome ID 1423572.3
-Extracting CDS from genome ID 1423573.3
-Extracting CDS from genome ID 1423574.3
-Extracting CDS from genome ID 1423575.3
-Extracting CDS from genome ID 1427177.3
-Extracting CDS from genome ID 1427178.3
-Extracting CDS from genome ID 1427179.3
-Extracting CDS from genome ID 1427180.3
-Extracting CDS from genome ID 1427181.3
-Extracting CDS from genome ID 1427182.3
-Extracting CDS from genome ID 1427183.3
-Extracting CDS from genome ID 1427185.3
-Extracting CDS from genome ID 1427186.3
-Extracting CDS from genome ID 1427187.3
-Extracting CDS from genome ID 1427188.3
-Extracting CDS from genome ID 1427189.3
-Extracting CDS from genome ID 1427190.3
-Extracting CDS from genome ID 1427191.3
-Extracting CDS from genome ID 1427192.3
-Extracting CDS from genome ID 1427193.3
-Extracting CDS from genome ID 1427194.3
-Extracting CDS from genome ID 1427195.3
-Extracting CDS from genome ID 1427196.3
-Extracting CDS from genome ID 1427197.3
-Extracting CDS from genome ID 1427199.3
-Extracting CDS from genome ID 1427200.3
-Extracting CDS from genome ID 1427202.3
-Extracting CDS from genome ID 1427203.3
-Extracting CDS from genome ID 1427204.3
-Extracting CDS from genome ID 1427205.3
-Extracting CDS from genome ID 1427206.3
-Extracting CDS from genome ID 1427207.3
-Extracting CDS from genome ID 1427208.3
-Extracting CDS from genome ID 1427209.3
-Extracting CDS from genome ID 1427210.3
-Extracting CDS from genome ID 1427211.3
-Extracting CDS from genome ID 1427212.3
-Extracting CDS from genome ID 1427213.3
-Extracting CDS from genome ID 1427214.3
-Extracting CDS from genome ID 1427215.3
-Extracting CDS from genome ID 1427216.3
-Extracting CDS from genome ID 1427217.3
-Extracting CDS from genome ID 1427218.3
-Extracting CDS from genome ID 1427219.3
-Extracting CDS from genome ID 1427221.3
-Extracting CDS from genome ID 1427222.3
-Extracting CDS from genome ID 1427223.3
-Extracting CDS from genome ID 1427224.3
-Extracting CDS from genome ID 1427225.3
-Extracting CDS from genome ID 1427226.3
-Extracting CDS from genome ID 1427227.3
-Extracting CDS from genome ID 1427228.3
-Extracting CDS from genome ID 1427229.3
-Extracting CDS from genome ID 1427230.3
-Extracting CDS from genome ID 1427231.3
-Extracting CDS from genome ID 1427232.3
-Extracting CDS from genome ID 1427233.3
-Extracting CDS from genome ID 1427235.3
-Extracting CDS from genome ID 1427236.3
-Extracting CDS from genome ID 1427237.3
-Extracting CDS from genome ID 1427238.3
-Extracting CDS from genome ID 1427239.3
-Extracting CDS from genome ID 1427240.3
-Extracting CDS from genome ID 1427241.3
-Extracting CDS from genome ID 1427242.3
-Extracting CDS from genome ID 1427243.3
-Extracting CDS from genome ID 1427244.3
-Extracting CDS from genome ID 1427245.3
-Extracting CDS from genome ID 1427246.3
-Extracting CDS from genome ID 1427248.3
-Extracting CDS from genome ID 1427249.3
-Extracting CDS from genome ID 1427250.3
-Extracting CDS from genome ID 1427251.3
-Extracting CDS from genome ID 1427252.3
-Extracting CDS from genome ID 1427253.3
-Extracting CDS from genome ID 1427254.3
-Extracting CDS from genome ID 1427255.3
-Extracting CDS from genome ID 1427256.3
-Extracting CDS from genome ID 1427257.3
-Extracting CDS from genome ID 1427258.3
-Extracting CDS from genome ID 1427259.3
-Extracting CDS from genome ID 1427260.3
-Extracting CDS from genome ID 1427261.3
-Extracting CDS from genome ID 1427262.3
-Extracting CDS from genome ID 1427264.3
-Extracting CDS from genome ID 1427265.3
-Extracting CDS from genome ID 1427266.3
-Extracting CDS from genome ID 1427268.3
-Extracting CDS from genome ID 1427269.3
-Extracting CDS from genome ID 1427270.3
-Extracting CDS from genome ID 1427271.3
-Extracting CDS from genome ID 1427272.3
-Extracting CDS from genome ID 1427273.3
-Extracting CDS from genome ID 1427274.3
-Extracting CDS from genome ID 1427275.3
-Extracting CDS from genome ID 1427276.3
-Extracting CDS from genome ID 1427277.3
-Extracting CDS from genome ID 1427278.3
-Extracting CDS from genome ID 1427279.3
-Extracting CDS from genome ID 1427280.3
-Extracting CDS from genome ID 1427281.3
-Extracting CDS from genome ID 1427282.3
-Extracting CDS from genome ID 1427283.3
-Extracting CDS from genome ID 1427285.3
-Extracting CDS from genome ID 1427286.3
-Extracting CDS from genome ID 1427287.3
-Extracting CDS from genome ID 1427288.3
-Extracting CDS from genome ID 1427289.3
-Extracting CDS from genome ID 1427290.3
-Extracting CDS from genome ID 1427291.3
-Extracting CDS from genome ID 1427292.3
-Extracting CDS from genome ID 1427293.3
-Extracting CDS from genome ID 1427294.3
-Extracting CDS from genome ID 1427295.3
-Extracting CDS from genome ID 1427297.3
-Extracting CDS from genome ID 1427298.3
-Extracting CDS from genome ID 1427299.3
-Extracting CDS from genome ID 1427300.3
-Extracting CDS from genome ID 1427301.3
-Extracting CDS from genome ID 1427302.3
-Extracting CDS from genome ID 1427303.3
-Extracting CDS from genome ID 1427304.3
-Extracting CDS from genome ID 1427305.3
-Extracting CDS from genome ID 1427306.3
-Extracting CDS from genome ID 1427307.3
-Extracting CDS from genome ID 1427308.3
-Extracting CDS from genome ID 1427309.3
-Extracting CDS from genome ID 1427310.3
-Extracting CDS from genome ID 1427311.3
-Extracting CDS from genome ID 1427312.3
-Extracting CDS from genome ID 1427313.3
-Extracting CDS from genome ID 1427314.3
-Extracting CDS from genome ID 1427315.3
-Extracting CDS from genome ID 1427316.3
-Extracting CDS from genome ID 1427317.3
-Extracting CDS from genome ID 1427318.3
-Extracting CDS from genome ID 1427319.3
-Extracting CDS from genome ID 1427320.3
-Extracting CDS from genome ID 1427321.3
-Extracting CDS from genome ID 1427322.3
-Extracting CDS from genome ID 1427323.3
-Extracting CDS from genome ID 1427324.3
-Extracting CDS from genome ID 1427325.3
-Extracting CDS from genome ID 1427329.3
-Extracting CDS from genome ID 1427330.3
-Extracting CDS from genome ID 1438832.3
-Extracting CDS from genome ID 1438833.3
-Extracting CDS from genome ID 1438834.3
-Extracting CDS from genome ID 1438835.3
-Extracting CDS from genome ID 1438836.3
-Extracting CDS from genome ID 1438837.3
-Extracting CDS from genome ID 1438838.3
-Extracting CDS from genome ID 1438839.3
-Extracting CDS from genome ID 1438840.3
-Extracting CDS from genome ID 1438841.3
-Extracting CDS from genome ID 1438842.3
-Extracting CDS from genome ID 1438843.3
-Extracting CDS from genome ID 1438844.3
-Extracting CDS from genome ID 1438845.3
-Extracting CDS from genome ID 1438846.3
-Extracting CDS from genome ID 1438847.3
-Extracting CDS from genome ID 1438848.3
-Extracting CDS from genome ID 1438849.3
-Extracting CDS from genome ID 1438850.3
-Extracting CDS from genome ID 1438851.3
-Extracting CDS from genome ID 1438852.3
-Extracting CDS from genome ID 1438853.3
-Extracting CDS from genome ID 1438854.3
-Extracting CDS from genome ID 1438856.3
-Extracting CDS from genome ID 1438858.3
-Extracting CDS from genome ID 1438859.3
-Extracting CDS from genome ID 1438860.3
-Extracting CDS from genome ID 1438861.3
-Extracting CDS from genome ID 1438862.3
-Extracting CDS from genome ID 1438863.3
-Extracting CDS from genome ID 1438864.3
-Extracting CDS from genome ID 1438865.3
-Extracting CDS from genome ID 1438866.3
-Extracting CDS from genome ID 1438867.3
-Extracting CDS from genome ID 1438868.3
-Extracting CDS from genome ID 1438869.3
-Extracting CDS from genome ID 1438870.3
-Extracting CDS from genome ID 1438871.3
-Extracting CDS from genome ID 1438872.3
-Extracting CDS from genome ID 1438873.3
-Extracting CDS from genome ID 1438874.3
-Extracting CDS from genome ID 1438877.3
-Extracting CDS from genome ID 1438878.3
-Extracting CDS from genome ID 1438879.3
-Extracting CDS from genome ID 1438881.3
-Extracting CDS from genome ID 1438884.3
-Extracting CDS from genome ID 1438887.3
-Extracting CDS from genome ID 1438890.3
-Extracting CDS from genome ID 1438892.3
-Extracting CDS from genome ID 1447434.3
-Extracting CDS from genome ID 1447435.3
-Extracting CDS from genome ID 1447436.3
-Extracting CDS from genome ID 1447437.3
-Extracting CDS from genome ID 1447440.3
-Extracting CDS from genome ID 1447441.3
-Extracting CDS from genome ID 1447443.3
-Extracting CDS from genome ID 1447444.3
-Extracting CDS from genome ID 1447446.3
-Extracting CDS from genome ID 1447447.3
-Extracting CDS from genome ID 1447448.3
-Extracting CDS from genome ID 1447449.3
-Extracting CDS from genome ID 1447450.3
-Extracting CDS from genome ID 1447451.3
-Extracting CDS from genome ID 1447452.3
-Extracting CDS from genome ID 1447453.3
-Extracting CDS from genome ID 1447454.3
-Extracting CDS from genome ID 1447456.3
-Extracting CDS from genome ID 1447457.3
-Extracting CDS from genome ID 1447458.3
-Extracting CDS from genome ID 1447459.3
-Extracting CDS from genome ID 1447460.3
-Extracting CDS from genome ID 1447461.3
-Extracting CDS from genome ID 1447463.3
-Extracting CDS from genome ID 1447464.3
-Extracting CDS from genome ID 1447465.3
-Extracting CDS from genome ID 1447466.3
-Extracting CDS from genome ID 1447467.3
-Extracting CDS from genome ID 1447468.3
-Extracting CDS from genome ID 1447470.3
-Extracting CDS from genome ID 1447471.3
-Extracting CDS from genome ID 1447472.3
-Extracting CDS from genome ID 1447473.3
-Extracting CDS from genome ID 1447474.3
-Extracting CDS from genome ID 1447475.3
-Extracting CDS from genome ID 1447476.3
-Extracting CDS from genome ID 1447477.3
-Extracting CDS from genome ID 1447480.3
-Extracting CDS from genome ID 1447482.3
-Extracting CDS from genome ID 1447484.3
-Extracting CDS from genome ID 1447485.3
-Extracting CDS from genome ID 1447486.3
-Extracting CDS from genome ID 1447488.3
-Extracting CDS from genome ID 1447489.3
-Extracting CDS from genome ID 1447492.3
-Extracting CDS from genome ID 1447493.3
-Extracting CDS from genome ID 1447495.3
-Extracting CDS from genome ID 1447496.3
-Extracting CDS from genome ID 1447500.3
-Extracting CDS from genome ID 1447501.3
-Extracting CDS from genome ID 1447502.3
-Extracting CDS from genome ID 1447503.3
-Extracting CDS from genome ID 1447504.3
-Extracting CDS from genome ID 1447505.3
-Extracting CDS from genome ID 1447506.3
-Extracting CDS from genome ID 1447507.3
-Extracting CDS from genome ID 1447508.3
-Extracting CDS from genome ID 1447509.3
-Extracting CDS from genome ID 1447513.3
-Extracting CDS from genome ID 1447514.3
-Extracting CDS from genome ID 1447516.3
-Extracting CDS from genome ID 1447517.3
-Extracting CDS from genome ID 1447518.3
-Extracting CDS from genome ID 1447519.3
-Extracting CDS from genome ID 1447520.3
-Extracting CDS from genome ID 1447521.3
-Extracting CDS from genome ID 1447522.3
-Extracting CDS from genome ID 1447523.3
-Extracting CDS from genome ID 1447524.3
-Extracting CDS from genome ID 1447525.3
-Extracting CDS from genome ID 1447526.3
-Extracting CDS from genome ID 1448390.3
-Extracting CDS from genome ID 1448392.3
-Extracting CDS from genome ID 1448393.3
-Extracting CDS from genome ID 1448394.3
-Extracting CDS from genome ID 1448395.3
-Extracting CDS from genome ID 1448396.3
-Extracting CDS from genome ID 1448397.3
-Extracting CDS from genome ID 1448398.3
-Extracting CDS from genome ID 1448399.3
-Extracting CDS from genome ID 1448400.3
-Extracting CDS from genome ID 1448401.3
-Extracting CDS from genome ID 1448402.3
-Extracting CDS from genome ID 1448403.3
-Extracting CDS from genome ID 1448404.3
-Extracting CDS from genome ID 1448405.3
-Extracting CDS from genome ID 1448406.3
-Extracting CDS from genome ID 1448407.3
-Extracting CDS from genome ID 1448409.3
-Extracting CDS from genome ID 1448410.3
-Extracting CDS from genome ID 1448411.3
-Extracting CDS from genome ID 1448412.3
-Extracting CDS from genome ID 1448414.3
-Extracting CDS from genome ID 1448417.3
-Extracting CDS from genome ID 1448421.3
-Extracting CDS from genome ID 1448426.3
-Extracting CDS from genome ID 1448427.3
-Extracting CDS from genome ID 1448428.3
-Extracting CDS from genome ID 1448430.3
-Extracting CDS from genome ID 1448431.3
-Extracting CDS from genome ID 1448432.3
-Extracting CDS from genome ID 1448433.3
-Extracting CDS from genome ID 1448434.3
-Extracting CDS from genome ID 1448435.3
-Extracting CDS from genome ID 1448436.3
-Extracting CDS from genome ID 1448437.3
-Extracting CDS from genome ID 1448439.3
-Extracting CDS from genome ID 1448440.3
-Extracting CDS from genome ID 1448442.3
-Extracting CDS from genome ID 1448443.3
-Extracting CDS from genome ID 1448445.3
-Extracting CDS from genome ID 1448446.3
-Extracting CDS from genome ID 1448447.3
-Extracting CDS from genome ID 1448448.3
-Extracting CDS from genome ID 1448449.3
-Extracting CDS from genome ID 1448450.3
-Extracting CDS from genome ID 1448452.3
-Extracting CDS from genome ID 1448453.3
-Extracting CDS from genome ID 1448454.3
-Extracting CDS from genome ID 1448455.3
-Extracting CDS from genome ID 1448456.3
-Extracting CDS from genome ID 1448458.3
-Extracting CDS from genome ID 1448459.3
-Extracting CDS from genome ID 1448460.3
-Extracting CDS from genome ID 1448461.3
-Extracting CDS from genome ID 1448462.3
-Extracting CDS from genome ID 1448463.3
-Extracting CDS from genome ID 1448464.3
-Extracting CDS from genome ID 1448465.3
-Extracting CDS from genome ID 1448466.3
-Extracting CDS from genome ID 1448467.3
-Extracting CDS from genome ID 1448468.3
-Extracting CDS from genome ID 1448469.3
-Extracting CDS from genome ID 1448470.3
-Extracting CDS from genome ID 1448471.3
-Extracting CDS from genome ID 1448472.3
-Extracting CDS from genome ID 1448473.3
-Extracting CDS from genome ID 1448474.3
-Extracting CDS from genome ID 1448475.3
-Extracting CDS from genome ID 1448476.3
-Extracting CDS from genome ID 1448477.3
-Extracting CDS from genome ID 1448478.3
-Extracting CDS from genome ID 1448479.3
-Extracting CDS from genome ID 1448480.3
-Extracting CDS from genome ID 1448481.3
-Extracting CDS from genome ID 1448482.3
-Extracting CDS from genome ID 1448483.3
-Extracting CDS from genome ID 1448484.3
-Extracting CDS from genome ID 1448485.3
-Extracting CDS from genome ID 1448488.3
-Extracting CDS from genome ID 1448490.3
-Extracting CDS from genome ID 1448491.3
-Extracting CDS from genome ID 1448492.3
-Extracting CDS from genome ID 1448495.3
-Extracting CDS from genome ID 1448497.3
-Extracting CDS from genome ID 1448498.3
-Extracting CDS from genome ID 1448501.3
-Extracting CDS from genome ID 1448505.3
-Extracting CDS from genome ID 1448506.3
-Extracting CDS from genome ID 1448508.3
-Extracting CDS from genome ID 1448509.3
-Extracting CDS from genome ID 1448512.3
-Extracting CDS from genome ID 1448513.3
-Extracting CDS from genome ID 1448514.3
-Extracting CDS from genome ID 1448516.3
-Extracting CDS from genome ID 1448517.3
-Extracting CDS from genome ID 1448519.3
-Extracting CDS from genome ID 1448522.3
-Extracting CDS from genome ID 1448523.3
-Extracting CDS from genome ID 1448524.3
-Extracting CDS from genome ID 1448526.3
-Extracting CDS from genome ID 1448527.3
-Extracting CDS from genome ID 1448529.3
-Extracting CDS from genome ID 1448530.3
-Extracting CDS from genome ID 1448532.3
-Extracting CDS from genome ID 1448533.3
-Extracting CDS from genome ID 1448535.3
-Extracting CDS from genome ID 1448537.3
-Extracting CDS from genome ID 1448538.3
-Extracting CDS from genome ID 1448544.3
-Extracting CDS from genome ID 1448545.3
-Extracting CDS from genome ID 1448546.3
-Extracting CDS from genome ID 1448547.3
-Extracting CDS from genome ID 1448548.3
-Extracting CDS from genome ID 1448550.3
-Extracting CDS from genome ID 1448551.3
-Extracting CDS from genome ID 1448552.3
-Extracting CDS from genome ID 1448554.3
-Extracting CDS from genome ID 1448555.3
-Extracting CDS from genome ID 1448559.3
-Extracting CDS from genome ID 1448560.3
-Extracting CDS from genome ID 1448561.3
-Extracting CDS from genome ID 1448562.3
-Extracting CDS from genome ID 1448563.3
-Extracting CDS from genome ID 1448564.3
-Extracting CDS from genome ID 1448565.3
-Extracting CDS from genome ID 1448567.3
-Extracting CDS from genome ID 1448568.3
-Extracting CDS from genome ID 1448569.3
-Extracting CDS from genome ID 1448570.3
-Extracting CDS from genome ID 1448571.3
-Extracting CDS from genome ID 1448572.3
-Extracting CDS from genome ID 1448573.3
-Extracting CDS from genome ID 1448574.3
-Extracting CDS from genome ID 1448575.3
-Extracting CDS from genome ID 1448576.3
-Extracting CDS from genome ID 1448577.3
-Extracting CDS from genome ID 1448579.3
-Extracting CDS from genome ID 1448580.3
-Extracting CDS from genome ID 1448582.3
-Extracting CDS from genome ID 1448584.3
-Extracting CDS from genome ID 1448585.3
-Extracting CDS from genome ID 1448586.3
-Extracting CDS from genome ID 1448587.3
-Extracting CDS from genome ID 1448588.3
-Extracting CDS from genome ID 1448589.3
-Extracting CDS from genome ID 1448590.3
-Extracting CDS from genome ID 1448591.3
-Extracting CDS from genome ID 1448592.3
-Extracting CDS from genome ID 1448593.3
-Extracting CDS from genome ID 1448594.3
-Extracting CDS from genome ID 1448595.3
-Extracting CDS from genome ID 1448596.3
-Extracting CDS from genome ID 1448597.3
-Extracting CDS from genome ID 1448598.3
-Extracting CDS from genome ID 1448599.3
-Extracting CDS from genome ID 1448600.3
-Extracting CDS from genome ID 1448601.3
-Extracting CDS from genome ID 1448602.3
-Extracting CDS from genome ID 1448604.3
-Extracting CDS from genome ID 1448605.3
-Extracting CDS from genome ID 1448606.3
-Extracting CDS from genome ID 1448607.3
-Extracting CDS from genome ID 1448608.3
-Extracting CDS from genome ID 1448609.3
-Extracting CDS from genome ID 1448610.3
-Extracting CDS from genome ID 1448611.3
-Extracting CDS from genome ID 1448612.3
-Extracting CDS from genome ID 1448613.3
-Extracting CDS from genome ID 1448614.3
-Extracting CDS from genome ID 1448615.3
-Extracting CDS from genome ID 1448616.3
-Extracting CDS from genome ID 1448617.3
-Extracting CDS from genome ID 1448618.3
-Extracting CDS from genome ID 1448619.3
-Extracting CDS from genome ID 1448620.3
-Extracting CDS from genome ID 1448621.3
-Extracting CDS from genome ID 1448622.3
-Extracting CDS from genome ID 1448623.3
-Extracting CDS from genome ID 1448624.3
-Extracting CDS from genome ID 1448625.3
-Extracting CDS from genome ID 1448626.3
-Extracting CDS from genome ID 1448627.3
-Extracting CDS from genome ID 1448628.3
-Extracting CDS from genome ID 1448629.3
-Extracting CDS from genome ID 1448630.3
-Extracting CDS from genome ID 1448631.3
-Extracting CDS from genome ID 1448632.3
-Extracting CDS from genome ID 1448633.3
-Extracting CDS from genome ID 1448634.3
-Extracting CDS from genome ID 1448635.3
-Extracting CDS from genome ID 1448636.3
-Extracting CDS from genome ID 1448638.3
-Extracting CDS from genome ID 1448639.3
-Extracting CDS from genome ID 1448640.3
-Extracting CDS from genome ID 1448641.3
-Extracting CDS from genome ID 1448642.3
-Extracting CDS from genome ID 1448643.3
-Extracting CDS from genome ID 1448644.3
-Extracting CDS from genome ID 1448645.3
-Extracting CDS from genome ID 1448646.3
-Extracting CDS from genome ID 1448647.3
-Extracting CDS from genome ID 1448648.3
-Extracting CDS from genome ID 1448649.3
-Extracting CDS from genome ID 1448650.3
-Extracting CDS from genome ID 1448651.3
-Extracting CDS from genome ID 1448652.3
-Extracting CDS from genome ID 1448653.3
-Extracting CDS from genome ID 1448654.3
-Extracting CDS from genome ID 1448655.3
-Extracting CDS from genome ID 1448656.3
-Extracting CDS from genome ID 1448657.3
-Extracting CDS from genome ID 1448659.3
-Extracting CDS from genome ID 1448660.3
-Extracting CDS from genome ID 1448661.3
-Extracting CDS from genome ID 1448662.3
-Extracting CDS from genome ID 1448663.3
-Extracting CDS from genome ID 1448664.3
-Extracting CDS from genome ID 1448665.3
-Extracting CDS from genome ID 1448666.3
-Extracting CDS from genome ID 1448667.3
-Extracting CDS from genome ID 1448668.3
-Extracting CDS from genome ID 1448669.3
-Extracting CDS from genome ID 1448670.3
-Extracting CDS from genome ID 1448671.3
-Extracting CDS from genome ID 1448672.3
-Extracting CDS from genome ID 1448673.3
-Extracting CDS from genome ID 1448674.3
-Extracting CDS from genome ID 1448675.3
-Extracting CDS from genome ID 1448676.3
-Extracting CDS from genome ID 1448677.3
-Extracting CDS from genome ID 1448678.3
-Extracting CDS from genome ID 1448679.3
-Extracting CDS from genome ID 1448680.3
-Extracting CDS from genome ID 1448681.3
-Extracting CDS from genome ID 1448682.3
-Extracting CDS from genome ID 1448683.3
-Extracting CDS from genome ID 1448684.3
-Extracting CDS from genome ID 1448685.3
-Extracting CDS from genome ID 1448686.3
-Extracting CDS from genome ID 1448687.3
-Extracting CDS from genome ID 1448688.3
-Extracting CDS from genome ID 1448689.3
-Extracting CDS from genome ID 1448690.3
-Extracting CDS from genome ID 1448691.3
-Extracting CDS from genome ID 1448692.3
-Extracting CDS from genome ID 1448693.3
-Extracting CDS from genome ID 1448694.3
-Extracting CDS from genome ID 1448695.3
-Extracting CDS from genome ID 1448696.3
-Extracting CDS from genome ID 1448697.3
-Extracting CDS from genome ID 1448698.3
-Extracting CDS from genome ID 1448699.3
-Extracting CDS from genome ID 1448700.3
-Extracting CDS from genome ID 1448701.3
-Extracting CDS from genome ID 1448702.3
-Extracting CDS from genome ID 1448703.3
-Extracting CDS from genome ID 1448704.3
-Extracting CDS from genome ID 1448705.3
-Extracting CDS from genome ID 1448706.3
-Extracting CDS from genome ID 1448707.3
-Extracting CDS from genome ID 1448708.3
-Extracting CDS from genome ID 1448709.3
-Extracting CDS from genome ID 1448710.3
-Extracting CDS from genome ID 1448711.3
-Extracting CDS from genome ID 1448712.3
-Extracting CDS from genome ID 1448713.3
-Extracting CDS from genome ID 1448714.3
-Extracting CDS from genome ID 1448715.3
-Extracting CDS from genome ID 1448716.3
-Extracting CDS from genome ID 1448717.3
-Extracting CDS from genome ID 1448718.3
-Extracting CDS from genome ID 1448719.3
-Extracting CDS from genome ID 1448720.3
-Extracting CDS from genome ID 1448721.3
-Extracting CDS from genome ID 1448722.3
-Extracting CDS from genome ID 1448723.3
-Extracting CDS from genome ID 1448724.3
-Extracting CDS from genome ID 1448725.3
-Extracting CDS from genome ID 1448726.3
-Extracting CDS from genome ID 1448727.3
-Extracting CDS from genome ID 1448728.3
-Extracting CDS from genome ID 1448729.3
-Extracting CDS from genome ID 1448730.3
-Extracting CDS from genome ID 1448731.3
-Extracting CDS from genome ID 1448732.3
-Extracting CDS from genome ID 1448733.3
-Extracting CDS from genome ID 1448734.3
-Extracting CDS from genome ID 1448735.3
-Extracting CDS from genome ID 1448736.3
-Extracting CDS from genome ID 1448737.3
-Extracting CDS from genome ID 1448738.3
-Extracting CDS from genome ID 1448739.3
-Extracting CDS from genome ID 1448740.3
-Extracting CDS from genome ID 1448742.3
-Extracting CDS from genome ID 1448743.3
-Extracting CDS from genome ID 1448744.3
-Extracting CDS from genome ID 1448745.3
-Extracting CDS from genome ID 1448746.3
-Extracting CDS from genome ID 1448747.3
-Extracting CDS from genome ID 1448748.3
-Extracting CDS from genome ID 1448749.3
-Extracting CDS from genome ID 1448750.3
-Extracting CDS from genome ID 1448751.3
-Extracting CDS from genome ID 1448752.3
-Extracting CDS from genome ID 1448753.3
-Extracting CDS from genome ID 1448754.3
-Extracting CDS from genome ID 1448755.3
-Extracting CDS from genome ID 1448756.3
-Extracting CDS from genome ID 1448757.3
-Extracting CDS from genome ID 1448758.3
-Extracting CDS from genome ID 1448759.3
-Extracting CDS from genome ID 1448760.3
-Extracting CDS from genome ID 1448761.3
-Extracting CDS from genome ID 1448762.3
-Extracting CDS from genome ID 1448763.3
-Extracting CDS from genome ID 1448764.3
-Extracting CDS from genome ID 1448765.3
-Extracting CDS from genome ID 1448766.3
-Extracting CDS from genome ID 1448767.3
-Extracting CDS from genome ID 1448768.3
-Extracting CDS from genome ID 1448769.3
-Extracting CDS from genome ID 1448770.3
-Extracting CDS from genome ID 1448771.3
-Extracting CDS from genome ID 1448772.3
-Extracting CDS from genome ID 1448773.3
-Extracting CDS from genome ID 1448774.3
-Extracting CDS from genome ID 1448775.3
-Extracting CDS from genome ID 1448776.3
-Extracting CDS from genome ID 1448777.3
-Extracting CDS from genome ID 1448778.3
-Extracting CDS from genome ID 1448779.3
-Extracting CDS from genome ID 1448780.3
-Extracting CDS from genome ID 1448781.3
-Extracting CDS from genome ID 1448783.3
-Extracting CDS from genome ID 1448784.3
-Extracting CDS from genome ID 1448785.3
-Extracting CDS from genome ID 1448786.3
-Extracting CDS from genome ID 1448787.3
-Extracting CDS from genome ID 1448788.3
-Extracting CDS from genome ID 1448789.3
-Extracting CDS from genome ID 1448790.3
-Extracting CDS from genome ID 1448791.3
-Extracting CDS from genome ID 1448792.3
-Extracting CDS from genome ID 1448794.3
-Extracting CDS from genome ID 1448795.3
-Extracting CDS from genome ID 1448796.3
-Extracting CDS from genome ID 1448797.3
-Extracting CDS from genome ID 1448798.3
-Extracting CDS from genome ID 1448799.3
-Extracting CDS from genome ID 1448800.3
-Extracting CDS from genome ID 1448801.3
-Extracting CDS from genome ID 1448802.3
-Extracting CDS from genome ID 1448803.3
-Extracting CDS from genome ID 1448804.3
-Extracting CDS from genome ID 1448806.3
-Extracting CDS from genome ID 1448807.3
-Extracting CDS from genome ID 1448808.3
-Extracting CDS from genome ID 1448810.3
-Extracting CDS from genome ID 1448811.3
-Extracting CDS from genome ID 1448812.3
-Extracting CDS from genome ID 1448813.3
-Extracting CDS from genome ID 1448814.3
-Extracting CDS from genome ID 1448815.3
-Extracting CDS from genome ID 1448816.3
-Extracting CDS from genome ID 1448817.3
-Extracting CDS from genome ID 1448818.3
-Extracting CDS from genome ID 1448819.3
-Extracting CDS from genome ID 1448821.3
-Extracting CDS from genome ID 1448822.3
-Extracting CDS from genome ID 1448823.3
-Extracting CDS from genome ID 1448824.3
-Extracting CDS from genome ID 1448825.3
-Extracting CDS from genome ID 1448826.3
-Extracting CDS from genome ID 1448827.3
-Extracting CDS from genome ID 1448828.3
-Extracting CDS from genome ID 1448829.3
-Extracting CDS from genome ID 1448830.3
-Extracting CDS from genome ID 1448831.3
-Extracting CDS from genome ID 1448833.3
-Extracting CDS from genome ID 1448834.3
-Extracting CDS from genome ID 1448835.3
-Extracting CDS from genome ID 1448836.3
-Extracting CDS from genome ID 1448837.3
-Extracting CDS from genome ID 1448838.3
-Extracting CDS from genome ID 1455263.3
-Extracting CDS from genome ID 1455264.3
-Extracting CDS from genome ID 1455266.3
-Extracting CDS from genome ID 1455268.3
-Extracting CDS from genome ID 1455269.3
-Extracting CDS from genome ID 1455270.3
-Extracting CDS from genome ID 1455272.3
-Extracting CDS from genome ID 1455273.3
-Extracting CDS from genome ID 1455274.3
-Extracting CDS from genome ID 1455275.3
-Extracting CDS from genome ID 1455276.3
-Extracting CDS from genome ID 1455278.3
-Extracting CDS from genome ID 1455283.3
-Extracting CDS from genome ID 1455284.3
-Extracting CDS from genome ID 1455285.3
-Extracting CDS from genome ID 1455286.3
-Extracting CDS from genome ID 1455287.3
-Extracting CDS from genome ID 1455288.3
-Extracting CDS from genome ID 1455289.3
-Extracting CDS from genome ID 1455290.3
-Extracting CDS from genome ID 1455291.3
-Extracting CDS from genome ID 1455292.3
-Extracting CDS from genome ID 1455294.3
-Extracting CDS from genome ID 1455295.3
-Extracting CDS from genome ID 1455302.3
-Extracting CDS from genome ID 1455305.3
-Extracting CDS from genome ID 1455307.3
-Extracting CDS from genome ID 1455308.3
-Extracting CDS from genome ID 1455311.3
-Extracting CDS from genome ID 1455312.3
-Extracting CDS from genome ID 1773.169
-Extracting CDS from genome ID 1773.170
-Extracting CDS from genome ID 1773.171
-Extracting CDS from genome ID 1773.172
-Extracting CDS from genome ID 1773.173
-Extracting CDS from genome ID 1773.174
-Extracting CDS from genome ID 1773.265
-Extracting CDS from genome ID 1773.266
-Extracting CDS from genome ID 1773.267
-Extracting CDS from genome ID 1773.268
-Extracting CDS from genome ID 1773.269
-Extracting CDS from genome ID 1773.271
-Extracting CDS from genome ID 1773.272
-Extracting CDS from genome ID 1773.273
-Extracting CDS from genome ID 1773.274
-Extracting CDS from genome ID 1773.275
-Extracting CDS from genome ID 1773.276
-Extracting CDS from genome ID 1773.277
-Extracting CDS from genome ID 1773.278
-Extracting CDS from genome ID 1773.279
-Extracting CDS from genome ID 1773.280
-Extracting CDS from genome ID 1773.281
-Extracting CDS from genome ID 1773.282
-Extracting CDS from genome ID 1773.283
-Extracting CDS from genome ID 1773.284
-Extracting CDS from genome ID 1773.285
-Extracting CDS from genome ID 1773.286
-Extracting CDS from genome ID 1773.287
-Extracting CDS from genome ID 1773.289
-Extracting CDS from genome ID 1773.290
-Extracting CDS from genome ID 1773.292
-Extracting CDS from genome ID 1773.293
-Extracting CDS from genome ID 1773.294
-Extracting CDS from genome ID 1773.295
-Extracting CDS from genome ID 1773.296
-Extracting CDS from genome ID 1773.297
-Extracting CDS from genome ID 1773.298
-Extracting CDS from genome ID 1773.300
-Extracting CDS from genome ID 1773.301
-Extracting CDS from genome ID 1773.302
-Extracting CDS from genome ID 1773.304
-Extracting CDS from genome ID 1773.305
-Extracting CDS from genome ID 1773.307
-Extracting CDS from genome ID 1773.308
-Extracting CDS from genome ID 1773.309
-Extracting CDS from genome ID 1773.31
-Extracting CDS from genome ID 1773.311
-Extracting CDS from genome ID 1773.312
-Extracting CDS from genome ID 1773.313
-Extracting CDS from genome ID 1773.314
-Extracting CDS from genome ID 1773.315
-Extracting CDS from genome ID 1773.316
-Extracting CDS from genome ID 1773.317
-Extracting CDS from genome ID 1773.318
-Extracting CDS from genome ID 1773.319
-Extracting CDS from genome ID 1773.320
-Extracting CDS from genome ID 1773.322
-Extracting CDS from genome ID 1773.323
-Extracting CDS from genome ID 1773.324
-Extracting CDS from genome ID 1773.325
-Extracting CDS from genome ID 1773.326
-Extracting CDS from genome ID 1773.327
-Extracting CDS from genome ID 1773.328
-Extracting CDS from genome ID 1773.331
-Extracting CDS from genome ID 1773.332
-Extracting CDS from genome ID 1773.334
-Extracting CDS from genome ID 1773.335
-Extracting CDS from genome ID 1773.336
-Extracting CDS from genome ID 1773.337
-Extracting CDS from genome ID 1773.338
-Extracting CDS from genome ID 1773.339
-Extracting CDS from genome ID 1773.340
-Extracting CDS from genome ID 1773.341
-Extracting CDS from genome ID 1773.342
-Extracting CDS from genome ID 1773.343
-Extracting CDS from genome ID 1773.344
-Extracting CDS from genome ID 1773.345
-Extracting CDS from genome ID 1773.346
-Extracting CDS from genome ID 1773.348
-Extracting CDS from genome ID 1773.349
-Extracting CDS from genome ID 1773.351
-Extracting CDS from genome ID 1773.352
-Extracting CDS from genome ID 1773.354
-Extracting CDS from genome ID 1773.355
-Extracting CDS from genome ID 1773.356
-Extracting CDS from genome ID 1773.357
-Extracting CDS from genome ID 1773.358
-Extracting CDS from genome ID 1773.359
-Extracting CDS from genome ID 1773.360
-Extracting CDS from genome ID 1773.361
-Extracting CDS from genome ID 1773.363
-Extracting CDS from genome ID 1773.364
-Extracting CDS from genome ID 1773.365
-Extracting CDS from genome ID 1773.366
-Extracting CDS from genome ID 1773.367
-Extracting CDS from genome ID 1773.368
-Extracting CDS from genome ID 1773.369
-Extracting CDS from genome ID 1773.370
-Extracting CDS from genome ID 1773.371
-Extracting CDS from genome ID 1773.372
-Extracting CDS from genome ID 652616.4
-Extracting CDS from genome ID 83331.31
-Extracting CDS from genome ID 83332.12
-
------ Total Time for CDS Extraction: 108505 seconds-----
-
-______________________________________________________
-
-Runnning Genome Clustering Step for Mycobacterium_tuberculosis
-______________________________________________________
-
-================================================================
-Program: CD-HIT, V4.8.1 (+OpenMP), Aug 20 2021, 08:39:56
-Command: cd-hit -i
-         Mycobacterium_tuberculosis/Mycobacterium_tuberculosis_CDS.fasta
-         -o
-         Mycobacterium_tuberculosis/Mycobacterium_tuberculosis.fasta
-         -n 5 -c 0.8 -aL 0.8 -M 8000
-
-Started: Sat Apr 27 16:38:25 2024
-================================================================
-                            Output                              
-----------------------------------------------------------------
-total seq: 6909993
-longest and shortest : 6181 and 30
-Total letters: 2081622162
-Sequences have been sorted
-
-Approximated minimal memory consumption:
-Sequence        : 3007M
-Buffer          : 1 X 59M = 59M
-Table           : 1 X 129M = 129M
-Miscellaneous   : 83M
-Total           : 3280M
-
-Table limit with the given memory limit:
-Max number of representatives: 4000000
-Max number of word counting entries: 589948527
-
-comparing sequences from          0  to     706645
-....................    10000  finished         95  clusters
-....................    20000  finished        109  clusters
-....................    30000  finished        207  clusters
-....................    40000  finished        239  clusters
-....................    50000  finished        306  clusters
-....................    60000  finished        341  clusters
-....................    70000  finished        403  clusters
-....................    80000  finished        431  clusters
-....................    90000  finished        479  clusters
-....................   100000  finished        498  clusters
-....................   110000  finished        522  clusters
-....................   120000  finished        558  clusters
-....................   130000  finished        608  clusters
-....................   140000  finished        647  clusters
-....................   150000  finished        672  clusters
-....................   160000  finished        703  clusters
-....................   170000  finished        723  clusters
-....................   180000  finished        785  clusters
-....................   190000  finished        806  clusters
-....................   200000  finished        839  clusters
-....................   210000  finished        862  clusters
-....................   220000  finished        887  clusters
-....................   230000  finished        925  clusters
-....................   240000  finished        958  clusters
-....................   250000  finished        983  clusters
-....................   260000  finished       1006  clusters
-....................   270000  finished       1039  clusters
-....................   280000  finished       1084  clusters
-....................   290000  finished       1107  clusters
-....................   300000  finished       1126  clusters
-....................   310000  finished       1148  clusters
-....................   320000  finished       1174  clusters
-....................   330000  finished       1194  clusters
-....................   340000  finished       1225  clusters
-....................   350000  finished       1256  clusters
-....................   360000  finished       1284  clusters
-....................   370000  finished       1320  clusters
-....................   380000  finished       1341  clusters
-....................   390000  finished       1370  clusters
-....................   400000  finished       1388  clusters
-....................   410000  finished       1408  clusters
-....................   420000  finished       1424  clusters
-....................   430000  finished       1454  clusters
-....................   440000  finished       1482  clusters
-....................   450000  finished       1518  clusters
-....................   460000  finished       1537  clusters
-....................   470000  finished       1562  clusters
-....................   480000  finished       1570  clusters
-....................   490000  finished       1591  clusters
-....................   500000  finished       1610  clusters
-....................   510000  finished       1633  clusters
-....................   520000  finished       1664  clusters
-....................   530000  finished       1673  clusters
-....................   540000  finished       1707  clusters
-....................   550000  finished       1717  clusters
-....................   560000  finished       1742  clusters
-....................   570000  finished       1756  clusters
-....................   580000  finished       1765  clusters
-....................   590000  finished       1778  clusters
-....................   600000  finished       1801  clusters
-....................   610000  finished       1813  clusters
-....................   620000  finished       1835  clusters
-....................   630000  finished       1870  clusters
-....................   640000  finished       1891  clusters
-....................   650000  finished       1916  clusters
-....................   660000  finished       1930  clusters
-....................   670000  finished       1942  clusters
-....................   680000  finished       1962  clusters
-....................   690000  finished       1976  clusters
-....................   700000  finished       2007  clusters
-......10.2%10.3%10.4%10.5%10.6%10.7%10.8%10.9%11.0%11.1%11.2%11.3%11.4%11.5%11.6%11.7%11.8%11.9%12.0%12.1%12.2%12.3%12.4%12.5%12.6%12.7%12.8%12.9%13.0%13.1%13.2%13.3%13.4%13.5%13.6%13.7%13.8%13.9%14.0%14.1%14.2%14.3%14.4%14.5%14.6%14.7%14.8%14.9%15.0%15.1%15.2%15.3%15.4%15.5%15.6%15.7%15.8%15.9%16.0%16.1%16.2%16.3%16.4%16.5%16.6%16.7%16.8%16.9%17.0%17.1%17.2%17.3%17.4%17.5%17.6%17.7%17.8%17.9%18.0%18.1%18.2%18.3%18.4%18.5%18.6%18.7%18.8%18.9%19.0%19.1%19.2%19.3%19.4%19.5%19.6%19.7%19.8%comparing sequences from     706645  to    6909993
-.........................   740000  finished       2071  clusters
-...................................   780000  finished       2146  clusters
-..................   790000  finished       2175  clusters
-................   800000  finished       2186  clusters
-...................   810000  finished       2199  clusters
-....................   820000  finished       2213  clusters
-..................   830000  finished       2224  clusters
-..................   840000  finished       2244  clusters
-...................   850000  finished       2263  clusters
-.....................   870000  finished       2289  clusters
-....................   880000  finished       2307  clusters
-..................   890000  finished       2333  clusters
-....................   900000  finished       2353  clusters
-....................   910000  finished       2366  clusters
-....................   920000  finished       2388  clusters
-.............................   940000  finished       2420  clusters
-.................   950000  finished       2445  clusters
-....................   960000  finished       2469  clusters
-....................   970000  finished       2483  clusters
-....................   980000  finished       2500  clusters
-....................   990000  finished       2523  clusters
-....................  1000000  finished       2533  clusters
-....................  1010000  finished       2554  clusters
-....................  1020000  finished       2573  clusters
-............................  1040000  finished       2612  clusters
-....................  1050000  finished       2624  clusters
-....................  1060000  finished       2635  clusters
-....................  1070000  finished       2645  clusters
-....................  1080000  finished       2664  clusters
-...................  1090000  finished       2678  clusters
-...................  1100000  finished       2700  clusters
-...................  1110000  finished       2725  clusters
-....................  1120000  finished       2742  clusters
-....................  1130000  finished       2749  clusters
-.............................  1150000  finished       2775  clusters
-....................  1160000  finished       2787  clusters
-..................  1170000  finished       2809  clusters
-..................  1180000  finished       2843  clusters
-....................  1190000  finished       2847  clusters
-...................  1200000  finished       2866  clusters
-..................  1210000  finished       2891  clusters
-....................  1220000  finished       2907  clusters
-....................  1230000  finished       2929  clusters
-....................  1240000  finished       2940  clusters
-....................  1250000  finished       2953  clusters
-....................  1260000  finished       2967  clusters
-....................  1270000  finished       2990  clusters
-....................  1280000  finished       3008  clusters
-...................  1290000  finished       3028  clusters
-....................  1300000  finished       3041  clusters
-....................  1310000  finished       3054  clusters
-....................  1320000  finished       3065  clusters
-....................  1330000  finished       3074  clusters
-....................  1340000  finished       3087  clusters
-....................  1350000  finished       3113  clusters
-....................  1360000  finished       3130  clusters
-....................  1370000  finished       3155  clusters
-....................  1380000  finished       3172  clusters
-....................  1390000  finished       3183  clusters
-....................  1400000  finished       3199  clusters
-....................  1410000  finished       3227  clusters
-....................  1420000  finished       3243  clusters
-....................  1430000  finished       3272  clusters
-....................  1440000  finished       3279  clusters
-....................  1450000  finished       3308  clusters
-....................  1460000  finished       3321  clusters
-....................  1470000  finished       3332  clusters
-....................  1480000  finished       3350  clusters
-....................  1490000  finished       3363  clusters
-....................  1500000  finished       3377  clusters
-....................  1510000  finished       3384  clusters
-....................  1520000  finished       3405  clusters
-....................  1530000  finished       3424  clusters
-....................  1540000  finished       3454  clusters
-....................  1550000  finished       3464  clusters
-....................  1560000  finished       3472  clusters
-....................  1570000  finished       3497  clusters
-....................  1580000  finished       3519  clusters
-....................  1590000  finished       3531  clusters
-....................  1600000  finished       3547  clusters
-....................  1610000  finished       3558  clusters
-....................  1620000  finished       3574  clusters
-....................  1630000  finished       3586  clusters
-....................  1640000  finished       3590  clusters
-....................  1650000  finished       3608  clusters
-....................  1660000  finished       3630  clusters
-....................  1670000  finished       3650  clusters
-....................  1680000  finished       3672  clusters
-....................  1690000  finished       3678  clusters
-....................  1700000  finished       3690  clusters
-....................  1710000  finished       3704  clusters
-....................  1720000  finished       3719  clusters
-....................  1730000  finished       3743  clusters
-....................  1740000  finished       3765  clusters
-....................  1750000  finished       3784  clusters
-....................  1760000  finished       3802  clusters
-....................  1770000  finished       3821  clusters
-....................  1780000  finished       3835  clusters
-....................  1790000  finished       3851  clusters
-....................  1800000  finished       3855  clusters
-....................  1810000  finished       3874  clusters
-....................  1820000  finished       3886  clusters
-....................  1830000  finished       3904  clusters
-....................  1840000  finished       3923  clusters
-....................  1850000  finished       3942  clusters
-....................  1860000  finished       3944  clusters
-....................  1870000  finished       3959  clusters
-....................  1880000  finished       3987  clusters
-....................  1890000  finished       4008  clusters
-....................  1900000  finished       4016  clusters
-....................  1910000  finished       4042  clusters
-....................  1920000  finished       4057  clusters
-....................  1930000  finished       4074  clusters
-....................  1940000  finished       4083  clusters
-....................  1950000  finished       4094  clusters
-....................  1960000  finished       4125  clusters
-....................  1970000  finished       4140  clusters
-....................  1980000  finished       4163  clusters
-....................  1990000  finished       4182  clusters
-....................  2000000  finished       4195  clusters
-....................  2010000  finished       4214  clusters
-....................  2020000  finished       4242  clusters
-....................  2030000  finished       4251  clusters
-....................  2040000  finished       4276  clusters
-....................  2050000  finished       4291  clusters
-....................  2060000  finished       4310  clusters
-....................  2070000  finished       4334  clusters
-....................  2080000  finished       4363  clusters
-....................  2090000  finished       4378  clusters
-....................  2100000  finished       4395  clusters
-....................  2110000  finished       4417  clusters
-....................  2120000  finished       4433  clusters
-....................  2130000  finished       4456  clusters
-....................  2140000  finished       4480  clusters
-....................  2150000  finished       4505  clusters
-....................  2160000  finished       4524  clusters
-....................  2170000  finished       4542  clusters
-....................  2180000  finished       4560  clusters
-....................  2190000  finished       4579  clusters
-....................  2200000  finished       4609  clusters
-....................  2210000  finished       4632  clusters
-....................  2220000  finished       4651  clusters
-....................  2230000  finished       4666  clusters
-....................  2240000  finished       4694  clusters
-....................  2250000  finished       4714  clusters
-....................  2260000  finished       4742  clusters
-....................  2270000  finished       4746  clusters
-....................  2280000  finished       4772  clusters
-....................  2290000  finished       4793  clusters
-....................  2300000  finished       4802  clusters
-....................  2310000  finished       4823  clusters
-....................  2320000  finished       4863  clusters
-....................  2330000  finished       4870  clusters
-....................  2340000  finished       4891  clusters
-....................  2350000  finished       4911  clusters
-....................  2360000  finished       4949  clusters
-....................  2370000  finished       4969  clusters
-....................  2380000  finished       4983  clusters
-....................  2390000  finished       5012  clusters
-....................  2400000  finished       5030  clusters
-....................  2410000  finished       5047  clusters
-....................  2420000  finished       5053  clusters
-....................  2430000  finished       5068  clusters
-....................  2440000  finished       5102  clusters
-....................  2450000  finished       5124  clusters
-....................  2460000  finished       5148  clusters
-....................  2470000  finished       5183  clusters
-....................  2480000  finished       5197  clusters
-....................  2490000  finished       5214  clusters
-....................  2500000  finished       5231  clusters
-....................  2510000  finished       5239  clusters
-....................  2520000  finished       5264  clusters
-....................  2530000  finished       5293  clusters
-....................  2540000  finished       5319  clusters
-....................  2550000  finished       5342  clusters
-....................  2560000  finished       5364  clusters
-....................  2570000  finished       5385  clusters
-....................  2580000  finished       5396  clusters
-....................  2590000  finished       5416  clusters
-....................  2600000  finished       5432  clusters
-....................  2610000  finished       5457  clusters
-....................  2620000  finished       5462  clusters
-....................  2630000  finished       5473  clusters
-....................  2640000  finished       5512  clusters
-....................  2650000  finished       5551  clusters
-....................  2660000  finished       5558  clusters
-....................  2670000  finished       5579  clusters
-....................  2680000  finished       5608  clusters
-....................  2690000  finished       5629  clusters
-....................  2700000  finished       5641  clusters
-....................  2710000  finished       5664  clusters
-....................  2720000  finished       5679  clusters
-....................  2730000  finished       5711  clusters
-....................  2740000  finished       5719  clusters
-....................  2750000  finished       5737  clusters
-....................  2760000  finished       5761  clusters
-....................  2770000  finished       5763  clusters
-....................  2780000  finished       5768  clusters
-....................  2790000  finished       5790  clusters
-....................  2800000  finished       5799  clusters
-....................  2810000  finished       5819  clusters
-....................  2820000  finished       5832  clusters
-....................  2830000  finished       5840  clusters
-....................  2840000  finished       5864  clusters
-....................  2850000  finished       5888  clusters
-....................  2860000  finished       5942  clusters
-....................  2870000  finished       5947  clusters
-....................  2880000  finished       5967  clusters
-....................  2890000  finished       5971  clusters
-....................  2900000  finished       5988  clusters
-....................  2910000  finished       6016  clusters
-....................  2920000  finished       6026  clusters
-....................  2930000  finished       6056  clusters
-....................  2940000  finished       6064  clusters
-....................  2950000  finished       6082  clusters
-....................  2960000  finished       6104  clusters
-....................  2970000  finished       6130  clusters
-....................  2980000  finished       6162  clusters
-....................  2990000  finished       6177  clusters
-....................  3000000  finished       6200  clusters
-....................  3010000  finished       6208  clusters
-....................  3020000  finished       6230  clusters
-....................  3030000  finished       6239  clusters
-....................  3040000  finished       6253  clusters
-....................  3050000  finished       6274  clusters
-....................  3060000  finished       6296  clusters
-....................  3070000  finished       6317  clusters
-....................  3080000  finished       6333  clusters
-....................  3090000  finished       6365  clusters
-....................  3100000  finished       6371  clusters
-....................  3110000  finished       6382  clusters
-....................  3120000  finished       6413  clusters
-....................  3130000  finished       6440  clusters
-....................  3140000  finished       6471  clusters
-....................  3150000  finished       6475  clusters
-....................  3160000  finished       6504  clusters
-....................  3170000  finished       6510  clusters
-....................  3180000  finished       6528  clusters
-....................  3190000  finished       6553  clusters
-....................  3200000  finished       6563  clusters
-....................  3210000  finished       6589  clusters
-....................  3220000  finished       6610  clusters
-....................  3230000  finished       6635  clusters
-....................  3240000  finished       6658  clusters
-....................  3250000  finished       6693  clusters
-....................  3260000  finished       6706  clusters
-....................  3270000  finished       6722  clusters
-....................  3280000  finished       6736  clusters
-....................  3290000  finished       6764  clusters
-....................  3300000  finished       6792  clusters
-....................  3310000  finished       6817  clusters
-....................  3320000  finished       6827  clusters
-....................  3330000  finished       6850  clusters
-....................  3340000  finished       6873  clusters
-....................  3350000  finished       6890  clusters
-....................  3360000  finished       6925  clusters
-....................  3370000  finished       6931  clusters
-....................  3380000  finished       6940  clusters
-....................  3390000  finished       6960  clusters
-....................  3400000  finished       6988  clusters
-....................  3410000  finished       6993  clusters
-....................  3420000  finished       7015  clusters
-....................  3430000  finished       7038  clusters
-....................  3440000  finished       7064  clusters
-....................  3450000  finished       7077  clusters
-....................  3460000  finished       7100  clusters
-....................  3470000  finished       7135  clusters
-....................  3480000  finished       7142  clusters
-....................  3490000  finished       7165  clusters
-....................  3500000  finished       7200  clusters
-....................  3510000  finished       7207  clusters
-....................  3520000  finished       7237  clusters
-....................  3530000  finished       7239  clusters
-....................  3540000  finished       7259  clusters
-....................  3550000  finished       7267  clusters
-....................  3560000  finished       7296  clusters
-....................  3570000  finished       7338  clusters
-....................  3580000  finished       7354  clusters
-....................  3590000  finished       7380  clusters
-....................  3600000  finished       7395  clusters
-....................  3610000  finished       7417  clusters
-....................  3620000  finished       7444  clusters
-....................  3630000  finished       7463  clusters
-....................  3640000  finished       7490  clusters
-....................  3650000  finished       7497  clusters
-....................  3660000  finished       7519  clusters
-....................  3670000  finished       7554  clusters
-....................  3680000  finished       7586  clusters
-....................  3690000  finished       7617  clusters
-....................  3700000  finished       7650  clusters
-....................  3710000  finished       7693  clusters
-....................  3720000  finished       7723  clusters
-....................  3730000  finished       7749  clusters
-....................  3740000  finished       7756  clusters
-....................  3750000  finished       7786  clusters
-....................  3760000  finished       7830  clusters
-....................  3770000  finished       7856  clusters
-....................  3780000  finished       7890  clusters
-....................  3790000  finished       7928  clusters
-....................  3800000  finished       7935  clusters
-....................  3810000  finished       7945  clusters
-....................  3820000  finished       7970  clusters
-....................  3830000  finished       7997  clusters
-....................  3840000  finished       8023  clusters
-....................  3850000  finished       8030  clusters
-....................  3860000  finished       8056  clusters
-....................  3870000  finished       8072  clusters
-....................  3880000  finished       8097  clusters
-....................  3890000  finished       8125  clusters
-....................  3900000  finished       8164  clusters
-....................  3910000  finished       8180  clusters
-....................  3920000  finished       8212  clusters
-....................  3930000  finished       8219  clusters
-....................  3940000  finished       8243  clusters
-....................  3950000  finished       8274  clusters
-....................  3960000  finished       8284  clusters
-....................  3970000  finished       8312  clusters
-....................  3980000  finished       8344  clusters
-....................  3990000  finished       8368  clusters
-....................  4000000  finished       8376  clusters
-....................  4010000  finished       8402  clusters
-....................  4020000  finished       8437  clusters
-....................  4030000  finished       8480  clusters
-....................  4040000  finished       8509  clusters
-....................  4050000  finished       8516  clusters
-....................  4060000  finished       8548  clusters
-....................  4070000  finished       8577  clusters
-....................  4080000  finished       8612  clusters
-....................  4090000  finished       8646  clusters
-....................  4100000  finished       8660  clusters
-....................  4110000  finished       8682  clusters
-....................  4120000  finished       8710  clusters
-....................  4130000  finished       8717  clusters
-....................  4140000  finished       8759  clusters
-....................  4150000  finished       8784  clusters
-....................  4160000  finished       8798  clusters
-....................  4170000  finished       8854  clusters
-....................  4180000  finished       8894  clusters
-....................  4190000  finished       8933  clusters
-....................  4200000  finished       8945  clusters
-....................  4210000  finished       8974  clusters
-....................  4220000  finished       8977  clusters
-....................  4230000  finished       9009  clusters
-....................  4240000  finished       9022  clusters
-....................  4250000  finished       9060  clusters
-....................  4260000  finished       9093  clusters
-....................  4270000  finished       9143  clusters
-....................  4280000  finished       9183  clusters
-....................  4290000  finished       9224  clusters
-....................  4300000  finished       9238  clusters
-....................  4310000  finished       9278  clusters
-....................  4320000  finished       9322  clusters
-....................  4330000  finished       9346  clusters
-....................  4340000  finished       9399  clusters
-....................  4350000  finished       9445  clusters
-....................  4360000  finished       9481  clusters
-....................  4370000  finished       9515  clusters
-....................  4380000  finished       9561  clusters
-....................  4390000  finished       9588  clusters
-....................  4400000  finished       9649  clusters
-....................  4410000  finished       9707  clusters
-....................  4420000  finished       9745  clusters
-....................  4430000  finished       9787  clusters
-....................  4440000  finished       9801  clusters
-....................  4450000  finished       9828  clusters
-....................  4460000  finished       9882  clusters
-....................  4470000  finished       9928  clusters
-....................  4480000  finished       9996  clusters
-....................  4490000  finished      10043  clusters
-....................  4500000  finished      10054  clusters
-....................  4510000  finished      10105  clusters
-....................  4520000  finished      10119  clusters
-....................  4530000  finished      10170  clusters
-....................  4540000  finished      10213  clusters
-....................  4550000  finished      10257  clusters
-....................  4560000  finished      10274  clusters
-....................  4570000  finished      10343  clusters
-....................  4580000  finished      10382  clusters
-....................  4590000  finished      10390  clusters
-....................  4600000  finished      10426  clusters
-....................  4610000  finished      10468  clusters
-....................  4620000  finished      10485  clusters
-....................  4630000  finished      10520  clusters
-....................  4640000  finished      10562  clusters
-....................  4650000  finished      10602  clusters
-....................  4660000  finished      10610  clusters
-....................  4670000  finished      10647  clusters
-....................  4680000  finished      10654  clusters
-....................  4690000  finished      10689  clusters
-....................  4700000  finished      10712  clusters
-....................  4710000  finished      10752  clusters
-....................  4720000  finished      10765  clusters
-....................  4730000  finished      10802  clusters
-....................  4740000  finished      10845  clusters
-....................  4750000  finished      10875  clusters
-....................  4760000  finished      10907  clusters
-....................  4770000  finished      10954  clusters
-....................  4780000  finished      11022  clusters
-....................  4790000  finished      11040  clusters
-....................  4800000  finished      11078  clusters
-....................  4810000  finished      11123  clusters
-....................  4820000  finished      11173  clusters
-....................  4830000  finished      11184  clusters
-....................  4840000  finished      11220  clusters
-....................  4850000  finished      11262  clusters
-....................  4860000  finished      11313  clusters
-....................  4870000  finished      11364  clusters
-....................  4880000  finished      11389  clusters
-....................  4890000  finished      11435  clusters
-....................  4900000  finished      11483  clusters
-....................  4910000  finished      11516  clusters
-....................  4920000  finished      11533  clusters
-....................  4930000  finished      11539  clusters
-....................  4940000  finished      11582  clusters
-....................  4950000  finished      11593  clusters
-....................  4960000  finished      11639  clusters
-....................  4970000  finished      11648  clusters
-....................  4980000  finished      11658  clusters
-....................  4990000  finished      11695  clusters
-....................  5000000  finished      11739  clusters
-....................  5010000  finished      11754  clusters
-....................  5020000  finished      11793  clusters
-....................  5030000  finished      11802  clusters
-....................  5040000  finished      11842  clusters
-....................  5050000  finished      11857  clusters
-....................  5060000  finished      11886  clusters
-....................  5070000  finished      11902  clusters
-....................  5080000  finished      11935  clusters
-....................  5090000  finished      11985  clusters
-....................  5100000  finished      12036  clusters
-....................  5110000  finished      12049  clusters
-....................  5120000  finished      12059  clusters
-....................  5130000  finished      12095  clusters
-....................  5140000  finished      12109  clusters
-....................  5150000  finished      12149  clusters
-....................  5160000  finished      12169  clusters
-....................  5170000  finished      12213  clusters
-....................  5180000  finished      12229  clusters
-....................  5190000  finished      12268  clusters
-....................  5200000  finished      12274  clusters
-....................  5210000  finished      12284  clusters
-....................  5220000  finished      12322  clusters
-....................  5230000  finished      12355  clusters
-....................  5240000  finished      12397  clusters
-....................  5250000  finished      12433  clusters
-....................  5260000  finished      12480  clusters
-....................  5270000  finished      12510  clusters
-....................  5280000  finished      12565  clusters
-....................  5290000  finished      12585  clusters
-....................  5300000  finished      12624  clusters
-....................  5310000  finished      12652  clusters
-....................  5320000  finished      12693  clusters
-....................  5330000  finished      12713  clusters
-....................  5340000  finished      12766  clusters
-....................  5350000  finished      12842  clusters
-....................  5360000  finished      12866  clusters
-....................  5370000  finished      12922  clusters
-....................  5380000  finished      12965  clusters
-....................  5390000  finished      13007  clusters
-....................  5400000  finished      13030  clusters
-....................  5410000  finished      13086  clusters
-....................  5420000  finished      13107  clusters
-....................  5430000  finished      13178  clusters
-....................  5440000  finished      13204  clusters
-....................  5450000  finished      13234  clusters
-....................  5460000  finished      13250  clusters
-....................  5470000  finished      13350  clusters
-....................  5480000  finished      13370  clusters
-....................  5490000  finished      13414  clusters
-....................  5500000  finished      13465  clusters
-....................  5510000  finished      13486  clusters
-....................  5520000  finished      13503  clusters
-....................  5530000  finished      13555  clusters
-....................  5540000  finished      13611  clusters
-....................  5550000  finished      13679  clusters
-....................  5560000  finished      13704  clusters
-....................  5570000  finished      13745  clusters
-....................  5580000  finished      13796  clusters
-....................  5590000  finished      13808  clusters
-....................  5600000  finished      13850  clusters
-....................  5610000  finished      13868  clusters
-....................  5620000  finished      13912  clusters
-....................  5630000  finished      13933  clusters
-....................  5640000  finished      13989  clusters
-....................  5650000  finished      13999  clusters
-....................  5660000  finished      14051  clusters
-....................  5670000  finished      14067  clusters
-....................  5680000  finished      14105  clusters
-....................  5690000  finished      14126  clusters
-....................  5700000  finished      14169  clusters
-....................  5710000  finished      14189  clusters
-....................  5720000  finished      14247  clusters
-....................  5730000  finished      14310  clusters
-....................  5740000  finished      14331  clusters
-....................  5750000  finished      14383  clusters
-....................  5760000  finished      14402  clusters
-....................  5770000  finished      14464  clusters
-....................  5780000  finished      14515  clusters
-....................  5790000  finished      14554  clusters
-....................  5800000  finished      14620  clusters
-....................  5810000  finished      14674  clusters
-....................  5820000  finished      14698  clusters
-....................  5830000  finished      14742  clusters
-....................  5840000  finished      14801  clusters
-....................  5850000  finished      14861  clusters
-....................  5860000  finished      14914  clusters
-....................  5870000  finished      14987  clusters
-....................  5880000  finished      15008  clusters
-....................  5890000  finished      15057  clusters
-....................  5900000  finished      15081  clusters
-....................  5910000  finished      15126  clusters
-....................  5920000  finished      15162  clusters
-....................  5930000  finished      15241  clusters
-....................  5940000  finished      15309  clusters
-....................  5950000  finished      15371  clusters
-....................  5960000  finished      15398  clusters
-....................  5970000  finished      15463  clusters
-....................  5980000  finished      15524  clusters
-....................  5990000  finished      15554  clusters
-....................  6000000  finished      15614  clusters
-....................  6010000  finished      15661  clusters
-....................  6020000  finished      15687  clusters
-....................  6030000  finished      15760  clusters
-....................  6040000  finished      15791  clusters
-....................  6050000  finished      15855  clusters
-....................  6060000  finished      15881  clusters
-....................  6070000  finished      15945  clusters
-....................  6080000  finished      16010  clusters
-....................  6090000  finished      16033  clusters
-....................  6100000  finished      16066  clusters
-....................  6110000  finished      16112  clusters
-....................  6120000  finished      16167  clusters
-....................  6130000  finished      16207  clusters
-....................  6140000  finished      16284  clusters
-....................  6150000  finished      16347  clusters
-....................  6160000  finished      16370  clusters
-....................  6170000  finished      16441  clusters
-....................  6180000  finished      16527  clusters
-....................  6190000  finished      16548  clusters
-....................  6200000  finished      16627  clusters
-....................  6210000  finished      16648  clusters
-....................  6220000  finished      16710  clusters
-....................  6230000  finished      16793  clusters
-....................  6240000  finished      16815  clusters
-....................  6250000  finished      16883  clusters
-....................  6260000  finished      16933  clusters
-....................  6270000  finished      17007  clusters
-....................  6280000  finished      17078  clusters
-....................  6290000  finished      17149  clusters
-....................  6300000  finished      17199  clusters
-....................  6310000  finished      17295  clusters
-....................  6320000  finished      17376  clusters
-....................  6330000  finished      17445  clusters
-....................  6340000  finished      17466  clusters
-....................  6350000  finished      17534  clusters
-....................  6360000  finished      17553  clusters
-....................  6370000  finished      17575  clusters
-....................  6380000  finished      17649  clusters
-....................  6390000  finished      17733  clusters
-....................  6400000  finished      17774  clusters
-....................  6410000  finished      17792  clusters
-....................  6420000  finished      17870  clusters
-....................  6430000  finished      17967  clusters
-....................  6440000  finished      17993  clusters
-....................  6450000  finished      18014  clusters
-....................  6460000  finished      18098  clusters
-....................  6470000  finished      18122  clusters
-....................  6480000  finished      18194  clusters
-....................  6490000  finished      18232  clusters
-....................  6500000  finished      18254  clusters
-....................  6510000  finished      18336  clusters
-....................  6520000  finished      18362  clusters
-....................  6530000  finished      18380  clusters
-....................  6540000  finished      18399  clusters
-....................  6550000  finished      18471  clusters
-....................  6560000  finished      18498  clusters
-....................  6570000  finished      18585  clusters
-....................  6580000  finished      18619  clusters
-....................  6590000  finished      18651  clusters
-....................  6600000  finished      18733  clusters
-....................  6610000  finished      18756  clusters
-....................  6620000  finished      18858  clusters
-....................  6630000  finished      18885  clusters
-....................  6640000  finished      18901  clusters
-....................  6650000  finished      19003  clusters
-....................  6660000  finished      19032  clusters
-....................  6670000  finished      19064  clusters
-....................  6680000  finished      19155  clusters
-....................  6690000  finished      19177  clusters
-....................  6700000  finished      19189  clusters
-....................  6710000  finished      19265  clusters
-....................  6720000  finished      19296  clusters
-....................  6730000  finished      19318  clusters
-....................  6740000  finished      19414  clusters
-....................  6750000  finished      19444  clusters
-....................  6760000  finished      19468  clusters
-....................  6770000  finished      19576  clusters
-....................  6780000  finished      19603  clusters
-....................  6790000  finished      19615  clusters
-....................  6800000  finished      19629  clusters
-....................  6810000  finished      19647  clusters
-....................  6820000  finished      19756  clusters
-....................  6830000  finished      19781  clusters
-....................  6840000  finished      19798  clusters
-....................  6850000  finished      19819  clusters
-....................  6860000  finished      19874  clusters
-....................  6870000  finished      19943  clusters
-....................  6880000  finished      19958  clusters
-....................  6890000  finished      19975  clusters
-....................  6900000  finished      19998  clusters
-.........
-  6909993  finished      20057  clusters
-
-Approximated maximum memory consumption: 3306M
-writing new database
-writing clustering information
-program completed !
-
-Total CPU time 356.17
-
------ Total Time for Genome Clustering: 359 seconds-----
-
-______________________________________________________
-
-Runnning Pangenome Construction Step for Mycobacterium_tuberculosis
-______________________________________________________
-
-
-        Working on Mycobacterium_tuberculosis
-______________________________________________________
-
-Fitted parameters: [0.53931032 0.33586243 1.53214424 1.61137648 2.01776589]
-Unique Genes cutoff: 5.858512548662236% (94.03317927275631)
-Core Genes cutoff: 95.91518761163454% (1524.1331792727565)
-
-== Pangenome Division ==
-Core: 3479 (17.345565139352843%)
-Accessory: 1672 (8.336241711123298%)
-Unique: 14906 (74.31819314952385%)
-Total: 20057
-
-== Metrics ==
-R-squared: 0.9955408798811869
-MAE: 17.896043312301366
-
------ Total Workflow Run-time: 359 seconds-----
-

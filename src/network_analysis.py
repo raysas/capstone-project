@@ -2,11 +2,21 @@ import networkx as nx
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+import plotly.graph_objects as go
 
 # clstr_product_path = '../data/cluster_descriptions/cluster_product.csv'
 # clstr_product_df=pd.read_csv(clstr_product_path, index_col=0)   
 
-def transform_cluster_to_product(cluster_name):
+os.chdir(os.path.expanduser('~/capstone-project'))
+
+def transform_cluster_to_product(cluster_name, cluster_product=None):
+
+    if cluster_product is None:
+        clstr_product_path = 'data/cluster_descriptions/cluster_product.csv'
+        clstr_product_df=pd.read_csv(clstr_product_path, index_col=0)
+    elif type(cluster_product) == str:
+        clstr_product_df=pd.read_csv(cluster_product, index_col=0)
     #match it ffrom clstr_poduct_df from the index
     cluster = clstr_product_df.loc[cluster_name]
     product=cluster['product_name']
@@ -47,17 +57,27 @@ def compute_network_stats(G, network_name="G"):
     
     return stats_df
 
-def plot_degree_distribution(G, network_name='',weighted=False):
+def plot_degree_distribution(G, network_name='', weighted=False):
     if not weighted:
         degrees = [G.degree(n) for n in G.nodes()]
-        plt.hist(degrees, bins=30,color='lightblue')
-        plt.title(network_name)
-        plt.show()
     else:
         degrees = [G.degree(n, weight='weight') for n in G.nodes()]
-        plt.hist(degrees, bins=30, label=network_name)
-        plt.title(network_name)
-        plt.show()
+
+    fig = go.Figure(data=[go.Histogram(x=degrees, nbinsx=100, marker_color='#1B6A8A', opacity=0.9)])
+    fig.update_layout(title_text=network_name, height=650, width=700)
+
+    # fig.update_xaxes(showgrid=False)
+    # fig.update_layout(plot_bgcolor='white')
+
+    # fig.update_layout(xaxis=dict(showline=True, linewidth=1, linecolor='black'))
+    # fig.update_layout(yaxis=dict(showline=True, linewidth=1, linecolor='black'))
+
+    fig.update_xaxes(title_text="Degree")
+    fig.update_yaxes(title_text="Frequency")
+    fig.update_layout(title_text=f"{network_name} Degree Distribution")
+
+
+    fig.show()
 
 def plot_log_log(G, network_name='', weighted=False, plot=True):
     '''
@@ -83,18 +103,17 @@ def plot_log_log(G, network_name='', weighted=False, plot=True):
 
     ### regression line
     slope, intercept = np.polyfit(x, y, 1)
-    # print(f"SLope: {slope*-1}, intercept: {intercept}")
     r_squared = 1 - (sum((y - (slope * x + intercept))**2) / ((len(y) - 1) * np.var(y)))
 
     if plot:
-        plt.title(f"{network_name}; R sq: {round(r_squared,5)}")
-        plt.xlabel("log(k)")
-        plt.ylabel("log(p(k))")
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=log_k, y=log_pk, mode='markers', name='Data',marker=dict(color='#065A82')))
+        fig.add_trace(go.Scatter(x=x, y=slope * x + intercept, mode='lines', name='Fit',marker=dict(color='#1b3b6f')))
+        fig.update_layout(title=f"{network_name} log-log Degree Distribution", xaxis_title="log(k)", yaxis_title="log(p(k))")
+        fig.update_layout( height=650, width=700)
+        fig.show()
 
-        plt.scatter(log_k, log_pk)
-        plt.plot(x, slope * x + intercept, color="red")
-        plt.show()
-
+    print(f'R squared: {r_squared}')
     return r_squared
 
 def get_top_n_nodes_centrality(G, centrality_dict, n=10, with_values=False, centrality_name=None):
