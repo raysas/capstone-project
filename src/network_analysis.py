@@ -63,7 +63,7 @@ def plot_degree_distribution(G, network_name='', weighted=False):
     else:
         degrees = [G.degree(n, weight='weight') for n in G.nodes()]
 
-    fig = go.Figure(data=[go.Histogram(x=degrees, nbinsx=100, marker_color='#1B6A8A', opacity=0.9)])
+    fig = go.Figure(data=[go.Histogram(x=degrees, nbinsx=100, marker_color='#004E89', opacity=0.9)])
     fig.update_layout(title_text=network_name, height=650, width=700)
 
     # fig.update_xaxes(showgrid=False)
@@ -107,8 +107,8 @@ def plot_log_log(G, network_name='', weighted=False, plot=True):
 
     if plot:
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=log_k, y=log_pk, mode='markers', name='Data',marker=dict(color='#065A82')))
-        fig.add_trace(go.Scatter(x=x, y=slope * x + intercept, mode='lines', name='Fit',marker=dict(color='#1b3b6f')))
+        fig.add_trace(go.Scatter(x=log_k, y=log_pk, mode='markers', name='Data',marker=dict(color='#004E89')))
+        fig.add_trace(go.Scatter(x=x, y=slope * x + intercept, mode='lines', name='Fit',marker=dict(color='#407BA7')))
         fig.update_layout(title=f"{network_name} log-log Degree Distribution", xaxis_title="log(k)", yaxis_title="log(p(k))")
         fig.update_layout( height=650, width=700)
         fig.show()
