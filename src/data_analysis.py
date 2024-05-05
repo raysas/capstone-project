@@ -81,7 +81,7 @@ def generate_presence_matrix(pan_path=pan_path, memoize=True):
     species = os.basename(pan_path)
     parent_pan_path = os.path.dirname(pan_path)
 
-    genome_ids_file=f"{parent_pan_path}/{species}_genome_ids.csv"
+    genome_ids_file=f"{parent_pan_path}/genome_ids/{species}_genome_ids.csv"
     clstr_freq_file=f"{pan_path}/{species}_cluster_frequencies.csv"
     clstr_file=f"{pan_path}/{species}.fasta.clstr"
     clstr_fasta_file=f"{pan_path}/{species}.fasta"
