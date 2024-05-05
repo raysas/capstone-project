@@ -36,6 +36,7 @@ note: even though there are many helper functions, kept public in case needed (s
 * generate_RS_presence_counts(R:pd.DataFrame, S:pd.DataFrame)->pd.DataFrame
 * compute_log_odds_ratio(RS_counts_df:pd.DataFrame)->pd.DataFrame
 * get_cluster_resistance_LOR(presence_df:pd.DataFrame, pheno_df:pd.DataFrame)-> pd.DataFrame
+* transform_cluster_to_product(cluster_name, clstr_product_df)
     
 '''
 
@@ -47,6 +48,65 @@ import sys
 import networkx as nx
 import pandas as pd
 import numpy as np
+
+os.chdir(os.path.expanduser('~/capstone-project'))
+sys.path.append("src")
+
+# -------------- Attributes ----------------
+
+species='Escherichia_coli'
+_output_path=f'data/pangenome_pipeline_output/{species}'
+
+# -- getters and setters
+
+def set_output_path(path:str):
+    '''
+    sets the output path for the pipeline
+
+    param:
+    ------
+    - path: str, path to the output directory
+    '''
+    global _output_path
+    _output_path=path
+
+    global clstr_path, freq_path, pan_annot_path, clstr_fasta_path
+    clstr_path, freq_path, pan_annot_path, clstr_fasta_path= generate_files_paths(_output_path)
+
+
+    return _output_path
+
+def get_output_path():
+    '''
+    returns the output path for the pipeline
+    '''
+    return _output_path
+
+def set_species(sp:str):
+    '''
+    sets the species for the pipeline, changing it will change the output path and the 4 files paths
+
+    param:
+    ------
+    - species: str, species name
+    '''
+    global species
+    species=sp
+    global _output_path
+    _output_path=f'data/pangenome_pipeline_output/{species}'
+
+    global clstr_path, freq_path, pan_annot_path, clstr_fasta_path
+    clstr_path, freq_path, pan_annot_path, clstr_fasta_path= generate_files_paths(_output_path)
+
+    return species
+
+def get_species():
+    '''
+    returns the species for the pipeline
+    '''
+    return species
+
+# -------------- Helper Functions ----------------
 
 def autoincrement_col(df:pd.DataFrame, col:str)->pd.DataFrame:
     '''
@@ -95,7 +155,41 @@ def generate_files_paths(pipeline_output_path):
 
     return clstr_path, freq_path, pan_annot_path, clstr_fasta_path
 
-# clstr_path, freq_path, pan_annot_path, clstr_fasta_path= generate_files_paths("../pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/")
+# -------------- deeclare new attributes ---------------
+clstr_path, freq_path, pan_annot_path, clstr_fasta_path= generate_files_paths(_output_path)
+
+# -- getters and setters
+
+def get_clstr_path():
+    return clstr_path
+
+def get_freq_path():
+    return freq_path
+
+def get_pan_annot_path():
+    return pan_annot_path
+
+def get_clstr_fasta_path():
+    return clstr_fasta_path
+
+def set_clstr_path(path:str):
+    global clstr_path
+    clstr_path = path
+
+def set_freq_path(path:str):
+    global freq_path
+    freq_path = path
+
+def set_pan_annot_path(path:str):
+    global pan_annot_path
+    pan_annot_path = path
+
+def set_clstr_fasta_path(path:str):
+    global clstr_fasta_path
+    clstr_fasta_path = path
+
+#  ------------------------------------------------------------------------------------
+    
 
 def get_cluster_frequency(freq_path):
     '''
@@ -350,7 +444,34 @@ def get_cluster_representatives(clstr_path:str, save_csv:bool=False)->pd.DataFra
 
     return df
 
-def get_cluster_attributes(clstr_path, freq_path, pan_annot_path, clstr_fasta_path):
+# -------------- extra extra attributes (df) --------------------------
+
+clstr_patric_id_df=get_cluster_representatives(clstr_path)
+clstr_gene_class_df= get_cluster_pan_gene_class(pan_annot_path)
+_patric_id_product_df=get_representative_products(clstr_fasta_path)
+clstr_product_df=combine_cluster_product(clstr_patric_id_df, _patric_id_product_df)
+clstr_freq_df = get_cluster_frequency(freq_path)
+
+# -- getters 
+
+def get_clstr_patric_id_df():
+    return clstr_patric_id_df
+
+def get_clstr_gene_class_df():
+    return clstr_gene_class_df
+
+def get_patric_id_product_df():
+    return _patric_id_product_df
+
+def get_clstr_product_df():
+    return clstr_product_df
+
+def get_clstr_freq_df():
+    return clstr_freq_df
+
+# -----------------------------------------------------------------------
+
+def get_cluster_attributes(clstr_path=clstr_path, freq_path=freq_path, pan_annot_path=pan_annot_path, clstr_fasta_path=clstr_fasta_path):
 
     clstr_patric_id_df=get_cluster_representatives(clstr_path)
     clstr_gene_class_df= get_cluster_pan_gene_class(pan_annot_path)
@@ -401,19 +522,9 @@ def set_node_attributes_by_cluster(df:pd.DataFrame, G:nx.graph):
 
     return G
 
-_output_path='../../pangenome-repo/Pangenome-Analysis-Workflow/codes/Campylobacter_coli/'
 
-def set_output_path(path:str):
-    '''
-    sets the output path for the pipeline
 
-    param:
-    ------
-    - path: str, path to the output directory
-    '''
-    global _output_path
-    _output_path=path
-    return _output_path
+
 
 def set_cluster_attributes(G:nx.Graph, pipeline_output=_output_path)->nx.Graph:
     '''
@@ -619,3 +730,13 @@ def get_cluster_resistance_LOR(presence_df:pd.DataFrame, pheno_path:str)-> pd.Da
     log_odds_df = compute_log_odds_ratio(RS_counts)
 
     return log_odds_df
+
+def transform_cluster_to_product(cluster_name, clstr_product_df):
+    '''
+    takes a cluster name and returns the product name of the cluster
+    '''
+    #match it ffrom clstr_poduct_df from the index
+    cluster = clstr_product_df.loc[cluster_name]
+    product=cluster['product_name']
+    
+    return product

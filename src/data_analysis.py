@@ -25,7 +25,8 @@ import pandas as pd
 import re 
 import sys
 
-sys.path.append("..")
+os.chdir(os.path.expanduser('~/capstone-project'))
+sys.path.append("src")
 
 from cluster_analysis import *
 
@@ -126,7 +127,7 @@ def filter_presence_matrix(presence,pan_path=pan_path, unknowns=True, hypothetic
 
     Parameters
     ----------
-    - presence: pd.DataFrame or str
+    - presence: pd.DataFrame or str (GxS)
         The presence matrix or the path to the presence matrix
     - pan_path: str
         The path to the pangenome pipeline output
@@ -141,8 +142,10 @@ def filter_presence_matrix(presence,pan_path=pan_path, unknowns=True, hypothetic
 
     Returns
     -------
-    pd.DataFrame
-        The filtered presence matrix
+    - X_df: pd.DataFrame 
+        The filtered presence matrix (SxG)
+    - to_remove: list
+        The list of clusters that were removed (maybe used to filter other things)
     '''
 
     clstr_df= get_cluster_representatives(f'{pan_path}/{species}.fasta.clstr')
@@ -151,14 +154,15 @@ def filter_presence_matrix(presence,pan_path=pan_path, unknowns=True, hypothetic
     freq_df = get_cluster_frequency(f'{pan_path}/{species}_cluster_frequencies.csv')
 
     # #  --counting those thar have hypotehtical in the product name
-    # product_df['hypothetical'] = product_df['product_name'].str.contains('hypothetical', case=False)
+    product_df['hypothetical'] = product_df['product_name'].str.contains('hypothetical', case=False)
     # product_df['hypothetical'].sum()
 
     # #  --same for unknown
-    # product_df['unknown'] = product_df['product_name'].str.contains('unknown', case=False)
+    product_df['unknown'] = product_df['product_name'].str.contains('unknown', case=False)
     # product_df['unknown'].sum()
 
     # now will get a list of clusters that are either hypo or unknown to filter out
+
     hypothetical_clusters=[] ; unknown_clusters=[]
 
     if hypotheticals:
@@ -184,5 +188,7 @@ def filter_presence_matrix(presence,pan_path=pan_path, unknowns=True, hypothetic
     if memoize:
         X_df.to_csv(f'data/presence_matrices/{species}_filtered_SxG.csv')
 
-def get_labeled_matrix(species=species, drug):
+    return X_df, to_remove
+
+# def get_labeled_matrix(species=species, drug):
     

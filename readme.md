@@ -4,6 +4,9 @@
 
 * 🗂️src:
   * 📁analysis:
+
+    * 📄 phenotype.ipynb: exploring and manipulating all the pheno data
+    * 📄 memoizing_dataframes.ipynb
     * 📄{species}_{drug}_analysis.ipynb: Jupyter notebook with analysis when labels are taken for this {drug}. Analysis consists of:
       * Extracting the labeled matrix for this drug & species
       * Performing statistical associations between the features and the labels
@@ -11,9 +14,7 @@
       * Computing co-occurence LOR
       * Constructing network
       * Network analysis
-    * 📄 phenotype.ipynb: exploring and manipulating all the pheno data
-    * 📄 memoizing_dataframes.ipynb
-  * 📄gene_association.py
+  * 📄gene_associations.py
   * 📄network_analysis.py
   * 📄network_construction.py
   * 📄cluster_analysis.py
@@ -33,7 +34,7 @@
   * 📄SIR_readings.xlsx
 * 🗂️results:
   * 📁{species}_{drug}:
-    * 📄{association_type}.csv
+    * 📄{association_type}_top_100.csv
     * 📄{species}_{drug}_network.graphml
     * 📄annotated_{species}_{drug}_network.graphml
 * 🗂️figures
