@@ -731,12 +731,22 @@ def get_cluster_resistance_LOR(presence_df:pd.DataFrame, pheno_path:str)-> pd.Da
 
     return log_odds_df
 
-def transform_cluster_to_product(cluster_name, clstr_product_df):
+def transform_cluster_to_product(cluster_name, clstr_product_df=clstr_product_df):
     '''
     takes a cluster name and returns the product name of the cluster
+
+    param:
+    ------
+    - cluster_name: str, cluster name
+    - clstr_product_df: pd.DataFrame, df with cluster number and product name
+
+    return:
+    -------
+    - product: str, product name of the cluster
     '''
     #match it ffrom clstr_poduct_df from the index
     cluster = clstr_product_df.loc[cluster_name]
     product=cluster['product_name']
     
     return product
+
