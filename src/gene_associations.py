@@ -1,4 +1,4 @@
-'''
+'''       
 This module is to compute different statistical measures to associate genes with the phenotype.  
 important considerations: setting a species and a drug of interest.
 
@@ -25,3 +25,54 @@ Derived attributes:
 
 
 '''
+import os
+import sys
+import pandas as pd
+import numpy as np
+
+os.chdir(os.path.expanduser('~/capstone-project'))
+sys.path.append('src')
+
+import cluster_analysis
+
+def parse_ARGs_from_df(ARG_products, top_genes)-> dict:
+    '''
+    Takes in a list of ARG products and a list of top genes and returns a dict of ARGs that are in the top genes (with their rank)
+    
+    param:
+    ------
+    - ARG_products: ARG products
+    - top_genes: of top genes
+
+    return:
+    -------
+    - ARGs: dict, dict of ARGs that are in the top genes (key rank, value gene - maybe consider switching)
+    '''
+    ARGs = {}
+    for gene in top_genes:
+        for product in ARG_products:
+            if product in gene:
+                ARGs[top_genes.index(gene)+1]=gene # +1 to start ranking from 1
+    return ARGs 
+
+def get_ranked_ARGs_from_association(ass_score_dict:dict, products_list, n=100):
+    '''
+    takes a dictionary of association score (key cluster and value the score) & the list of products we want to find their rank in a sorted list of te top 100 associations
+    gets us a dict of key rank and value the ARG product 
+
+    param:
+    ------
+    - ass_score_dict: dict
+    - products_list: list
+    - n: int, 100 by default
+
+    return:
+    ---------
+    - ranked_dict: dict
+    '''
+    top_100 = sorted(ass_score_dict, key=ass_score_dict.get, reverse=True)[:100]
+    for i in  range(len(top_100)):
+        top_100[i]=cluster_analysis.transform_cluster_to_product(top_100[i])
+
+    ranked_dict = parse_ARGs_from_df(products_list, top_100)
+    return ranked_dict
