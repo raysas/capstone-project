@@ -570,7 +570,7 @@ def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.Dat
     # print('pheno dim:', pheno_df.shape)
     
     # -- convert presence_df cols to str temporarily to trace error
-    presence_df.columns = presence_df.columns.astype(str)
+    # presence_df.columns = presence_df.columns.astype(str)
 
     #samples stripped
     if presence_df is not None:

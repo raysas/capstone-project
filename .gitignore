@@ -5,6 +5,7 @@ data/pangenomes/*/gff_files/
 data/pangenomes/*/prokka_output/
 data/pangenomes/
 data/test/
+src/__pycache__/
 
 data/pangenome_pipeline_output
 
