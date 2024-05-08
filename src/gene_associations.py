@@ -35,6 +35,8 @@ sys.path.append('src')
 
 import cluster_analysis
 
+# ---------------------- validation functions (retrival and rank) ----------------------
+
 def parse_ARGs_from_df(ARG_products, top_genes)-> dict:
     '''
     Takes in a list of ARG products and a list of top genes and returns a dict of ARGs that are in the top genes (with their rank)
@@ -77,3 +79,5 @@ def get_ranked_ARGs_from_association(ass_score_dict:dict, products_list, n=100, 
 
     ranked_dict = parse_ARGs_from_df(products_list, top_100)
     return ranked_dict
+
+# ---------------------- statistical tests and associations ----------------------

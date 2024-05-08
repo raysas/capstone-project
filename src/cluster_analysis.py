@@ -750,3 +750,22 @@ def transform_cluster_to_product(cluster_name, clstr_product_df=clstr_product_df
     
     return product
 
+def transform_product_to_cluster(product_name, clstr_product_df=clstr_product_df):
+    '''
+    takes a product and returns the cluster
+
+    param:
+    ------
+    - product_name: str, product name
+    - clstr_product_df: pd.DataFrame, df with cluster number and product name
+
+    return:
+    -------
+    - cluster: str, product name of the cluster
+    '''
+    #match it ffrom clstr_poduct_df from the index
+    product = clstr_product_df.loc[product_name]
+    cluster=cluster['Cluster']
+    
+    return product
+
