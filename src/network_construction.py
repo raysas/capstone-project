@@ -517,6 +517,31 @@ def construct_network(log_odds_df:pd.DataFrame, threshold:float=0.5)->nx.Graph:
 
     return G
 
+def construct_network_with_negative_weights(log_odds_df:pd.DataFrame, threshold:float=0.5)->nx.Graph:
+    '''
+    takes a dataframe of the log odds of gene pairs and constructs a network from it
+
+    param:
+    ------
+        - log_odds_df: pd.DataFrame
+        - threshold: float
+
+    return:
+    ------
+        - G: nx.Graph
+    '''
+    G=nx.Graph()
+
+    for index in log_odds_df.index:
+        log_odds=log_odds_df.loc[index].values[0]
+        if log_odds>threshold or log_odds<-threshold:
+            genes=index.split(", ")
+            gene1=genes[0]
+            gene2=genes[1]
+            G.add_edge(gene1, gene2, weight=log_odds)
+
+    return G
+
 def workflow(pheno_path=pheno_path, presence_path=presence_path, gene_list_path=top_1000_nodes_path, threshold=0.5):
     '''
     This function is the main function that will run the entire workflow of constructing the network from the data
