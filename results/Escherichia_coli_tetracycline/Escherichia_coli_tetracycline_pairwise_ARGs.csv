@@ -6,7 +6,7 @@
 Outer membrane channel TolC (OpmH)_1,,,,
 "Tetracycline resistance, MFS efflux pump => Tet(A)_6",1.0,1.0,,1.0
 "Multidrug efflux pump MdfA/Cmr (of MFS type), broad spectrum_1",,,,
-"Tetracycline resistance, MFS efflux pump => Tet(B)_1",7.0,8.0,,11.0
+"Tetracycline resistance, MFS efflux pump => Tet(B)_1",7.0,8.0,,13.0
 "Multidrug efflux system AcrAB-TolC, membrane fusion component AcrA_1",,,,
 "Tetracycline resistance, MFS efflux pump => Tet(D)_1",,,,
 "Multidrug efflux system EmrKY-TolC, membrane fusion component EmrK_1",,,,

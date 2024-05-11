@@ -34,7 +34,7 @@ def compute_network_stats(G, network_name="G"):
     largest_cc = max(components, key=len)
     largest_cc_subgraph = G.subgraph(largest_cc)
 
-    communities = nx.algorithms.community.louvain_communities(G)
+    communities = nx.algorithms.community.louvain_communities(G, seed=42)
 
     stats = {
         "Name": network_name,

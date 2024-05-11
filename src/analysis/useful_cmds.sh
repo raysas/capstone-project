@@ -19,7 +19,7 @@ done
 # -- cpying the amoxicillin analysis notebook and replacing the antibiotic name
 for antibiotic in streptomycin sulfamethoxazole cefalothin trimethoprim tetracycline ampicillin levofloxacin ciprofloxacin; do
     cp Escherichia_coli_amoxicillin_analysis.ipynb Escherichia_coli_${antibiotic}_analysis.ipynb
-    sed -i "s/tetracycline/${antibiotic}/g" Escherichia_coli_${antibiotic}_analysis.ipynb
+    sed -i "s/amoxicillin/${antibiotic}/g" Escherichia_coli_${antibiotic}_analysis.ipynb
 done
 
 # -- rm if needed to cp again

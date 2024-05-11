@@ -48,6 +48,8 @@ def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.Dat
     takes in a path to a phenotype file to make a df out of it
     if a presence_df is provided, it will filter the pheno_df to only include samples that are in the presence_df
 
+    NOW TAHT TEH PHENO FILES ARE PROCESSED TO INCLUDE ONLY PRESENT GENOME IDS, THIS ONLY TRANSFORMS INTO DF
+
     param:
     ----
         - pheno_path: str
@@ -59,11 +61,11 @@ def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.Dat
     '''
     pheno_df = pd.read_csv(pheno_path, index_col=0)
 
-    #samples stripped
-    if presence_df is not None:
-        samples_presence= presence_df.columns
-        mask = pheno_df.index.astype(str).isin(samples_presence)
-        pheno_df = pheno_df.loc[mask]
+    # -- already processed, this will give errors
+    # if presence_df is not None:
+    #     samples_presence= presence_df.columns
+    #     mask = pheno_df.index.astype(str).isin(samples_presence)
+    #     pheno_df = pheno_df.loc[mask]
 
     return pheno_df
 
@@ -519,7 +521,14 @@ def construct_network(log_odds_df:pd.DataFrame, threshold:float=0.5)->nx.Graph:
 
 def construct_network_with_negative_weights(log_odds_df:pd.DataFrame, threshold:float=0.5)->nx.Graph:
     '''
-    takes a dataframe of the log odds of gene pairs and constructs a network from it
+    takes a dataframe of the log odds of gene pairs and constructs a network from it  
+
+    the network constructed will be signed, in this case meaning that edges will occur between:
+        - 2 highly R co-occurring genes
+        - 2 highly S co-occurring genes
+        - 1 highly R co-occurring gene and 1 highly S co-occurring gene
+
+    This can be useful since in negative interactions are important interactions too
 
     param:
     ------

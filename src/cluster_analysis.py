@@ -556,6 +556,8 @@ def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.Dat
     takes in a path to a phenotype file to make a df out of it
     if a presence_df is provided, it will filter the pheno_df to only include samples that are in the presence_df
 
+    NOW TAHT TEH PHENO FILES ARE PROCESSED TO INCLUDE ONLY PRESENT GENOME IDS, THIS ONLY TRANSFORMS INTO DF
+
     param:
     ----
         - pheno_path: str
@@ -565,23 +567,13 @@ def generate_phenotype_df(pheno_path:str, presence_df:pd.DataFrame=None)->pd.Dat
     ----
         - pheno_df: pd.DataFrame
     '''
-    pheno_df = pd.read_csv(pheno_path, index_col=0)
+    pheno_df = pd.read_csv(pheno_path, index_col=0, dtype={0: str})
 
-    # print('pheno dim:', pheno_df.shape)
-    
-    # -- convert presence_df cols to str temporarily to trace error
-    # presence_df.columns = presence_df.columns.astype(str)
-
-    #samples stripped
-    if presence_df is not None:
-        samples_presence= presence_df.columns
-        mask = pheno_df.index.astype(str).isin(samples_presence)
-        # print(mask)
-        # print(pheno_df.index)
-        # print(samples_presence) #same type
-        pheno_df = pheno_df.loc[mask]
-
-    # print('pheno dim:', pheno_df.shape)
+    # -- already processed, this will give errors
+    # if presence_df is not None:
+    #     samples_presence= presence_df.columns
+    #     mask = pheno_df.index.astype(str).isin(samples_presence)
+    #     pheno_df = pheno_df.loc[mask]
 
     return pheno_df
 
@@ -605,11 +597,17 @@ def split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, pheno_df: pd.D
 
     '''
 
+# -- already taken care of
+    # # make sure pheno_df doesnthave more samples than those specified in the presence_df, subsample it otherwise
+    # samples_presence= unlabeled_presence_df.columns
+    # mask = pheno_df.index.astype(str).isin(samples_presence)
+    # pheno_df = pheno_df.loc[mask]
 
-    # make sure pheno_df doesnthave more samples than those specified in the presence_df, subsample it otherwise
-    samples_presence= unlabeled_presence_df.columns
-    mask = pheno_df.index.astype(str).isin(samples_presence)
-    pheno_df = pheno_df.loc[mask]
+    # unlabeled_presence_df.columns=unlabeled_presence_df.columns.astype('float')
+    # pheno_df.index=pheno_df.index.astype('str')
+
+    # print(pheno_df.index)
+    # print(unlabeled_presence_df.columns)
 
 
     # get the list of R and S samples:
@@ -617,21 +615,26 @@ def split_matrix_by_phenotype(unlabeled_presence_df:pd.DataFrame, pheno_df: pd.D
     for sample in pheno_df.index:
 
         if pheno_df.loc[sample].values[0]==1:
-            sample=str(sample)
-            R.append(str(sample))
+            # sample=str(sample)
+            R.append(sample)
         elif pheno_df.loc[sample].values[0]==0:
-            sample=str(sample)
-            S.append(str(sample))
+            # sample=str(sample)
+            S.append(sample)
         else:
             sample=str(sample)
-            U.append(str(sample))
+            U.append(sample)
 
     # All we care for care R and S which designate the list of resistant and susceptible samples respectively
+
+    # print(R)
+
+    # print(R[0])
+    # print('562.22603' in unlabeled_presence_df.columns)
 
     R_df = unlabeled_presence_df[R]
     S_df = unlabeled_presence_df[S]
 
-
+    # print(unlabeled_presence_df)
 
     return R_df, S_df
 
@@ -677,6 +680,8 @@ def generate_RS_presence_counts(R:pd.DataFrame, S:pd.DataFrame)->pd.DataFrame:
         row=list(new_df.loc[index])
         if 0 in row: #check if any of the cols have value 0
             new_df.loc[index]=new_df.loc[index]+0.5
+
+    # print(new_df)
 
     return new_df
 
