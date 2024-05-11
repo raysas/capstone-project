@@ -10,6 +10,12 @@
 # * levofloxacin
 # * ciprofloxacin
 
+species='Escherichia_coli'
+
+for antibiotic in streptomycin sulfamethoxazole cefalothin tetracycline trimethoprim amoxicillin ampicillin levofloxacin ciprofloxacin; do
+    mkdir ../../results/${species}_${antibiotic}
+done
+
 # -- cpying the tetracycline analysis notebook and replacing the antibiotic name
 for antibiotic in streptomycin sulfamethoxazole cefalothin trimethoprim amoxicillin ampicillin levofloxacin ciprofloxacin; do
     cp Escherichia_coli_tetracycline_analysis.ipynb Escherichia_coli_${antibiotic}_analysis.ipynb
