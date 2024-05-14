@@ -28,14 +28,14 @@ def compute_network_stats(G, network_name="G"):
 
     if type(G) == str:
         #if its given a gml file path
-        G = nx.read_gml(G)
+        G = nx.read_graphml(G)
 
     components = nx.connected_components(G)
 
     largest_cc = max(components, key=len)
     largest_cc_subgraph = G.subgraph(largest_cc)
 
-    communities = nx.algorithms.community.louvain_communities(G, seed=42)
+    # communities = nx.algorithms.community.louvain_communities(G, seed=42)
 
     stats = {
         "Name": network_name,
@@ -48,9 +48,9 @@ def compute_network_stats(G, network_name="G"):
         "cc": nx.average_clustering(G),
         "s_path": nx.average_shortest_path_length(largest_cc_subgraph),
         "d": nx.diameter(largest_cc_subgraph),
-        "|communities|": len(list(communities)),
-        "Q": nx.community.modularity(G, communities),
-        "r_squared": plot_log_log(G, weighted=True, plot=False)
+        # "|communities|": len(list(communities)),
+        # "Q": nx.community.modularity(G, communities),
+        "r_squared": plot_log_log(G, weighted=False, plot=False)
     }
 
     stats_df = pd.DataFrame(stats, index=[0])
@@ -64,7 +64,7 @@ def plot_degree_distribution(G, network_name='', weighted=False):
     else:
         degrees = [G.degree(n, weight='weight') for n in G.nodes()]
 
-    fig = go.Figure(data=[go.Histogram(x=degrees, nbinsx=100, marker_color='#004E89', opacity=0.9)])
+    fig = go.Figure(data=[go.Histogram(x=degrees, nbinsx=100, marker_color='#0B4B62', opacity=0.9)])
     fig.update_layout(title_text=network_name, height=650, width=700)
 
     # fig.update_xaxes(showgrid=False)
@@ -108,8 +108,8 @@ def plot_log_log(G, network_name='', weighted=False, plot=True):
 
     if plot:
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=log_k, y=log_pk, mode='markers', name='Data',marker=dict(color='#004E89')))
-        fig.add_trace(go.Scatter(x=x, y=slope * x + intercept, mode='lines', name='Fit',marker=dict(color='#407BA7')))
+        fig.add_trace(go.Scatter(x=log_k, y=log_pk, mode='markers', name='Data points', marker=dict(color='#64ABBB', opacity=0.9)))
+        fig.add_trace(go.Scatter(x=x, y=slope * x + intercept, mode='lines', name='Line fit',marker=dict(color='#EB444A')))
         fig.update_layout(title=f"{network_name} log-log Degree Distribution", xaxis_title="log(K)", yaxis_title="log(p(K))")
         fig.update_layout( height=650, width=700)
         fig.show()
