@@ -7,3 +7,4 @@ plotly
 kaleido
 tensorflow
 statsmodels
+pingouin==0.5.4
