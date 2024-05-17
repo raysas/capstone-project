@@ -53,12 +53,9 @@ Ended up having this list for E. coli, out of the genomes we have:
 | sulfamethoxazole                  | nan, 'sul1', 'sul2', 'folP', 'MexAB-OprM', 'sul3', 'folP2', 'sulI', 'acrB_1', 'mexB_2', 'mexB_1', 'mexB'                                                                    |
 | tetracycline                      | nan, 'cmr', 'ybhT', 'tetA', 'acrR_1', 'mdfA', 'emrB', 'emrY', 'tolC', 'rpsJ', 'tetD', 'emrK', 'acrR', 'marR', 'fyuA', 'acrA', 'tetC', 'hns', 'marA', 'acrB', 'MarB', 'S10p', 'AcrAB-TolC', 'H-NS', 'EmrKY-TolC', 'MarR', 'MdfA/Cmr', 'AcrZ', 'MarA', 'Tet(A)', 'MexAB-OprM', 'Tet(B)', 'emrB_2', 'acrB_1', 'emrB_1', 'marB', 'mexB_2', 'hns_1', 'hns_2', 'marA_1', 'marR_2', 'mexB_1', 'mexB', 'marR_1', 'acrB_2' |
 | cefalothin                        | nan, 'ybhT', 'acrR_1', 'acrR', 'marR', 'acrA', 'marA', 'acrB', 'MarB', 'AcrAB-TolC', 'MarR', 'AcrZ', 'MarA', 'marB', 'marA_1', 'marR_2', 'acrB_1', 'marR_1', 'acrB_2'              |
-| trimethoprim_sulphamethoxazole    | []                                                                                                            |
-| amoxicillin_clavulanic_acid       | []                                                                                                            |
 | trimethoprim                      | nan, 'folA', 'folA, Dfr', 'MexAB-OprM', 'folA_1', 'acrB_1', 'dhfrV', 'mexB_2', 'dhfrI', 'dfrD', 'dfrA', 'mexB_1', 'mexB', 'folA_2'                                              |
 | amoxicillin                       | nan, 'blaT-6', 'blaTEM', 'OXA-1 family', 'TEM family', 'MexAB-OprM', 'NDM family', 'acrB_1', 'mexB_2', 'bla', 'bla_2', 'mexB_1', 'mexB', 'bla_1'                                 |
 | ampicillin                        | nan, 'ybhT', 'bla_1', 'acrR_1', 'blaT-6', 'acrR', 'marR', 'fyuA', 'acrA', 'blaTEM', 'marA', 'acrB', 'MarB', 'AcrAB-TolC', 'MarR', 'AcrZ', 'MarA', 'TEM family', 'MexAB-OprM', 'SHV family', 'acrB_1', 'marB', 'mexB_2', 'bla', 'marA_1', 'bla_2', 'marR_2', 'mexB_1', 'mexB', 'marR_1', 'acrB_2' |
-| doripenem                         | []                                                                                                            |
 | levofloxacin                      | 'gyrA', nan, 'gyrB', 'QnrB family'                                                                             |
 | ciprofloxacin                     | nan, 'mfd', 'gyrA', 'ybhT', 'acrF', 'gyrB', 'msbA', 'acrA', 'hns', 'acrB', 'AcrAB-TolC', 'AcrEF-TolC ', 'H-NS', 'AcrZ', 'QnrB family', 'MexAB-OprM', 'acrE', 'acrB_1', 'mexB_2', 'hns_1', 'hns_2', 'mexB_1', 'mexB', 'acrB_2' |
 
