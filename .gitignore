@@ -19,7 +19,8 @@ data/graphs-5/700_randomized_SVM_weightsCampylobacter_coli_ciprofloxacin.csv
 
 
 # temp files contaning memoized data frames
-
 data/temp
 
 results/Escherichia_coli_hairball
+
+notes.md
