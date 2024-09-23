@@ -2,6 +2,9 @@
 
 ## _Exploring Antimicrobial Resistance Mechanisms Through a Pangenome-Scale Epistatic Interactions Network_
 
+_date: 1/28/2024 5:23PM_
+*[Mendeley paper collection*](./references.bib)
+
 ### Graphical abstract
 
 ![graphical-abstract](figures/graphical_abstract.png)
